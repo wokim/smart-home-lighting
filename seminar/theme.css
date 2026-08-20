@@ -73,7 +73,7 @@
 
 .src { font-size:.5em; color:var(--dim); position:absolute; bottom:-1.6em; letter-spacing:.02em; }
 video.full { width:100%; max-height:620px; border-radius:4px; background:#000; }
-img.diagram { width:100%; max-height:600px; object-fit:contain; }
+img.diagram { width:100%; max-height:555px; object-fit:contain; }
 
 /* Subtle vignette on every slide */
 .reveal .backgrounds { background:
