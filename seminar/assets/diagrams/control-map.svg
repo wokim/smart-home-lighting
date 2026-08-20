@@ -1,70 +1,63 @@
 <svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
-  <defs>
-    <marker id="arrowMuted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#98a1b3"/>
-    </marker>
-  </defs>
 
-  <!-- spectrum axis -->
-  <text x="60" y="175" fill="#98a1b3" font-size="22" text-anchor="start">지금 정해야 한다(유선)</text>
-  <text x="1140" y="175" fill="#98a1b3" font-size="22" text-anchor="end">나중에도 된다(무선)</text>
-  <line x1="60" y1="200" x2="1140" y2="200" stroke="#98a1b3" stroke-width="2" marker-start="url(#arrowMuted)" marker-end="url(#arrowMuted)"/>
+  <!-- axis -->
+  <text x="80" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="start">지금 정해야 한다(유선)</text>
+  <text x="1120" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="end">나중에도 된다(무선)</text>
+  <line x1="80" y1="200" x2="1120" y2="200" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
 
-  <!-- tick marks down to each node -->
-  <line x1="140" y1="205" x2="140" y2="255" stroke="#98a1b3" stroke-width="1.5" stroke-dasharray="3 5"/>
-  <line x1="324" y1="205" x2="324" y2="255" stroke="#98a1b3" stroke-width="1.5" stroke-dasharray="3 5"/>
-  <line x1="508" y1="205" x2="508" y2="255" stroke="#98a1b3" stroke-width="1.5" stroke-dasharray="3 5"/>
-  <line x1="692" y1="205" x2="692" y2="255" stroke="#98a1b3" stroke-width="1.5" stroke-dasharray="3 5"/>
-  <line x1="876" y1="205" x2="876" y2="255" stroke="#98a1b3" stroke-width="1.5" stroke-dasharray="3 5"/>
-  <line x1="1060" y1="205" x2="1060" y2="255" stroke="#98a1b3" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <!-- ticks -->
+  <line x1="150" y1="206" x2="150" y2="240" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="326" y1="206" x2="326" y2="240" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="502" y1="206" x2="502" y2="240" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="678" y1="206" x2="678" y2="240" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="854" y1="206" x2="854" y2="240" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="1030" y1="206" x2="1030" y2="240" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
 
   <!-- Node 1: 접점 스위치 -->
   <g>
-    <rect x="60" y="260" width="160" height="180" rx="13" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
-    <text x="140" y="330" fill="#e9ecf2" font-size="24" font-weight="700" text-anchor="middle">접점 스위치</text>
-    <text x="140" y="380" fill="#98a1b3" font-size="18" text-anchor="middle">가장 단순한 방식</text>
+    <text x="150" y="290" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">접점 스위치</text>
+    <line x1="118" y1="302" x2="182" y2="302" stroke="#ffb454" stroke-width="2"/>
+    <text x="150" y="335" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">가장 단순한 방식</text>
   </g>
 
   <!-- Node 2: 스마트 스위치(중성선!) -->
   <g>
-    <rect x="244" y="260" width="160" height="180" rx="13" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
-    <text x="324" y="315" fill="#e9ecf2" font-size="22" font-weight="700" text-anchor="middle">스마트 스위치</text>
-    <text x="324" y="342" fill="#e9ecf2" font-size="22" font-weight="700" text-anchor="middle">(중성선!)</text>
-    <text x="324" y="390" fill="#98a1b3" font-size="18" text-anchor="middle">앱·음성 제어 가능</text>
+    <text x="326" y="278" fill="#e9ecf2" font-size="26" font-weight="600" text-anchor="middle">스마트 스위치</text>
+    <text x="326" y="308" fill="#e9ecf2" font-size="26" font-weight="600" text-anchor="middle">(중성선!)</text>
+    <line x1="286" y1="320" x2="366" y2="320" stroke="#ffb454" stroke-width="2"/>
+    <text x="326" y="345" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">앱·음성 제어 가능</text>
   </g>
 
   <!-- Node 3: 인너 릴레이 -->
   <g>
-    <rect x="428" y="260" width="160" height="180" rx="13" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
-    <text x="508" y="330" fill="#e9ecf2" font-size="24" font-weight="700" text-anchor="middle">인너 릴레이</text>
-    <text x="508" y="380" fill="#98a1b3" font-size="18" text-anchor="middle">매입 배선판에 설치</text>
+    <text x="502" y="290" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">인너 릴레이</text>
+    <line x1="470" y1="302" x2="534" y2="302" stroke="#ffb454" stroke-width="2"/>
+    <text x="502" y="335" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">매입 배선판에 설치</text>
   </g>
 
   <!-- Node 4: 0-10V -->
   <g>
-    <rect x="612" y="260" width="160" height="180" rx="13" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
-    <text x="692" y="330" fill="#e9ecf2" font-size="24" font-weight="700" text-anchor="middle">0-10V</text>
-    <text x="692" y="380" fill="#98a1b3" font-size="18" text-anchor="middle">아날로그 디밍 표준</text>
+    <text x="678" y="290" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">0-10V</text>
+    <line x1="646" y1="302" x2="710" y2="302" stroke="#ffb454" stroke-width="2"/>
+    <text x="678" y="335" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">아날로그 디밍 표준</text>
   </g>
 
   <!-- Node 5: DALI -->
   <g>
-    <rect x="796" y="260" width="160" height="180" rx="13" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
-    <text x="876" y="330" fill="#e9ecf2" font-size="24" font-weight="700" text-anchor="middle">DALI</text>
-    <text x="876" y="380" fill="#98a1b3" font-size="18" text-anchor="middle">그룹 주소 제어 가능</text>
+    <text x="854" y="290" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">DALI</text>
+    <line x1="822" y1="302" x2="886" y2="302" stroke="#ffb454" stroke-width="2"/>
+    <text x="854" y="335" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">그룹 주소 제어 가능</text>
   </g>
 
-  <!-- Node 6: Zigbee / Matter -->
+  <!-- Node 6: Zigbee / Matter (wireless) -->
   <g>
-    <rect x="980" y="260" width="160" height="180" rx="13" fill="#1a1e27" stroke="#58b7ff" stroke-width="3"/>
-    <text x="1060" y="315" fill="#e9ecf2" font-size="22" font-weight="700" text-anchor="middle">Zigbee /</text>
-    <text x="1060" y="342" fill="#e9ecf2" font-size="22" font-weight="700" text-anchor="middle">Matter</text>
-    <text x="1060" y="390" fill="#98a1b3" font-size="18" text-anchor="middle">허브 기반 무선 확장</text>
+    <text x="1030" y="278" fill="#58b7ff" font-size="26" font-weight="600" text-anchor="middle">Zigbee /</text>
+    <text x="1030" y="308" fill="#58b7ff" font-size="26" font-weight="600" text-anchor="middle">Matter</text>
+    <text x="1030" y="345" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">허브 기반 무선 확장</text>
   </g>
 
   <!-- legend -->
-  <rect x="500" y="600" width="22" height="22" rx="4" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
-  <text x="532" y="617" fill="#98a1b3" font-size="20">유선</text>
-  <rect x="640" y="600" width="22" height="22" rx="4" fill="#1a1e27" stroke="#58b7ff" stroke-width="3"/>
-  <text x="672" y="617" fill="#98a1b3" font-size="20">무선</text>
+  <line x1="540" y1="628" x2="580" y2="628" stroke="#ffb454" stroke-width="2"/>
+  <text x="540" y="620" fill="#e9ecf2" font-size="20" text-anchor="start">유선</text>
+  <text x="660" y="620" fill="#58b7ff" font-size="20" text-anchor="start">무선</text>
 </svg>
