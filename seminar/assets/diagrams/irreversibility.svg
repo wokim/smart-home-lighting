@@ -13,7 +13,7 @@
     <text x="124" y="304" fill="#e9ecf2" font-size="26">제어선</text>
 
     <rect x="100" y="362" width="12" height="12" rx="2" fill="#ff6b6b"/>
-    <text x="124" y="374" fill="#e9ecf2" font-size="26">홈런 배선</text>
+    <text x="124" y="374" fill="#e9ecf2" font-size="26">제어함 직결 배선</text>
 
     <rect x="100" y="432" width="12" height="12" rx="2" fill="#ff6b6b"/>
     <text x="124" y="444" fill="#e9ecf2" font-size="26">분전함 자리</text>
