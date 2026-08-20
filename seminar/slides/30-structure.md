@@ -34,13 +34,13 @@ Note: 광원 층은 스펙 시트로 비교가 되는 편이라 오히려 제일
 </div>
 <div class="bad">
 <h4>나쁜 디밍</h4>
-20%쯤에서 **툭** 꺼진다<br>
+20%쯤에서 <strong>툭</strong> 꺼진다<br>
 계단처럼 끊기고<br>
 미세하게 플리커
 </div>
 </div>
 
-<img src="assets/video/bad-dimming.jpg" style="width:100%;border-radius:4px;margin-top:.5em">
+<img src="assets/video/bad-dimming.jpg" style="width:100%;max-height:260px;object-fit:cover;border-radius:4px;margin-top:.5em">
 
 Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이 드라이버 층의 핵심이다. 스펙에 "디밍 가능"이라고만 적혀 있어도 이 사진 같은 결과가 나올 수 있다.
 

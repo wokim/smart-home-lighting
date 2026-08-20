@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Pretendard';
-  src: url('vendor/fonts/PretendardVariable.woff2') format('woff2-variations');
+  src: url('vendor/fonts/PretendardVariable.woff2') format('woff2') tech('variations'),
+       url('vendor/fonts/PretendardVariable.woff2') format('woff2-variations'),
+       url('vendor/fonts/PretendardVariable.woff2') format('woff2');
   font-weight: 45 920; font-display: swap;
 }
 :root {
@@ -8,12 +10,15 @@
   --text:#e9ecf2; --muted:#8b93a5; --dim:#5a6274;
   --amber:#ffb454; --amber-soft:rgba(255,180,84,.14);
   --blue:#58b7ff; --red:#ff6b6b; --green:#7dd97b;
-  --r-background-color:var(--bg); --r-main-color:var(--text);
-  --r-heading-color:var(--text); --r-link-color:var(--blue);
-  --r-main-font:'Pretendard','Apple SD Gothic Neo',sans-serif;
-  --r-heading-font:'Pretendard','Apple SD Gothic Neo',sans-serif;
-  --r-main-font-size:32px;
 }
+/* reveal.css alone ships no theme — style directly, no --r-* indirection */
+.reveal-viewport { background: var(--bg); }
+.reveal { font-family:'Pretendard','Apple SD Gothic Neo',sans-serif; font-size:32px;
+  color:var(--text); }
+.reveal h1, .reveal h2, .reveal h4 { color:var(--text); font-family:inherit;
+  margin:0 0 .5em; text-transform:none; }
+.reveal a { color:var(--blue); text-decoration:none; }
+.reveal .slides section, .reveal .slides section>section { line-height:1.6; font-weight:inherit; }
 .reveal { font-weight:400; letter-spacing:-0.015em; line-height:1.6; }
 .reveal .slides section { text-align:left; padding:8px 20px; }
 
@@ -41,13 +46,13 @@
   padding:.7em 1em; font-style:normal; width:100%; box-shadow:none; }
 
 /* Act divider: giant thin number with glow dot */
-section.act { text-align:center; }
-section.act .no { font-size:6.5em; font-weight:150; letter-spacing:-0.04em;
+.reveal .slides section.act { text-align:center; }
+.reveal .slides section.act .no { font-size:6.5em; font-weight:150; letter-spacing:-0.04em;
   color:var(--text); line-height:1; position:relative; display:inline-block; }
-section.act .no::after { content:""; position:absolute; right:-.28em; bottom:.14em;
+.reveal .slides section.act .no::after { content:""; position:absolute; right:-.28em; bottom:.14em;
   width:.16em; height:.16em; border-radius:50%; background:var(--amber);
   box-shadow:0 0 .35em .06em rgba(255,180,84,.8), 0 0 1.2em .3em rgba(255,180,84,.25); }
-section.act h2 { font-size:1.7em; font-weight:300; margin-top:.6em; text-align:center; }
+.reveal .slides section.act h2 { font-size:1.7em; font-weight:300; margin-top:.6em; text-align:center; }
 
 /* Statement: one huge thin sentence */
 .statement { display:flex; align-items:center; justify-content:center; min-height:13em; }
