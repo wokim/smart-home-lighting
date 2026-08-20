@@ -41,7 +41,8 @@ Note: 광원 층은 스펙 시트로 비교가 되는 편이라 오히려 제일
 </div>
 </div>
 
-<p class="muted">[영상 자리 — 나쁜 디밍: 팝콘 현상 · 계단 디밍 · low-end에서 툭]</p>
+<video class="full" muted autoplay loop playsinline poster="assets/video/bad-dimming.jpg" style="max-height:300px"><source src="assets/video/bad-dimming.mp4"></video>
+<p class="muted" style="font-size:.6em">[영상 자리 — 나쁜 디밍: 팝콘 현상 · 계단 디밍 · low-end에서 툭]</p>
 
 Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이 드라이버 층의 핵심이다. 스펙에 "디밍 가능"이라고만 적혀 있어도 이 사진 같은 결과가 나올 수 있다. 색 안정성(디밍 중 색 틀어짐)도 드라이버 몫이다.
 
