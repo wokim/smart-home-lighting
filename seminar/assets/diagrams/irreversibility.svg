@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+
+  <!-- left panel: 지금뿐 -->
+  <g>
+    <rect x="60" y="80" width="480" height="520" rx="14" fill="#1a1e27" stroke="#ff6b6b" stroke-width="3"/>
+    <text x="100" y="155" fill="#ff6b6b" font-size="36" font-weight="700">지금뿐</text>
+    <line x1="100" y1="180" x2="500" y2="180" stroke="#ff6b6b" stroke-width="1" opacity="0.4"/>
+
+    <rect x="100" y="222" width="12" height="12" rx="2" fill="#ff6b6b"/>
+    <text x="124" y="234" fill="#e9ecf2" font-size="26">중성선</text>
+
+    <rect x="100" y="292" width="12" height="12" rx="2" fill="#ff6b6b"/>
+    <text x="124" y="304" fill="#e9ecf2" font-size="26">제어선</text>
+
+    <rect x="100" y="362" width="12" height="12" rx="2" fill="#ff6b6b"/>
+    <text x="124" y="374" fill="#e9ecf2" font-size="26">홈런 배선</text>
+
+    <rect x="100" y="432" width="12" height="12" rx="2" fill="#ff6b6b"/>
+    <text x="124" y="444" fill="#e9ecf2" font-size="26">분전함 자리</text>
+
+    <rect x="100" y="502" width="12" height="12" rx="2" fill="#ff6b6b"/>
+    <text x="124" y="514" fill="#e9ecf2" font-size="26">가구 조명 배선</text>
+  </g>
+
+  <!-- right panel: 나중에도 -->
+  <g>
+    <rect x="660" y="80" width="480" height="520" rx="14" fill="#1a1e27" stroke="#7dd97b" stroke-width="3"/>
+    <text x="700" y="155" fill="#7dd97b" font-size="36" font-weight="700">나중에도</text>
+    <line x1="700" y1="180" x2="1100" y2="180" stroke="#7dd97b" stroke-width="1" opacity="0.4"/>
+
+    <rect x="700" y="222" width="12" height="12" rx="2" fill="#7dd97b"/>
+    <text x="724" y="234" fill="#e9ecf2" font-size="26">스위치</text>
+
+    <rect x="700" y="292" width="12" height="12" rx="2" fill="#7dd97b"/>
+    <text x="724" y="304" fill="#e9ecf2" font-size="26">센서</text>
+
+    <rect x="700" y="362" width="12" height="12" rx="2" fill="#7dd97b"/>
+    <text x="724" y="374" fill="#e9ecf2" font-size="26">허브</text>
+
+    <rect x="700" y="432" width="12" height="12" rx="2" fill="#7dd97b"/>
+    <text x="724" y="444" fill="#e9ecf2" font-size="26">플랫폼</text>
+
+    <rect x="700" y="502" width="12" height="12" rx="2" fill="#7dd97b"/>
+    <text x="724" y="514" fill="#e9ecf2" font-size="26">씬 설정</text>
+  </g>
+
+  <!-- center divider: 콘크리트 타설선 -->
+  <line x1="600" y1="80" x2="600" y2="600" stroke="#98a1b3" stroke-width="2" stroke-dasharray="10 8"/>
+  <rect x="582" y="284" width="36" height="112" fill="#101319"/>
+  <text x="600" y="345" fill="#98a1b3" font-size="22" font-weight="600" text-anchor="middle" transform="rotate(-90 600 345)">벽이 닫히는 순간</text>
+</svg>

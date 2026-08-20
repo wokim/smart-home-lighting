@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#98a1b3"/>
+    </marker>
+  </defs>
+
+  <!-- vertical guide axis tying the three blocked-arrow markers together -->
+  <line x1="880" y1="90" x2="880" y2="560" stroke="#98a1b3" stroke-width="1" stroke-dasharray="4 6" opacity="0.35"/>
+
+  <!-- Layer 1: 제어 -->
+  <g>
+    <rect x="90" y="67" width="850" height="160" rx="14" fill="#1a1e27" stroke="#58b7ff" stroke-width="3"/>
+    <text x="130" y="122" fill="#e9ecf2" font-size="34" font-weight="700">제어 — "말을 잘 듣는다"</text>
+    <text x="130" y="172" fill="#98a1b3" font-size="24">그룹 · 씬 · 동기화 · 명령 신뢰성 · 확장성</text>
+    <line x1="880" y1="97" x2="880" y2="158" stroke="#98a1b3" stroke-width="2" marker-end="url(#arrowMuted)"/>
+    <line x1="862" y1="172" x2="898" y2="172" stroke="#98a1b3" stroke-width="4"/>
+  </g>
+
+  <!-- Layer 2: 드라이버 -->
+  <g>
+    <rect x="90" y="257" width="850" height="160" rx="14" fill="#1a1e27" stroke="#ffb454" stroke-width="3"/>
+    <text x="130" y="312" fill="#e9ecf2" font-size="34" font-weight="700">드라이버 — "부드럽다"</text>
+    <text x="130" y="362" fill="#98a1b3" font-size="24">디밍 레인지 · low-end · fade · 플리커</text>
+    <line x1="880" y1="287" x2="880" y2="348" stroke="#98a1b3" stroke-width="2" marker-end="url(#arrowMuted)"/>
+    <line x1="862" y1="362" x2="898" y2="362" stroke="#98a1b3" stroke-width="4"/>
+  </g>
+
+  <!-- Layer 3: 광원 -->
+  <g>
+    <rect x="90" y="447" width="850" height="160" rx="14" fill="#1a1e27" stroke="#e9ecf2" stroke-width="3"/>
+    <text x="130" y="502" fill="#e9ecf2" font-size="34" font-weight="700">광원 — "빛이 좋다"</text>
+    <text x="130" y="552" fill="#98a1b3" font-size="24">CRI · R9 · 배광 · 눈부심</text>
+    <line x1="880" y1="477" x2="880" y2="538" stroke="#98a1b3" stroke-width="2" marker-end="url(#arrowMuted)"/>
+    <line x1="862" y1="552" x2="898" y2="552" stroke="#98a1b3" stroke-width="4"/>
+  </g>
+
+  <!-- caption -->
+  <text x="1068" y="330" fill="#98a1b3" font-size="22" font-weight="500" text-anchor="middle">층은 서로를</text>
+  <text x="1068" y="360" fill="#98a1b3" font-size="22" font-weight="500" text-anchor="middle">대신하지 못한다</text>
+</svg>
