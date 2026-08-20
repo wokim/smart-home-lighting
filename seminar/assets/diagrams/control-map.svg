@@ -32,7 +32,7 @@
   <g>
     <text x="502" y="290" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">인너 릴레이</text>
     <line x1="470" y1="302" x2="534" y2="302" stroke="#ffb454" stroke-width="2"/>
-    <text x="502" y="335" fill="#8b93a5" font-size="20" letter-spacing="0.2" text-anchor="middle">매입 배선판에 설치</text>
+    <text x="502" y="335" fill="#8b93a5" font-size="17" letter-spacing="0.2" text-anchor="middle">등기구 쪽 전원부에 설치</text>
   </g>
 
   <!-- Node 4: 0-10V -->
@@ -57,7 +57,8 @@
   </g>
 
   <!-- legend -->
-  <line x1="540" y1="628" x2="580" y2="628" stroke="#ffb454" stroke-width="2"/>
-  <text x="540" y="620" fill="#e9ecf2" font-size="20" text-anchor="start">유선</text>
-  <text x="660" y="620" fill="#58b7ff" font-size="20" text-anchor="start">무선</text>
+  <line x1="300" y1="628" x2="340" y2="628" stroke="#ffb454" stroke-width="2"/>
+  <text x="352" y="620" fill="#e9ecf2" font-size="18" text-anchor="start">배선을 지금 정해야 한다</text>
+  <line x1="700" y1="628" x2="740" y2="628" stroke="#58b7ff" stroke-width="2"/>
+  <text x="752" y="620" fill="#e9ecf2" font-size="18" text-anchor="start">나중에도 추가할 수 있다</text>
 </svg>

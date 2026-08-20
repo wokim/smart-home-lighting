@@ -39,6 +39,8 @@ Note: 니즈는 구체적이고 복합적이다. 0막 영상의 네 가지가 �
 - 밤에 화장실 갈 때
 - 스르륵 켜지고 스르륵 꺼질 때
 
+<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:340px"><source src="assets/video/stairs-sensor.mp4"></video>
+
 Note: 이건 써본 사람만 안다. 그래서 건축주 요구사항에 잘 안 올라오고, 준공 후에야 아쉬워진다.
 
 ===

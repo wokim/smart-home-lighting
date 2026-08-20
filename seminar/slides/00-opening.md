@@ -9,7 +9,7 @@ Note: 인사 두 문장. 외국계 IT에서 20년, 지금은 해외 업체 CTO. 
 
 <video class="full" muted autoplay loop playsinline poster="assets/video/opening-scenes.jpg"><source src="assets/video/opening-scenes.mp4"></video>
 
-Note: 말로 설명하는 것보다 저희 집을 먼저 보여드리는 게 빠르겠습니다. (영상: 씬 스위치 → 취침/파티 전환, 계단 센서 2단계, 아이패드 제어)
+Note: 말로 설명하는 것보다 저희 집을 먼저 보여드리는 게 빠르겠습니다. opening-scenes.mp4 = 거실 씬 스위치 전환 + 아이패드 제어 (한 테이크). 계단 센서는 1막에서 별도 클립으로 다룬다.
 
 ===
 

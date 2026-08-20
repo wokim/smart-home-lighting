@@ -12,7 +12,7 @@
     <text x="110" y="302" fill="#8b93a5" font-size="24" letter-spacing="0.2">제어선</text>
 
     <circle cx="90" cy="366" r="4" fill="#ff6b6b" opacity="0.7"/>
-    <text x="110" y="372" fill="#8b93a5" font-size="24" letter-spacing="0.2">제어함 직결 배선</text>
+    <text x="110" y="372" fill="#8b93a5" font-size="24" letter-spacing="0.2">분전함 직결 배선</text>
 
     <circle cx="90" cy="436" r="4" fill="#ff6b6b" opacity="0.7"/>
     <text x="110" y="442" fill="#8b93a5" font-size="24" letter-spacing="0.2">분전함 자리</text>
