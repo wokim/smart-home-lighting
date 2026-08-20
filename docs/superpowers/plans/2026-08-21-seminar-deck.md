@@ -506,7 +506,7 @@ git add seminar && git commit -m "Add act 0 and act 1 slides"
 4. "조명이 많아졌다" — 하나둘 → 다운라이트·간접·펜던트·무드가 한 공간에. 개수가 늘면 "어떤 조합으로 켤 것인가"라는 질문이 생긴다 = 씬
 5. statement: "**씬은 제품이 아니라 설계입니다**"
 
-- [ ] **Step 2: 30-structure.md (14장)**
+- [ ] **Step 2: 30-structure.md (15장)**
 
 1. 막 표지 `3 / 알아야 할 구조`
 2. `three-layers.svg` — 조명은 세 겹. Note: 층은 서로를 대신 못 한다
@@ -515,6 +515,7 @@ git add seminar && git commit -m "Add act 0 and act 1 slides"
 5. statement 오해 정리: "'DALI를 쓰면 빛이 좋아진다'는 **틀린 말입니다**" Note: DALI/Zigbee는 명령 전달 층. 빛은 드라이버가 만든다. 싸구려 DALI < 좋은 Zigbee 가능. DALI의 진짜 강점은 제어 표준화. Tridonic·Helvar·eldoLED 같은 상급 드라이버가 DALI 현장에 많아서 생기는 상관관계일 뿐
 6. `control-map.svg` — 제어 방식 지도 전체 조망
 7. 접점 스위치 — fade out이 원리적으로 안 되는 이유 (전원을 끊으면 어두워질 에너지가 없다)
+7b. 일괄소등 스위치 — `.cols2` 대비: [아날로그: 모든 등의 전원을 물리 차단 → 스마트 기기도 통째로 오프라인] vs [스마트: "전체 소등" 씬에 매핑된 버튼 하나 → "일괄소등이 꺼져 있어 불이 안 들어온다"는 상황 자체가 없다]. Note: 전원을 끊는 제어에서 명령을 보내는 제어로의 전환을 가장 친숙한 스위치로 설명. 함정: 기존 일괄소등 릴레이를 물리 차단으로 남기면 상시 전원이 끊긴다 — 체크리스트로 연결
 8. `switchbox-neutral.svg` — **중성선**. Note: 이 발표의 실무 최대 이슈. 전기공사 때 N 한 가닥이면 끝날 일이 나중엔 벽 철거
 9. 인너 릴레이 — 사진 자리(`photos/inner-relay.jpg` 플레이스홀더), 스위치 뒤에 숨는 크기감
 10. `dali-bus.svg` — 유선 제어. 미리 포설해야 하고, 대신 안정·표준
