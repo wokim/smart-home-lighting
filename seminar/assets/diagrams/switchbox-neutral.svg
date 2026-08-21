@@ -27,7 +27,7 @@
 
     <!-- 스위치를 거친 L: 스위치 → 등기구 -->
     <polyline points="310,466 310,300 438,300" fill="none" stroke="#b3702d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="330" y="398" fill="#b3702d" font-size="17" text-anchor="start">스위치를 거친 L</text>
+    <text x="322" y="398" fill="#b3702d" font-size="18" text-anchor="start">L1</text>
     <text x="236" y="445" fill="#5a6274" font-size="15" text-anchor="end">한 배관 · 2가닥</text>
 
     <!-- 등기구: IEC 램프 기호 (원 + X) -->
@@ -93,5 +93,6 @@
     <text x="905" y="480" fill="#7dd97b" font-size="21" font-weight="600" text-anchor="middle">상시 전원이 들어오는 등기구를 제어한다</text>
   </g>
 
-  <text x="600" y="640" fill="#5a6274" font-size="20" letter-spacing="0.3" text-anchor="middle">전기공사 때 N 한 가닥 — 나중엔 벽을 뜯어야 한다</text>
+  <text x="600" y="632" fill="#5a6274" font-size="20" letter-spacing="0.3" text-anchor="middle">전기공사 때 N 한 가닥 — 나중엔 벽을 뜯어야 한다</text>
+  <text x="600" y="660" fill="#5a6274" font-size="15" text-anchor="middle">L = 입력 활선 · L1 = 스위치를 거친 활선(switched live) · N = 중성선</text>
 </svg>

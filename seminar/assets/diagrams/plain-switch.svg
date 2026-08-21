@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <radialGradient id="lampGlowPS" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd9a0" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#ffb454" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffb454" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- 분전반 -->
+  <rect x="80" y="130" width="150" height="110" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="155" y="192" fill="#e9ecf2" font-size="22" text-anchor="middle">분전반</text>
+  <!-- L → 스위치 -->
+  <line x1="230" y1="160" x2="470" y2="160" stroke="#b3702d" stroke-width="4" stroke-linecap="round"/>
+  <text x="350" y="148" fill="#b3702d" font-size="19" text-anchor="middle">L</text>
+  <!-- 스위치 박스 -->
+  <rect x="470" y="100" width="220" height="120" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="580" y="130" fill="#e9ecf2" font-size="19" font-weight="600" text-anchor="middle">스위치 박스</text>
+  <circle cx="530" cy="160" r="4" fill="none" stroke="#e9ecf2" stroke-width="2"/>
+  <line x1="534" y1="158" x2="590" y2="134" stroke="#e9ecf2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="630" cy="160" r="4" fill="none" stroke="#e9ecf2" stroke-width="2"/>
+  <line x1="470" y1="160" x2="526" y2="160" stroke="#b3702d" stroke-width="4" stroke-linecap="round"/>
+  <line x1="634" y1="160" x2="690" y2="160" stroke="#b3702d" stroke-width="4" stroke-linecap="round"/>
+  <text x="580" y="200" fill="#8b93a5" font-size="15" text-anchor="middle">박스 안: L과 L1 두 가닥 · N 없음</text>
+  <!-- L1 → 등기구 -->
+  <line x1="690" y1="160" x2="1000" y2="160" stroke="#b3702d" stroke-width="4" stroke-linecap="round"/>
+  <text x="845" y="148" fill="#b3702d" font-size="19" text-anchor="middle">L1</text>
+  <!-- N → 등기구 직결 -->
+  <polyline points="230,215 300,215 300,300 1020,300 1020,210" fill="none" stroke="#58b7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="660" y="325" fill="#58b7ff" font-size="19" text-anchor="middle">N — 스위치를 거치지 않고 등기구 직결</text>
+  <!-- 등기구 -->
+  <circle cx="1010" cy="180" r="42" fill="url(#lampGlowPS)"/>
+  <circle cx="1010" cy="180" r="19" fill="none" stroke="#ffd9a0" stroke-width="2.5"/>
+  <line x1="996.6" y1="166.6" x2="1023.4" y2="193.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="1023.4" y1="166.6" x2="996.6" y2="193.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="1010" y="245" fill="#8b93a5" font-size="16" text-anchor="middle">등기구</text>
+  <!-- caption -->
+  <text x="600" y="378" fill="#5a6274" font-size="17" text-anchor="middle">스위치가 하는 일은 L을 끊고 잇는 것뿐 — 끊는 순간 등기구에는 에너지가 없다 · L1 = 스위치를 거친 활선</text>
+</svg>
