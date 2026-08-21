@@ -1,15 +1,15 @@
 <svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
   <defs>
     <radialGradient id="lampGlowSN" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffd9a0" stop-opacity="0.9"/>
-      <stop offset="30%" stop-color="#ffb454" stop-opacity="0.35"/>
+      <stop offset="0%" stop-color="#ffd9a0" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#ffb454" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#ffb454" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <line x1="600" y1="60" x2="600" y2="600" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
 
-  <!-- LEFT: 중성선 없는 박스 -->
+  <!-- ============ LEFT: 중성선 없는 박스 ============ -->
   <g>
     <circle cx="90" cy="92" r="6" fill="#ff6b6b"/>
     <text x="110" y="99" fill="#e9ecf2" font-size="26" font-weight="600">중성선 없는 박스 (국내 다수)</text>
@@ -17,62 +17,80 @@
     <rect x="200" y="130" width="140" height="55" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
     <text x="270" y="163" fill="#e9ecf2" font-size="20" text-anchor="middle">분전반</text>
 
-    <!-- N: 분전반 → 등기구 직결 -->
-    <polyline points="320,185 320,235 470,235 470,262" fill="none" stroke="#58b7ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- N (파랑): 분전반 → 등기구 직결 -->
+    <polyline points="320,185 320,235 470,235 470,268" fill="none" stroke="#58b7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="400" y="225" fill="#58b7ff" font-size="17" text-anchor="middle">N — 등기구 직결</text>
 
-    <!-- L: 분전반 → 스위치 (내려가는 가닥) -->
-    <line x1="250" y1="185" x2="250" y2="466" stroke="#c8824a" stroke-width="3" stroke-linecap="round"/>
-    <text x="232" y="320" fill="#c8824a" font-size="18" text-anchor="end">L</text>
+    <!-- L (갈색): 분전반 → 스위치 -->
+    <line x1="250" y1="185" x2="250" y2="466" stroke="#b3702d" stroke-width="4" stroke-linecap="round"/>
+    <text x="232" y="320" fill="#b3702d" font-size="18" text-anchor="end">L</text>
 
     <!-- 스위치를 거친 L: 스위치 → 등기구 -->
-    <polyline points="310,466 310,300 436,300" fill="none" stroke="#c8824a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="330" y="398" fill="#c8824a" font-size="17" text-anchor="start">스위치를 거친 L</text>
-
-    <!-- 한 배관 표시 -->
+    <polyline points="310,466 310,300 438,300" fill="none" stroke="#b3702d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="330" y="398" fill="#b3702d" font-size="17" text-anchor="start">스위치를 거친 L</text>
     <text x="236" y="445" fill="#5a6274" font-size="15" text-anchor="end">한 배관 · 2가닥</text>
 
-    <!-- 등기구 -->
-    <circle cx="470" cy="300" r="34" fill="url(#lampGlowSN)"/>
-    <circle cx="470" cy="300" r="8" fill="#ffd9a0"/>
+    <!-- 등기구: IEC 램프 기호 (원 + X) -->
+    <circle cx="470" cy="300" r="40" fill="url(#lampGlowSN)"/>
+    <circle cx="470" cy="300" r="19" fill="none" stroke="#ffd9a0" stroke-width="2.5"/>
+    <line x1="456.6" y1="286.6" x2="483.4" y2="313.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="483.4" y1="286.6" x2="456.6" y2="313.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
     <text x="470" y="356" fill="#8b93a5" font-size="16" text-anchor="middle">등기구</text>
 
-    <!-- 스위치 박스 -->
+    <!-- 스위치 박스 + 단극 스위치 기호 -->
     <rect x="180" y="466" width="220" height="104" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
-    <text x="205" y="498" fill="#e9ecf2" font-size="20" font-weight="600">스위치 박스</text>
-    <text x="205" y="524" fill="#8b93a5" font-size="16">L 왕복 2가닥뿐 · N 없음</text>
-    <text x="205" y="552" fill="#ff6b6b" font-size="18">스마트 스위치 ✕</text>
+    <circle cx="250" cy="512" r="4" fill="none" stroke="#e9ecf2" stroke-width="2"/>
+    <line x1="253" y1="509" x2="285" y2="484" stroke="#e9ecf2" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="310" cy="512" r="4" fill="none" stroke="#e9ecf2" stroke-width="2"/>
+    <line x1="250" y1="516" x2="250" y2="540" stroke="#b3702d" stroke-width="3" stroke-linecap="round"/>
+    <line x1="310" y1="516" x2="310" y2="540" stroke="#b3702d" stroke-width="3" stroke-linecap="round"/>
+    <text x="340" y="500" fill="#e9ecf2" font-size="18" font-weight="600" text-anchor="start"> </text>
+    <text x="290" y="556" fill="#8b93a5" font-size="15" text-anchor="middle">L 왕복 2가닥뿐 · N 없음</text>
 
-    <text x="290" y="600" fill="#ff6b6b" font-size="21" font-weight="600" text-anchor="middle">상시 전원을 만들 수 없다</text>
+    <text x="290" y="600" fill="#ff6b6b" font-size="21" font-weight="600" text-anchor="middle">스마트 스위치 ✕ — 상시 전원을 만들 수 없다</text>
   </g>
 
-  <!-- RIGHT: 중성선 있는 박스 -->
+  <!-- ============ RIGHT: 중성선 있는 박스 ============ -->
   <g>
     <circle cx="690" cy="92" r="6" fill="#7dd97b"/>
     <text x="710" y="99" fill="#e9ecf2" font-size="26" font-weight="600">중성선 있는 박스</text>
 
-    <rect x="830" y="140" width="140" height="55" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
-    <text x="900" y="173" fill="#e9ecf2" font-size="20" text-anchor="middle">분전반</text>
+    <rect x="820" y="130" width="140" height="55" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+    <text x="890" y="163" fill="#e9ecf2" font-size="20" text-anchor="middle">분전반</text>
 
-    <line x1="880" y1="195" x2="880" y2="290" stroke="#c8824a" stroke-width="3" stroke-linecap="round"/>
-    <line x1="940" y1="195" x2="940" y2="290" stroke="#58b7ff" stroke-width="3" stroke-linecap="round"/>
-    <text x="856" y="247" fill="#c8824a" font-size="18" text-anchor="end">L</text>
-    <text x="964" y="247" fill="#58b7ff" font-size="18" text-anchor="start">N</text>
+    <!-- L·N 분기: 스위치 박스에도, 등기구에도 상시 공급 -->
+    <line x1="860" y1="185" x2="860" y2="240" stroke="#b3702d" stroke-width="4" stroke-linecap="round"/>
+    <line x1="920" y1="185" x2="920" y2="268" stroke="#58b7ff" stroke-width="4" stroke-linecap="round"/>
+    <text x="842" y="222" fill="#b3702d" font-size="18" text-anchor="end">L</text>
+    <text x="938" y="222" fill="#58b7ff" font-size="18" text-anchor="start">N</text>
 
-    <rect x="800" y="290" width="200" height="90" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
-    <text x="825" y="323" fill="#e9ecf2" font-size="20" font-weight="600">스위치 박스</text>
-    <text x="825" y="353" fill="#7dd97b" font-size="18">스마트 스위치 ✓</text>
+    <polyline points="860,240 745,240 745,300" fill="none" stroke="#b3702d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="860,240 1000,240 1000,296" fill="none" stroke="#b3702d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="920,268 775,268 775,300" fill="none" stroke="#58b7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="920,268 1034,268 1034,296" fill="none" stroke="#58b7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="860" cy="240" r="4.5" fill="#b3702d"/>
+    <circle cx="920" cy="268" r="4.5" fill="#58b7ff"/>
 
-    <line x1="870" y1="380" x2="870" y2="436" stroke="#c8824a" stroke-width="3" stroke-linecap="round"/>
-    <line x1="930" y1="380" x2="930" y2="436" stroke="#58b7ff" stroke-width="3" stroke-linecap="round"/>
-    <text x="846" y="412" fill="#c8824a" font-size="17" text-anchor="end">스위치를 거친 L</text>
-    <text x="954" y="412" fill="#58b7ff" font-size="18" text-anchor="start">N</text>
+    <!-- 스위치 박스 -->
+    <rect x="650" y="300" width="230" height="110" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+    <text x="675" y="336" fill="#e9ecf2" font-size="19" font-weight="600">스마트 스위치</text>
+    <text x="675" y="362" fill="#e9ecf2" font-size="19" font-weight="600">/ 인너 릴레이</text>
+    <text x="675" y="392" fill="#7dd97b" font-size="16">상시 전원 공급 ✓</text>
 
-    <circle cx="900" cy="480" r="44" fill="url(#lampGlowSN)"/>
-    <circle cx="900" cy="480" r="10" fill="#ffd9a0"/>
-    <text x="900" y="546" fill="#8b93a5" font-size="16" text-anchor="middle">등기구</text>
+    <!-- 등기구: IEC 램프 기호, 상시 전원 -->
+    <circle cx="1017" cy="330" r="44" fill="url(#lampGlowSN)"/>
+    <circle cx="1017" cy="330" r="19" fill="none" stroke="#ffd9a0" stroke-width="2.5"/>
+    <line x1="1003.6" y1="316.6" x2="1030.4" y2="343.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="1030.4" y1="316.6" x2="1003.6" y2="343.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="1017" y="398" fill="#8b93a5" font-size="16" text-anchor="middle">등기구 — 상시 전원</text>
 
-    <text x="900" y="590" fill="#7dd97b" font-size="21" font-weight="600" text-anchor="middle">전자회로가 늘 깨어 있다</text>
+    <!-- 무선 제어 -->
+    <path d="M 890 355 Q 945 320 968 335" fill="none" stroke="#58b7ff" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+    <path d="M 900 341 a 14 14 0 0 1 0 28" fill="none" stroke="#58b7ff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 906 333 a 22 22 0 0 1 0 44" fill="none" stroke="#58b7ff" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+    <text x="928" y="310" fill="#58b7ff" font-size="15" text-anchor="middle">무선 제어</text>
+
+    <text x="905" y="480" fill="#7dd97b" font-size="21" font-weight="600" text-anchor="middle">상시 전원이 들어오는 등기구를 제어한다</text>
   </g>
 
   <text x="600" y="640" fill="#5a6274" font-size="20" letter-spacing="0.3" text-anchor="middle">전기공사 때 N 한 가닥 — 나중엔 벽을 뜯어야 한다</text>
