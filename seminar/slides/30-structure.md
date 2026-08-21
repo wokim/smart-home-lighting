@@ -160,7 +160,7 @@ Note: 이 구분이 이번 막 전체의 기준이다. "비싼 제어 방식을 
 
 ## 플랫폼 — 조명을 묶는 중앙 컨트롤러
 
-<img class="diagram" src="assets/diagrams/platform-stack.svg" style="max-height:320px">
+<img class="diagram" src="assets/diagrams/platform-stack.svg" style="max-height:300px">
 
 - 스위치·센서·조명이 모두 연결되는 **허브** — 씬, 자동화, 센서 로직이 여기서 돈다
 - 조명만 보고 정하면 안 된다 — 냉난방·커튼·센서가 **나중에 같은 자리**에 붙는다
