@@ -64,7 +64,7 @@ Note: 미리 갈라두지 않으면 전기와 가구·조명 업체가 서로 �
 
 ## CC 드라이버와 CV 드라이버
 
-<img class="diagram" src="assets/diagrams/dc24v-cct.svg" style="max-height:380px">
+<img class="diagram" src="assets/diagrams/dc24v-cct.svg" style="max-height:290px">
 
 - **CC(정전류)** — 다운라이트처럼 등기구 1:1. 전류를 유지하므로 선로 거리에 둔감하다
 - **CV(정전압, 보통 24V)** — 스트립·간접등. 24V는 거리가 길수록 **전압강하**가 커서 드라이버를 부하 가까이 둔다

@@ -73,7 +73,7 @@ Note: 두 범주를 섞지 않는 게 핵심이다. 위는 사람이 만지는 �
 
 ## 일반 스위치
 
-<img class="diagram" src="assets/diagrams/plain-switch.svg" style="max-height:330px">
+<img class="diagram" src="assets/diagrams/plain-switch.svg" style="max-height:290px">
 
 - 국내 주거의 기본값 — 대부분의 집이 여기서 시작한다
 - 하는 일은 L을 끊고 이어서 L1을 만드는 것뿐이다. N은 스위치를 거치지 않는다
@@ -113,10 +113,9 @@ Note: 이 발표에서 실무적으로 제일 큰 이슈다. 전기공사 때 N 
 
 ## 이너 릴레이 — 일반 스위치를 스마트 스위치로
 
-<img class="diagram" src="assets/diagrams/inner-relay.svg" style="max-height:430px">
+<img class="diagram" src="assets/diagrams/inner-relay.svg" style="max-height:410px">
 
-- 기존 스위치 뒤에 숨는 **입력 모듈**. 상시 전원을 받고, 스위치 조작을 신호로 보낸다 — 조명은 별도의 스마트 드라이버가 켜고 끈다
-- 스위치가 전원을 끊지 않으니 봉인할 필요가 없다. 조건: 박스에 **중성선**(Wi-Fi·Zigbee형) 또는 **DALI 버스**(커플러형)
+- 기존 스위치 뒤에 숨는 **입력 모듈**이 스위치 조작을 신호로 보내고, 조명은 별도의 스마트 드라이버가 켜고 끈다 — 스위치가 전원을 끊지 않으니 봉인할 필요가 없다. 조건: 박스에 **중성선**(Wi-Fi·Zigbee형) 또는 **DALI 버스**(커플러형)
 
 Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈. L·N으로 모듈에 상시 전원을 주고, 기존 스위치는 L과 SW1 사이에 물려 "눌렸다"를 알린다. 모듈이 그 신호를 무선으로 보내면 등기구 쪽 스마트 드라이버가 반응한다. 벽에서도 앱에서도 켜고 끌 수 있고 상태가 동기화된다. DALI 푸시버튼 커플러는 같은 역할을 DALI 버스 위에서 한다 — 다음 슬라이드. 전용 스위치(제조사 전용선·프로토콜)는 또 다른 길이다.
 
@@ -124,7 +123,7 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈. L·N으로 모듈에 �
 
 ## DALI — 유선 제어
 
-<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:440px">
+<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:380px">
 
 드라이버마다 주소를 갖고, 벽 스위치도 **푸시버튼 커플러**로 같은 버스에 올라탄다 — 커플러는 버스 전원으로 동작해 L·N이 필요 없다
 
