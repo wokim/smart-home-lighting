@@ -1,7 +1,9 @@
-<!-- .slide: class="statement" data-background-color="#0a0c10" -->
-# 조명제어,<br>사다 다는 제품이 아니라 설계입니다
+<!-- .slide: class="title" data-background-color="#0a0c10" -->
+<div class="over">한국패시브건축협회 세미나</div>
 
-한국패시브건축협회 세미나 · 김원식
+# 빛은 <strong>설계</strong>가 만듭니다<br>주거 조명제어의 실제
+
+<div class="meta">김원식 — 건축주 · IT 업계 20년</div>
 
 Note: 인사 두 문장. 외국계 IT에서 20년, 지금은 해외 업체 CTO. 그리고 인증주택을 지은 건축주. 오늘은 그 두 입장이 겹치는 자리에서 말씀드린다.
 

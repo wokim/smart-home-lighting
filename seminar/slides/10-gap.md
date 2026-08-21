@@ -5,13 +5,15 @@
 
 ===
 
-## "이런 거 되나요?" 하고 물으면
+<h3>건축주가 물으면, 현장은</h3>
 
-- "잘 모르겠는데요"
-- "그거 막상 잘 안 쓴대요"
-- "제품 사다 달면 되는 거 아닌가요?"
+<div class="quotes">
+<div class="q"><span class="who">시공사 A</span>"잘 모르겠는데요"</div>
+<div class="q"><span class="who">시공사 B</span>"그거 막상 잘 안 쓴대요"</div>
+<div class="q"><span class="who">시공사 C</span>"제품 사다 달면 되는 거 아닌가요?"</div>
+</div>
 
-Note: 건축주가 IoT 얘기를 꺼냈을 때 시공 현장에서 실제로 돌아오는 세 가지 반응. 오늘 이 세 문장을 뒤집는 게 목표다.
+Note: 건축주가 IoT 얘기를 꺼냈을 때 실제로 돌아오는 세 가지 반응. 셋 다 악의가 아니라 정보가 없어서 나오는 말이다. 오늘 이 세 문장을 뒤집는 게 목표.
 
 ===
 
@@ -31,28 +33,16 @@ Note: 니즈는 구체적이고 복합적이다. 0막 영상의 네 가지가 �
 
 ===
 
-## 경험해보기 전엔 필요한 줄 모르는 것
+<!-- .slide: class="hero-fade" -->
+<h3>경험해보기 전엔 모른다</h3>
 
-**밝기 조절**
+# 스르륵 켜지고, 스르륵 꺼지면<br>조명이 <strong>섹시해집니다</strong>
 
-- 아기를 재울 때
-- 밤에 화장실 갈 때
-- 스르륵 켜지고 스르륵 꺼질 때
+<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:300px"><source src="assets/video/stairs-sensor.mp4"></video>
 
-<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:200px"><source src="assets/video/stairs-sensor.mp4"></video>
+<p class="muted" style="font-size:.62em">덤으로 — 아기 재울 때, 밤에 화장실 갈 때도 눈이 편하다</p>
 
-Note: 이건 써본 사람만 안다. 그래서 건축주 요구사항에 잘 안 올라오고, 준공 후에야 아쉬워진다.
-
-===
-
-## 반전 하나
-
-색온도보다 **밝기**입니다
-
-- 낮에는 태양이 이깁니다 — 색온도 차이가 잘 안 느껴진다
-- 밤에는 높은 색온도를 쓸 일이 없다
-
-Note: 다들 CCT(색온도 가변)가 핵심인 줄 아는데, 살아보니 체감 가치의 대부분은 디밍이었다. 이 관점은 뒤 기구 선정에서 다시.
+Note: 핵심은 편의가 아니라 고급감이다. 탁 켜지는 집과 부드럽게 차오르는 집 — 같은 기구라도 공간의 급이 달라진다. 페이드가 되는 순간 조명이 설비에서 연출이 된다. (색온도 얘기가 나오면: 살아보니 체감 가치는 색온도가 아니라 디밍이더라 — 낮엔 태양이 이기고 밤엔 높은 색온도를 안 쓴다. 기구 선정에서 다시.)
 
 ===
 
