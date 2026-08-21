@@ -216,7 +216,7 @@ Note: 건축주 입장에서 실제로 매일 만지는 건 플랫폼 앱이 아
 <div class="row"><b>센서</b> <span>— 모션·조도. 붙이고 떼는 게 자유롭다</span></div>
 <div class="row"><b>조명 기구 · 드라이버</b> <span>— 교체 가능. 제어 방식은 깔린 선이 정한다</span></div>
 <div class="row"><b>허브 · 플랫폼</b> <span>— 바꿀 수 있다. 수고는 크지만 벽은 안 뜯는다</span></div>
-<div class="row"><b>씬 · 시나리오</b> <span>— 살면서 계속 바뀐다. 바뀌어야 정상이다</span></div>
+<div class="row"><b>씬 · 시나리오</b> <span>— 어떤 버튼·센서에 조명이 어떻게 반응할지의 정의. 살면서 계속 바뀐다. 바뀌어야 정상이다</span></div>
 </div>
 </div>
 
