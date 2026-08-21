@@ -74,7 +74,7 @@
     <!-- 스위치 박스 -->
     <rect x="650" y="300" width="230" height="110" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
     <text x="675" y="336" fill="#e9ecf2" font-size="19" font-weight="600">스마트 스위치</text>
-    <text x="675" y="362" fill="#e9ecf2" font-size="19" font-weight="600">/ 인너 릴레이</text>
+    <text x="675" y="362" fill="#e9ecf2" font-size="19" font-weight="600">/ 이너 릴레이</text>
     <text x="675" y="392" fill="#7dd97b" font-size="16">상시 전원 공급 ✓</text>
 
     <!-- 등기구: IEC 램프 기호, 상시 전원 -->

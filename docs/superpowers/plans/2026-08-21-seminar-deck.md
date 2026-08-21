@@ -307,7 +307,7 @@ git add .gitattributes seminar/assets && git commit -m "Set up Git LFS and video
 
 - [ ] **Step 2: control-map.svg — 제어 방식 지도**
 
-왼쪽→오른쪽 스펙트럼 축: "지금 정해야 한다(유선) ←→ 나중에도 된다(무선)". 노드 6개: 접점 스위치 / 스마트 스위치(중성선!) / 인너 릴레이 / 0-10V / DALI / Zigbee·Matter. 유선군은 #ffb454 계열 테두리, 무선군은 #58b7ff. 각 노드 아래 한 줄 특성.
+왼쪽→오른쪽 스펙트럼 축: "지금 정해야 한다(유선) ←→ 나중에도 된다(무선)". 노드 6개: 접점 스위치 / 스마트 스위치(중성선!) / 이너 릴레이 / 0-10V / DALI / Zigbee·Matter. 유선군은 #ffb454 계열 테두리, 무선군은 #58b7ff. 각 노드 아래 한 줄 특성.
 
 - [ ] **Step 3: process-flow.svg — 절차 6단계**
 
@@ -517,7 +517,7 @@ git add seminar && git commit -m "Add act 0 and act 1 slides"
 7. 접점 스위치 — fade out이 원리적으로 안 되는 이유 (전원을 끊으면 어두워질 에너지가 없다)
 7b. 일괄소등 스위치 — `.cols2` 대비: [아날로그: 모든 등의 전원을 물리 차단 → 스마트 기기도 통째로 오프라인] vs [스마트: "전체 소등" 씬에 매핑된 버튼 하나 → "일괄소등이 꺼져 있어 불이 안 들어온다"는 상황 자체가 없다]. Note: 전원을 끊는 제어에서 명령을 보내는 제어로의 전환을 가장 친숙한 스위치로 설명. 함정: 기존 일괄소등 릴레이를 물리 차단으로 남기면 상시 전원이 끊긴다 — 체크리스트로 연결
 8. `switchbox-neutral.svg` — **중성선**. Note: 이 발표의 실무 최대 이슈. 전기공사 때 N 한 가닥이면 끝날 일이 나중엔 벽 철거
-9. 인너 릴레이 — 사진 자리(`photos/inner-relay.jpg` 플레이스홀더), 스위치 뒤에 숨는 크기감
+9. 이너 릴레이 — 사진 자리(`photos/inner-relay.jpg` 플레이스홀더), 스위치 뒤에 숨는 크기감
 10. `dali-bus.svg` — 유선 제어. 미리 포설해야 하고, 대신 안정·표준
 11. `dc24v-cct.svg` — DC 24V 계열. 드라이버는 부하 근처 원칙 예고
 12. Zigbee·Matter — 나중에도 된다, 대신 RF·메시·전파 환경이라는 다른 값
@@ -632,7 +632,7 @@ git add seminar docs && git commit -m "Korean language pass and final verificati
 ## 계획 밖 (사용자 액션 대기)
 
 - 영상 촬영 (opening-scenes, stairs-sensor) → `seminar/assets/video/`에 파일명 규약대로
-- 사진 촬영 (분전함 내부, 스위치 박스 속, CV/CC 드라이버, 인너 릴레이, 24V 집결부) → `photos/`
+- 사진 촬영 (분전함 내부, 스위치 박스 속, CV/CC 드라이버, 이너 릴레이, 24V 집결부) → `photos/`
 - 조명 제어 도면 원본 정리
 - 나쁜 예 영상 확보 방법 결정
 - 발표 시간 확정 → notes.md 배분 조정
