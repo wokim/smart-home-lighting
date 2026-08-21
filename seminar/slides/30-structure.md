@@ -48,24 +48,30 @@ Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이
 
 ===
 
-## 한눈에 보는 제어 방식
+## 제어 방식 — 무엇이 어디까지 와 있어야 하는가
 
-<img class="diagram" src="assets/diagrams/control-map.svg" style="max-height:250px">
+<table>
+<tr><th>구분</th><th>방식</th><th>스위치 박스에 필요한 것</th><th>조명(드라이버)까지 필요한 것</th></tr>
+<tr><td class="grp" rowspan="3">제어 지점<br>(입력 장치)</td>
+  <td><span class="nm">일반 스위치</span><br><span class="d">전원을 직접 끊고 잇는다. 켜고 끄기만</span></td>
+  <td>L 왕복 2가닥 — 기존 그대로</td><td>스위치를 거친 L + N</td></tr>
+<tr><td><span class="nm">스마트 스위치</span><br><span class="d">스위치 자리에 통신 기능. 무선형이 대부분</span></td>
+  <td><strong>중성선</strong> — 상시 전원이 필요하므로</td><td>상시 전원 L·N</td></tr>
+<tr><td><span class="nm">이너 릴레이</span><br><span class="d">기존 스위치 뒤 입력 모듈. 일반 스위치를 스마트하게</span></td>
+  <td><strong>중성선</strong>(Wi-Fi·Zigbee형) 또는 <strong>DALI 버스 2가닥</strong>(커플러형, L·N 불필요)</td><td>상시 전원 L·N</td></tr>
+<tr><td class="grp" rowspan="3">명령 전달<br>(통신 방식)</td>
+  <td><span class="nm">0-10V</span> <span class="d">유선</span><br><span class="d">아날로그 전압으로 밝기 지시</span></td>
+  <td>—</td><td>전원선 + <strong>신호선 2가닥</strong>(극성 있음)</td></tr>
+<tr><td><span class="nm">DALI</span> <span class="d">유선</span><br><span class="d">드라이버마다 주소, 디지털 버스로 명령</span></td>
+  <td>커플러를 쓰면 버스 2가닥</td><td>전원선 + <strong>DALI 버스 2가닥</strong>(극성 무관)</td></tr>
+<tr><td><span class="nm">Zigbee · Wi-Fi · Matter</span> <span class="d">무선</span><br><span class="d">허브 기반. 스마트 스위치도 이걸로 말한다</span></td>
+  <td>—</td><td>상시 전원만. 추가 배선 없음 — 대신 전파 환경</td></tr>
+</table>
 
-<ul style="font-size:.62em;margin-top:0">
-<li><strong>접점 스위치</strong> — 전원을 직접 끊고 잇는 전통적인 벽 스위치. 켜고 끄는 것만 된다</li>
-<li><strong>스마트 스위치</strong> — 스위치 자리에 통신 기능이 들어간 것. 박스에 중성선이 있어야 상시 전원을 받는다</li>
-<li><strong>이너 릴레이</strong> — 기존 벽 스위치 뒤에 숨기는 입력 모듈. 상시 전원을 받아 스위치 조작을 신호로 보내고, 조명은 별도의 스마트 드라이버가 켜고 끈다. 일반 스위치를 스마트 스위치로 만든다</li>
-<li><strong>0-10V</strong> — 드라이버에 0~10V 아날로그 전압으로 밝기를 지시하는 유선 디밍 표준</li>
-<li><strong>DALI</strong> — 드라이버마다 주소를 주고 디지털 버스로 명령하는 유선 조명 제어 표준. 전원선 외에 DALI 통신선 2가닥을 따로 포설해야 한다</li>
-<li><strong>Zigbee · Matter</strong> — 허브 기반 무선. 배선 없이 기기를 붙일 수 있다</li>
-</ul>
-
-Note: 여기 나온 방식들을 하나씩 짚고 넘어간다. 전체 지도부터 먼저 보여드리는 이유는, 뒤에 나오는 각 방식이 이 지도 어디에 있는지 계속 돌아보기 위해서다. 왼쪽으로 갈수록 전원을 끊는 제어, 오른쪽으로 갈수록 명령을 보내는 제어.
-
+Note: 두 범주를 섞지 않는 게 핵심이다. 위는 사람이 만지는 제어 지점(장치), 아래는 그 명령이 조명까지 가는 길(통신). 스마트 스위치가 Zigbee일 수도 있다 — 장치와 통신은 다른 축이다. 각 칸의 배선 요구가 곧 전기공사 때 정해야 할 것들이고, 뒤 슬라이드에서 하나씩 짚는다.
 ===
 
-## 접점 스위치
+## 일반 스위치
 
 - 국내 주거의 기본값 — 대부분의 집이 여기서 시작한다
 - 하는 일은 전원을 물리적으로 끊거나 이어주는 것뿐이다

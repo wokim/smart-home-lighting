@@ -107,3 +107,12 @@ img.diagram { width:100%; max-height:555px; object-fit:contain; }
   line-height:1.3; margin:0 0 .4em; }
 .reveal .slides section.title h1 strong { font-weight:750; }
 .reveal .slides section.title .meta { font-size:.6em; color:var(--dim); margin-top:2.2em; }
+
+/* Tables: hairline, compact */
+.reveal table { border-collapse:collapse; width:100%; font-size:.56em; margin:0; }
+.reveal th { text-align:left; color:var(--muted); font-weight:600; letter-spacing:.06em;
+  font-size:.9em; padding:.5em .7em; border-bottom:1px solid var(--line); }
+.reveal td { padding:.6em .7em; border-bottom:1px solid rgba(255,255,255,.07); vertical-align:top; line-height:1.45; }
+.reveal td.grp { color:var(--dim); white-space:nowrap; font-size:.9em; letter-spacing:.04em; }
+.reveal td .nm { font-weight:650; color:var(--text); }
+.reveal td .d { color:var(--muted); font-size:.9em; }
