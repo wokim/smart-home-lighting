@@ -119,7 +119,7 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈이나 DALI 푸시버튼
 
 ## DALI — 유선 제어
 
-<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:520px">
+<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:440px">
 
 "DALI라서 빛이 좋다"는 오해가 있다 — DALI의 강점은 빛이 아니라 **제어의 표준화**다
 
