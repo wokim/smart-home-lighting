@@ -116,3 +116,12 @@ img.diagram { width:100%; max-height:555px; object-fit:contain; }
 .reveal td.grp { color:var(--dim); white-space:nowrap; font-size:.9em; letter-spacing:.04em; }
 .reveal td .nm { font-weight:650; color:var(--text); }
 .reveal td .d { color:var(--muted); font-size:.9em; }
+
+/* Two-column decision lists (irreversibility) */
+.decide { display:grid; grid-template-columns:1fr 1fr; gap:1.1em; font-size:.62em; }
+.decide .col h4 { font-size:1em; font-weight:700; letter-spacing:.08em; margin:0 0 .5em; padding-bottom:.4em; border-bottom:1px solid var(--line); }
+.decide .col.now h4 { color:var(--red); } .decide .col.later h4 { color:var(--green); }
+.decide .col h4 small { display:block; font-weight:400; letter-spacing:0; color:var(--muted); font-size:.85em; margin-top:.2em; }
+.decide .row { padding:.45em 0; border-bottom:1px solid rgba(255,255,255,.06); line-height:1.45; }
+.decide .row b { color:var(--text); font-weight:650; }
+.decide .row span { color:var(--muted); }

@@ -199,8 +199,26 @@ Note: 건축주 입장에서 실제로 매일 만지는 건 플랫폼 앱이 아
 
 ===
 
-## 비가역성의 축
+## 벽이 닫히기 전에 정해야 하는 것, 나중에도 되는 것
 
-<img class="diagram" src="assets/diagrams/irreversibility.svg">
+<div class="decide">
+<div class="col now">
+<h4>지금뿐 <small>전기공사와 함께 끝난다 — 나중엔 벽을 뜯어야 한다</small></h4>
+<div class="row"><b>중성선</b> <span>— 스위치 박스마다. 없으면 스마트 스위치·입력 모듈에 상시 전원을 줄 수 없다</span></div>
+<div class="row"><b>제어선</b> <span>— DALI 버스 2가닥, 0-10V 신호선. 유선 제어는 이 선이 없으면 선택지에서 사라진다</span></div>
+<div class="row"><b>제어함 직결 배선</b> <span>— 등기구별 전용선이 제어함까지. 스위치에서 묶이면 개별 제어가 불가능하다</span></div>
+<div class="row"><b>조명 분전함 자리</b> <span>— 모든 제어선이 모이는 점. 위치·발열·여장을 함께 정한다</span></div>
+<div class="row"><b>빌트인 가구 조명 배선</b> <span>— 가구 발주 전에 확정해야 한다</span></div>
+<div class="row"><b>일괄소등 회로</b> <span>— 물리 차단이 상시 전원을 끊지 않도록 처리</span></div>
+</div>
+<div class="col later">
+<h4>나중에도 <small>기기는 바꿀 수 있다 — 단, 위의 배선 조건 안에서</small></h4>
+<div class="row"><b>스위치</b> <span>— 일반 → 스마트, 입력 모듈 추가. 중성선만 있으면</span></div>
+<div class="row"><b>센서</b> <span>— 모션·조도. 붙이고 떼는 게 자유롭다</span></div>
+<div class="row"><b>조명 기구 · 드라이버</b> <span>— 교체 가능. 제어 방식은 깔린 선이 정한다</span></div>
+<div class="row"><b>허브 · 플랫폼</b> <span>— 바꿀 수 있다. 수고는 크지만 벽은 안 뜯는다</span></div>
+<div class="row"><b>씬 · 시나리오</b> <span>— 살면서 계속 바뀐다. 바뀌어야 정상이다</span></div>
+</div>
+</div>
 
-Note: 3막 전체가 여기로 착지한다. 벽이 닫히는 순간 전에 정해야 할 것들이다.
+Note: 3막 전체가 여기로 착지한다. 왼쪽은 콘크리트가 아니라 석고보드가 닫히는 순간 끝나는 것들이고, 오른쪽은 살면서 바꿔도 되는 것들이다. 오늘 드리는 체크리스트의 본문이 왼쪽 열이다. 유선이냐 무선이냐의 선택도 결국 "왼쪽에 무엇을 넣어둘 것인가"의 문제다 — 선을 넣어두면 나중에 유선도 무선도 고를 수 있고, 안 넣어두면 무선만 남는다.
