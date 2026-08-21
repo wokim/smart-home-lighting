@@ -5,7 +5,7 @@
 
 ===
 
-## 조명은 세 겹입니다
+## 조명 품질을 결정하는 세 층 — 광원, 드라이버, 제어
 
 <img class="diagram" src="assets/diagrams/three-layers.svg">
 
