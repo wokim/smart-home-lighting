@@ -240,7 +240,7 @@ Note: 건축주 입장에서 실제로 매일 만지는 건 플랫폼 앱이 아
 <div class="row"><b>제어선</b> <span>— DALI 버스 2가닥, 0-10V 신호선. 유선 제어는 이 선이 없으면 선택지에서 사라진다</span></div>
 <div class="row"><b>조명 분전함 자리</b> <span>— DALI 파워·마스터, 컨트롤러가 들어갈 자리. 모든 제어선이 여기로 모이므로 위치를 먼저 정한다</span></div>
 <div class="row"><b>빌트인 가구 조명 배선</b> <span>— 가구 발주 전에 확정해야 한다</span></div>
-<div class="row"><b>일괄소등 회로</b> <span>— 물리 차단이 상시 전원을 끊지 않도록 처리</span></div>
+<div class="row"><b>일괄소등 회로</b> <span>— 씬 스위치로 대체한다. 물리 차단 회로를 두지 않는다</span></div>
 </div>
 <div class="col later">
 <h4>나중에 바꿀 수 있는 것 <small>기기와 설정 — 단, 왼쪽의 배선 조건 안에서</small></h4>
