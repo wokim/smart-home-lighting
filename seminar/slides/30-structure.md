@@ -113,7 +113,7 @@ Note: 이 발표에서 실무적으로 제일 큰 이슈다. 전기공사 때 N 
 
 ## 이너 릴레이 — 일반 스위치를 스마트 스위치로
 
-<img class="diagram" src="assets/diagrams/inner-relay.svg" style="max-height:440px">
+<img class="diagram" src="assets/diagrams/inner-relay.svg" style="max-height:395px">
 
 - 기존 스위치 뒤의 **입력 모듈**이 조작을 신호로 보내고, 조명은 별도의 스마트 드라이버가 켜고 끈다 — 스위치는 전원을 끊지 않으니 봉인 불필요. 조건: 박스에 **중성선** 또는 **DALI 버스**
 
