@@ -7,7 +7,7 @@
 
 ## 설계 → 시공 도면 → 시공 → 설정
 
-<img class="diagram" src="assets/diagrams/process-flow.svg" style="max-height:330px">
+<img class="diagram" src="assets/diagrams/process-flow.svg" style="max-height:250px">
 
 - 설계에서 그룹·씬을 구상하고 제어 방식과 제품을 정한다 — 결선도가 제품에 따라 다르므로 제품 선정은 도면보다 먼저다
 - 시공 도면에 물리적인 결선과 위치를 전부 담고, 시공하고, **설정**한다
