@@ -84,12 +84,9 @@
     <line x1="1030.4" y1="316.6" x2="1003.6" y2="343.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
     <text x="1017" y="398" fill="#8b93a5" font-size="16" text-anchor="middle">등기구 — 상시 전원</text>
 
-    <!-- 무선 제어 -->
-    <path d="M 890 355 Q 945 320 968 335" fill="none" stroke="#58b7ff" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
-    <path d="M 900 341 a 14 14 0 0 1 0 28" fill="none" stroke="#58b7ff" stroke-width="2" stroke-linecap="round"/>
-    <path d="M 906 333 a 22 22 0 0 1 0 44" fill="none" stroke="#58b7ff" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
-    <text x="928" y="310" fill="#58b7ff" font-size="15" text-anchor="middle">무선 제어</text>
-
+    <!-- 제어 신호 -->
+    <line x1="884" y1="352" x2="968" y2="340" stroke="#8b93a5" stroke-width="2" stroke-dasharray="3 8" stroke-linecap="round"/>
+    <text x="928" y="322" fill="#8b93a5" font-size="15" text-anchor="middle">제어 신호</text>
     <text x="905" y="480" fill="#7dd97b" font-size="21" font-weight="600" text-anchor="middle">상시 전원이 들어오는 등기구를 제어한다</text>
   </g>
 
