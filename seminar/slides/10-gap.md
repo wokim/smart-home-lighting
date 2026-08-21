@@ -22,7 +22,7 @@ Note: 건축주가 IoT 얘기를 꺼냈을 때 실제로 돌아오는 세 가지
 ## 시중의 '스마트 다운라이트'가 약속하는 것
 
 <div class="cols2">
-<div><img src="assets/photos/downlight-product.jpg" style="width:100%;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.4em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
+<div><img src="assets/photos/downlight-product.jpg" style="width:100%;max-height:460px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.4em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
 <div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:460px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.4em">리모컨이 제공하는 제어의 전부 — 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 · 채널 1~4</p></div>
 </div>
 
