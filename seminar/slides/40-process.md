@@ -1,7 +1,7 @@
 <!-- .slide: class="act" -->
 <div class="no">4</div>
 
-## 절차
+## 설계에서 운영까지의 절차
 
 ===
 

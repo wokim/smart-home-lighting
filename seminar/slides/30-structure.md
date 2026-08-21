@@ -1,7 +1,7 @@
 <!-- .slide: class="act" -->
 <div class="no">3</div>
 
-## 알아야 할 구조
+## 조명제어의 구조
 
 ===
 

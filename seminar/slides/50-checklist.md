@@ -1,7 +1,7 @@
 <!-- .slide: class="act" -->
 <div class="no">5</div>
 
-## 체크리스트
+## 단계별 체크리스트
 
 ===
 
