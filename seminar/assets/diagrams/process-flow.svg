@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<svg viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
   <defs>
     <marker id="flowArrowPF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#5a6274" stroke-width="1.6" stroke-linecap="round"/>
@@ -7,33 +7,40 @@
       <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#ffb454" stroke-width="1.6" stroke-linecap="round"/>
     </marker>
   </defs>
+  <!-- spine -->
+  <line x1="80" y1="150" x2="1120" y2="150" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1"/>
 
-  <!-- step index -->
-  <text x="130" y="270" fill="#5a6274" font-size="18" text-anchor="middle">1</text>
-  <text x="314" y="270" fill="#5a6274" font-size="18" text-anchor="middle">2</text>
-  <text x="498" y="270" fill="#5a6274" font-size="18" text-anchor="middle">3</text>
-  <text x="682" y="270" fill="#5a6274" font-size="18" text-anchor="middle">4</text>
-  <text x="866" y="270" fill="#5a6274" font-size="18" text-anchor="middle">5</text>
-  <text x="1050" y="270" fill="#5a6274" font-size="18" text-anchor="middle">6</text>
+  <!-- nodes -->
+  <g text-anchor="middle">
+    <text x="170" y="70" fill="#5a6274" font-size="17">1</text>
+    <text x="170" y="118" fill="#e9ecf2" font-size="30" font-weight="600">설계</text>
+    <text x="170" y="192" fill="#8b93a5" font-size="16">그룹 · 씬 구상</text>
+    <text x="170" y="216" fill="#8b93a5" font-size="16">제어 방식 · 제품 선정</text>
 
-  <!-- step names -->
-  <text x="130" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">설계</text>
-  <text x="314" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">조명 제어 도면</text>
-  <text x="498" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">제품 선정</text>
-  <text x="682" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">시공</text>
-  <text x="866" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">설정</text>
-  <text x="1050" y="310" fill="#ffb454" font-size="28" font-weight="600" text-anchor="middle">피드백 루프</text>
+    <text x="410" y="70" fill="#5a6274" font-size="17">2</text>
+    <text x="410" y="118" fill="#e9ecf2" font-size="30" font-weight="600">시공 도면</text>
+    <text x="410" y="192" fill="#8b93a5" font-size="16">결선도 · 드라이버 위치</text>
+    <text x="410" y="216" fill="#8b93a5" font-size="16">중성선 · 제어선 · 분전반</text>
 
-  <!-- spine arrows -->
-  <line x1="162" y1="340" x2="227" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
-  <line x1="401" y1="340" x2="429" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
-  <line x1="567" y1="340" x2="650" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
-  <line x1="714" y1="340" x2="834" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
-  <line x1="898" y1="340" x2="981" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+    <text x="650" y="70" fill="#5a6274" font-size="17">3</text>
+    <text x="650" y="118" fill="#e9ecf2" font-size="30" font-weight="600">시공</text>
+    <text x="650" y="192" fill="#8b93a5" font-size="16">전기 · 가구 · 조명</text>
+    <text x="650" y="216" fill="#8b93a5" font-size="16">주체를 미리 가른다</text>
 
-  <!-- feedback loop: 피드백 루프 -> 설정 -->
-  <path d="M1050,362 C1050,432 866,432 866,362" fill="none" stroke="#ffb454" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#flowArrowAmberPF)"/>
+    <text x="890" y="70" fill="#5a6274" font-size="17">4</text>
+    <text x="890" y="118" fill="#ffb454" font-size="30" font-weight="600">설정</text>
+    <text x="890" y="192" fill="#8b93a5" font-size="16">허브 등록 · 그룹 · 씬</text>
+    <text x="890" y="216" fill="#8b93a5" font-size="16">스위치 · 센서 로직</text>
 
-  <!-- caption -->
-  <text x="600" y="595" fill="#5a6274" font-size="20" letter-spacing="0.3" text-anchor="middle">도면은 고정되고, 시나리오는 계속 바뀐다</text>
+    <text x="1090" y="118" fill="#8b93a5" font-size="22" font-weight="500">생활</text>
+  </g>
+
+  <!-- arrows -->
+  <line x1="240" y1="150" x2="330" y2="150" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="500" y1="150" x2="590" y2="150" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="710" y1="150" x2="820" y2="150" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="950" y1="150" x2="1050" y2="150" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <!-- loop: 생활 → 설정 -->
+  <path d="M1090,240 C1090,290 890,290 890,240" fill="none" stroke="#ffb454" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#flowArrowAmberPF)"/>
+  <text x="990" y="312" fill="#ffb454" font-size="15" text-anchor="middle">살면서 계속 바뀐다</text>
 </svg>
