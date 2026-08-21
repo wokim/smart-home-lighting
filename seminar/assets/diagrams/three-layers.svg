@@ -22,7 +22,7 @@
 
   <!-- layer 2: 드라이버 -->
   <text x="80" y="302" font-size="46" font-weight="250" fill="#e9ecf2" letter-spacing="-1">드라이버</text>
-  <text x="80" y="342" font-size="24" font-weight="600" fill="#ffb454">그 빛을 얼마나 잘 구동하는가</text>
+  <text x="80" y="342" font-size="24" font-weight="600" fill="#ffb454">명령대로 그 빛을 얼마나 매끄럽게 내는가</text>
   <text x="80" y="377" font-size="19" fill="#8b93a5" letter-spacing="0.2">CC/CV 구동 · PWM / CCR / 하이브리드 디밍 방식</text>
   <text x="80" y="406" font-size="19" fill="#8b93a5" letter-spacing="0.2">디밍 레인지(100→0.1%) · low-end 안정성 · 디밍 커브 · fade · 플리커 · 디밍 중 색 안정성</text>
 
