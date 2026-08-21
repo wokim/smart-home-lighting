@@ -42,5 +42,5 @@
   <text x="1040" y="646" font-size="19" fill="#8b93a5" text-anchor="middle" letter-spacing="2">빛</text>
 
   <!-- caption -->
-  <text x="80" y="646" font-size="19" fill="#5a6274" letter-spacing="0.5">세 층은 서로를 대신하지 못한다 — 한 층의 결함은 다른 층의 좋은 부품으로 덮이지 않는다</text>
+  <text x="80" y="646" font-size="19" fill="#5a6274" letter-spacing="0.5">세 레이어는 서로를 대신하지 못한다 — 한 레이어의 결함은 다른 레이어의 좋은 부품으로 덮이지 않는다</text>
 </svg>
