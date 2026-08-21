@@ -50,9 +50,9 @@ Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이
 
 ## 한눈에 보는 제어 방식
 
-<img class="diagram" src="assets/diagrams/control-map.svg" style="max-height:270px">
+<img class="diagram" src="assets/diagrams/control-map.svg" style="max-height:235px">
 
-<ul style="font-size:.66em;margin-top:.2em">
+<ul style="font-size:.62em;margin-top:0">
 <li><strong>접점 스위치</strong> — 전원을 직접 끊고 잇는 전통적인 벽 스위치. 켜고 끄는 것만 된다</li>
 <li><strong>스마트 스위치</strong> — 스위치 자리에 통신 기능이 들어간 것. 박스에 중성선이 있어야 상시 전원을 받는다</li>
 <li><strong>이너 릴레이</strong> — 등기구 쪽 천장 박스에 숨기는 소형 릴레이. 무선(Wi-Fi·Zigbee)으로 릴레이를 열고 닫아 전원을 제어하고, 기존 벽 스위치는 입력으로 살린다</li>
