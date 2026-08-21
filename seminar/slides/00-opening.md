@@ -3,7 +3,8 @@
 
 # 주거 <strong>조명제어</strong>의 실제
 
-<div class="meta">설계 · 시공 · 운영 &nbsp;&nbsp;|&nbsp;&nbsp; 김원식 — 건축주 · IT 업계 20년</div>
+<div class="meta">설계 · 시공 · 운영</div>
+<div class="meta" style="margin-top:.6em;color:#98a1b5">김원식 — 집을 지은 소프트웨어 엔지니어</div>
 
 Note: 인사 두 문장. 외국계 IT에서 20년, 지금은 해외 업체 CTO. 그리고 인증주택을 지은 건축주. 오늘은 그 두 입장이 겹치는 자리에서 말씀드린다.
 
