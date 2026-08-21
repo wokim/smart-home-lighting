@@ -49,11 +49,12 @@ Note: 준공하고 끝나는 관계가 아니라는 걸 계약 단계에서부�
 
 ===
 
-<!-- .slide: class="statement" -->
-> 조명제어는 사다 다는 제품이 아니라 **설계**입니다
+<!-- .slide: class="title" data-background-color="#0a0c10" -->
+<div class="over">한국패시브건축협회 세미나</div>
 
-<p class="muted">그리고 그 설계에는 되돌릴 수 없는 시점이 있습니다</p>
+# 감사합니다
 
-<p class="muted">[연락처]</p>
+<div class="meta">김원식 — 건축주 / 소프트웨어 엔지니어</div>
+<div class="meta" style="margin-top:.6em;color:#98a1b5">[연락처]</div>
 
 Note: 유인물로 나눠드린 체크리스트가 오늘 얘기한 항목들을 정리한 것이다. 시공 들어가기 전에 다시 한번 확인하시면 된다.
