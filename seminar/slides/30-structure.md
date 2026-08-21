@@ -119,7 +119,7 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈이나 DALI 푸시버튼
 
 ## DALI — 유선 제어
 
-<img class="diagram" src="assets/diagrams/dali-bus.svg">
+<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:520px">
 
 "DALI라서 빛이 좋다"는 오해가 있다 — DALI의 강점은 빛이 아니라 **제어의 표준화**다
 
@@ -152,6 +152,7 @@ Note: 유선만큼 안정적이지 않다는 뜻이 아니라, 신경 써야 할
 - **제어 방식**은 빛 자체가 아니라, 명령이 얼마나 신뢰성 있고 정확하고 빠르게 전달되는지를 결정한다
 
 Note: 이 구분이 이번 막 전체의 기준이다. "비싼 제어 방식을 쓰면 빛이 좋아진다"는 혼동이 여기서 생긴다 — 제어는 명령의 품질이고, 빛의 품질은 광원과 드라이버 몫이다. 여기까지가 구조. 다음은 이걸 무엇으로 묶느냐 — 플랫폼.
+
 ===
 
 ## 플랫폼
