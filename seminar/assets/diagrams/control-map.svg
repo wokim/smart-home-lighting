@@ -1,8 +1,8 @@
 <svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
 
   <!-- axis -->
-  <text x="80" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="start">지금 정해야 한다(유선)</text>
-  <text x="1120" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="end">나중에도 된다(무선)</text>
+  <text x="80" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="start">지금 정해야 함(유선)</text>
+  <text x="1120" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="end">나중에도 됨(무선)</text>
   <line x1="80" y1="200" x2="1120" y2="200" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
 
   <!-- ticks -->
