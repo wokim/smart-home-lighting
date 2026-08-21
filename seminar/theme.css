@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('vendor/fonts/PretendardVariable.woff2') format('woff2') tech('variations'),
+       url('vendor/fonts/PretendardVariable.woff2') format('woff2-variations'),
+       url('vendor/fonts/PretendardVariable.woff2') format('woff2');
+  font-weight: 45 920; font-display: swap;
+}
+:root {
+  --bg:#0b0d12; --surface:rgba(255,255,255,.04); --line:rgba(255,255,255,.14);
+  --text:#e9ecf2; --muted:#8b93a5; --dim:#5a6274;
+  --amber:#ffb454; --amber-soft:rgba(255,180,84,.14);
+  --blue:#58b7ff; --red:#ff6b6b; --green:#7dd97b;
+}
+/* reveal.css alone ships no theme — style directly, no --r-* indirection */
+.reveal-viewport { background: var(--bg); }
+.reveal { font-family:'Pretendard','Apple SD Gothic Neo',sans-serif; font-size:32px;
+  color:var(--text); }
+.reveal h1, .reveal h2, .reveal h4 { color:var(--text); font-family:inherit;
+  margin:0 0 .5em; text-transform:none; }
+.reveal a { color:var(--blue); text-decoration:none; }
+.reveal .slides section, .reveal .slides section>section { line-height:1.6; font-weight:inherit; }
+.reveal { font-weight:400; letter-spacing:-0.015em; line-height:1.6; }
+.reveal .slides section { text-align:left; padding:8px 20px; }
+
+/* Typography: thin-large, bold-small */
+.reveal h1 { font-size:2.2em; font-weight:250; letter-spacing:-0.03em; line-height:1.25; }
+.reveal h2 { font-size:1.55em; font-weight:250; letter-spacing:-0.025em; margin-bottom:.9em; }
+.reveal h2 strong, .reveal h1 strong { font-weight:750; color:var(--text); }
+.reveal h3 { font-size:.62em; font-weight:700; color:var(--amber);
+  letter-spacing:.18em; text-transform:uppercase; margin-bottom:1.6em; }
+.reveal strong { color:var(--amber); font-weight:650; }
+.reveal p, .reveal li { color:var(--text); }
+.reveal .muted { color:var(--muted); }
+
+/* Lists: thin amber dash, airy */
+.reveal ul { list-style:none; margin-left:0; }
+.reveal ul li { margin:.55em 0; padding-left:1.1em; position:relative; }
+.reveal ul li::before { content:""; position:absolute; left:0; top:.72em;
+  width:.55em; height:2px; background:var(--amber); opacity:.75; }
+.reveal ol { margin-left:1.2em; } .reveal ol li { margin:.55em 0; padding-left:.3em; }
+.reveal ol li::marker { color:var(--amber); font-weight:650; }
+
+/* Quote → quiet emphasis panel */
+.reveal blockquote { background:var(--surface); border:1px solid var(--line);
+  border-left:2px solid var(--amber); border-radius:2px;
+  padding:.7em 1em; font-style:normal; width:100%; box-shadow:none; }
+
+/* Act divider: giant thin number with glow dot */
+.reveal .slides section.act { text-align:center; }
+.reveal .slides section.act .no { font-size:6.5em; font-weight:150; letter-spacing:-0.04em;
+  color:var(--text); line-height:1; position:relative; display:inline-block; }
+.reveal .slides section.act .no::after { content:""; position:absolute; right:-.28em; bottom:.14em;
+  width:.16em; height:.16em; border-radius:50%; background:var(--amber);
+  box-shadow:0 0 .35em .06em rgba(255,180,84,.8), 0 0 1.2em .3em rgba(255,180,84,.25); }
+.reveal .slides section.act h2 { font-size:1.7em; font-weight:300; margin-top:.6em; text-align:center; }
+
+/* Statement: one huge thin sentence */
+.statement { display:flex; align-items:center; justify-content:center; min-height:13em; }
+.statement > * { font-size:1.75em; font-weight:250; text-align:center; line-height:1.55;
+  letter-spacing:-0.02em; }
+.statement blockquote { background:none; border:none; padding:0; }
+
+/* Two columns + good/bad — hairline, not colored boxes */
+.cols2 { display:grid; grid-template-columns:1fr 1fr; gap:1.2em; }
+.bad,.good { background:var(--surface); border:1px solid var(--line);
+  border-radius:4px; padding:.8em 1em; font-size:.85em; }
+.bad h4,.good h4 { font-size:.7em; font-weight:700; letter-spacing:.15em;
+  margin-bottom:.7em; text-transform:uppercase; }
+.bad h4 { color:var(--red); } .good h4 { color:var(--green); }
+
+.card { background:var(--surface); border:1px solid var(--line); border-radius:4px;
+  padding:.8em 1em; font-size:.85em; }
+
+.src { font-size:.5em; color:var(--dim); position:absolute; bottom:-1.6em; letter-spacing:.02em; }
+video.full { width:100%; max-height:620px; border-radius:4px; background:#000; }
+img.diagram { width:100%; max-height:555px; object-fit:contain; }
+
+/* Subtle vignette on every slide */
+.reveal .backgrounds { background:
+  radial-gradient(120% 90% at 50% 8%, rgba(255,180,84,.045), transparent 55%), var(--bg); }

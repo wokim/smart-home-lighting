@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <marker id="flowArrowPF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#5a6274" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="flowArrowAmberPF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#ffb454" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <!-- step index -->
+  <text x="130" y="270" fill="#5a6274" font-size="18" text-anchor="middle">1</text>
+  <text x="314" y="270" fill="#5a6274" font-size="18" text-anchor="middle">2</text>
+  <text x="498" y="270" fill="#5a6274" font-size="18" text-anchor="middle">3</text>
+  <text x="682" y="270" fill="#5a6274" font-size="18" text-anchor="middle">4</text>
+  <text x="866" y="270" fill="#5a6274" font-size="18" text-anchor="middle">5</text>
+  <text x="1050" y="270" fill="#5a6274" font-size="18" text-anchor="middle">6</text>
+
+  <!-- step names -->
+  <text x="130" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">설계</text>
+  <text x="314" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">조명 제어 도면</text>
+  <text x="498" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">제품 선정</text>
+  <text x="682" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">시공</text>
+  <text x="866" y="310" fill="#e9ecf2" font-size="28" font-weight="600" text-anchor="middle">설정</text>
+  <text x="1050" y="310" fill="#ffb454" font-size="28" font-weight="600" text-anchor="middle">피드백 루프</text>
+
+  <!-- spine arrows -->
+  <line x1="162" y1="340" x2="227" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="401" y1="340" x2="429" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="567" y1="340" x2="650" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="714" y1="340" x2="834" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+  <line x1="898" y1="340" x2="981" y2="340" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
+
+  <!-- feedback loop: 피드백 루프 -> 설정 -->
+  <path d="M1050,362 C1050,432 866,432 866,362" fill="none" stroke="#ffb454" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#flowArrowAmberPF)"/>
+
+  <!-- caption -->
+  <text x="600" y="595" fill="#5a6274" font-size="20" letter-spacing="0.3" text-anchor="middle">도면은 고정되고, 시나리오는 계속 바뀐다</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <radialGradient id="lampGlowDC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd9a0" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#ffb454" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffb454" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="distArrowDC" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#5a6274" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <!-- AC 220V -> SMPS -->
+  <text x="120" y="305" fill="#e9ecf2" font-size="18" text-anchor="middle">AC 220V</text>
+  <line x1="80" y1="320" x2="160" y2="320" stroke="#e9ecf2" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="160" y="280" width="160" height="80" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="240" y="316" fill="#e9ecf2" font-size="24" font-weight="500" text-anchor="middle">SMPS</text>
+  <text x="240" y="342" fill="#8b93a5" font-size="14" text-anchor="middle">AC → DC</text>
+
+  <!-- SMPS -> CCT 드라이버 (DC 24V) -->
+  <text x="405" y="293" fill="#ff6b6b" font-size="17" text-anchor="middle">24V+</text>
+  <line x1="320" y1="305" x2="490" y2="305" stroke="#ff6b6b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="320" y1="335" x2="490" y2="335" stroke="#5a6170" stroke-width="3" stroke-linecap="round"/>
+  <text x="405" y="323" fill="#5a6170" font-size="17" font-weight="600" text-anchor="middle">24V−</text>
+
+  <rect x="490" y="280" width="190" height="80" rx="6" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="585" y="312" fill="#e9ecf2" font-size="20" font-weight="500" text-anchor="middle">CCT 드라이버</text>
+  <text x="585" y="337" fill="#8b93a5" font-size="15" text-anchor="middle">/ 컨트롤러</text>
+
+  <!-- CCT 드라이버 -> 등기구 (V+ / Warm / Cold) -->
+  <text x="845" y="279" fill="#ff6b6b" font-size="16" text-anchor="middle">V+</text>
+  <line x1="680" y1="291" x2="1000" y2="291" stroke="#ff6b6b" stroke-width="3" stroke-linecap="round"/>
+  <text x="845" y="313" fill="#ffb454" font-size="16" text-anchor="middle">Warm</text>
+  <line x1="680" y1="325" x2="1000" y2="325" stroke="#ffb454" stroke-width="3" stroke-linecap="round"/>
+  <line x1="680" y1="359" x2="1000" y2="359" stroke="#58b7ff" stroke-width="3" stroke-linecap="round"/>
+  <text x="845" y="381" fill="#58b7ff" font-size="16" text-anchor="middle">Cold</text>
+
+  <!-- 등기구 (lamp) -->
+  <circle cx="1050" cy="320" r="40" fill="url(#lampGlowDC)"/>
+  <circle cx="1050" cy="320" r="10" fill="#ffd9a0"/>
+  <text x="1050" y="392" fill="#e9ecf2" font-size="18" text-anchor="middle">등기구</text>
+  <text x="1050" y="414" fill="#8b93a5" font-size="14" text-anchor="middle">(CCT 모듈)</text>
+
+  <!-- distance annotation between driver and load -->
+  <line x1="692" y1="440" x2="998" y2="440" stroke="#5a6274" stroke-width="1.5" marker-start="url(#distArrowDC)" marker-end="url(#distArrowDC)"/>
+  <text x="845" y="462" fill="#5a6274" font-size="18" text-anchor="middle">거리</text>
+
+  <!-- caption -->
+  <text x="600" y="530" fill="#5a6274" font-size="20" letter-spacing="0.3" text-anchor="middle">24V는 거리가 길수록 전압강하 — 드라이버는 부하 근처에</text>
+</svg>
