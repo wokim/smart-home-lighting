@@ -35,13 +35,15 @@ Note: 니즈는 구체적이고 복합적이다. 0막 영상의 네 가지가 �
 ===
 
 <!-- .slide: class="hero-fade" -->
-<h3>밝기 제어</h3>
+<h3>실제 니즈 — 밝기 제어</h3>
 
-# 스르륵 켜지고, 스르륵 꺼지는 조명은<br><strong>고급스러워 보입니다</strong>
+# 스르륵 켜지고, 스르륵 꺼지는 조명은<br>고급스러워 보입니다
 
-<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:320px"><source src="assets/video/stairs-sensor.mp4"></video>
+<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:290px"><source src="assets/video/stairs-sensor.mp4"></video>
 
-Note: 핵심은 편의가 아니라 고급감이다. 탁 켜지는 집과 부드럽게 차오르는 집 — 같은 기구라도 공간의 급이 달라진다. 페이드가 되는 순간 조명이 설비에서 연출이 된다. (색온도 얘기가 나오면: 살아보니 체감 가치는 색온도가 아니라 디밍이더라 — 낮엔 태양이 이기고 밤엔 높은 색온도를 안 쓴다. 기구 선정에서 다시.)
+건축주의 니즈는 결국 이런 <strong>고급스러움</strong>입니다
+
+Note: 앞 슬라이드 니즈 목록의 결론. 핵심은 편의가 아니라 고급감이다 — 탁 켜지는 집과 부드럽게 차오르는 집은 같은 기구라도 공간의 급이 다르다. 아기 재울 때, 밤에 화장실 갈 때 좋은 건 덤. (색온도 얘기가 나오면: 살아보니 체감 가치는 색온도가 아니라 디밍이더라 — 낮엔 태양이 이기고 밤엔 높은 색온도를 안 쓴다. 기구 선정에서 다시.)
 
 ===
 
