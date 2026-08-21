@@ -53,12 +53,12 @@ Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이
 <div class="card">
 <h4 style="color:#ffb454;font-size:.72em;letter-spacing:.1em;margin-bottom:.5em">CC — 정전류</h4>
 <span class="muted" style="font-size:.85em">LED에 흐르는 전류를 일정하게 유지한다. 다운라이트·스폿처럼 <b>점광원, 등기구 1:1</b></span><br><br>
-<span style="font-size:.85em">+ 선로 거리에 둔감하다 · 디밍 품질을 내기 좋다 · 등기구 옆 타공 안에 들어가 점검이 쉽다<br>− 등기구 수만큼 드라이버가 필요하고, 등기구별 전류 규격(mA)을 맞춰야 한다</span>
+<span style="font-size:.85em">+ LED 전류를 직접 다루므로 <b>미세한 디밍에 유리</b>하다 — 아주 낮은 밝기까지 부드럽게 · 선로 거리에 둔감 · 타공 안에 들어가 점검이 쉽다<br>− 등기구 수만큼 드라이버가 필요하고, 등기구별 전류 규격(mA)을 맞춰야 한다</span>
 </div>
 <div class="card">
 <h4 style="color:#58b7ff;font-size:.72em;letter-spacing:.1em;margin-bottom:.5em">CV — 정전압 (보통 24V)</h4>
 <span class="muted" style="font-size:.85em">24V를 일정하게 공급하고, 전류 제한은 스트립 쪽에서 한다. 스트립·간접등처럼 <b>길이가 가변인 선광원</b></span><br><br>
-<span style="font-size:.85em">+ 드라이버 하나로 여러 스트립 · 길이 조절과 교체가 자유롭다<br>− 거리가 길수록 전압강하 → 부하 가까이 둬야 한다 · 용량이 크면 부피도 커서 보관 자리가 필요하다</span>
+<span style="font-size:.85em">+ <b>쓰기 편하다</b> — 드라이버 하나로 여러 스트립, 길이 조절과 교체가 자유롭다<br>− 전압을 끊어 조절하는 방식이라 <b>세밀한 디밍은 상대적으로 약하다</b>(저가품은 low-end·플리커가 아쉽다) · 거리가 길수록 전압강하 → 부하 가까이 · 부피가 커서 보관 자리가 필요하다</span>
 </div>
 </div>
 
