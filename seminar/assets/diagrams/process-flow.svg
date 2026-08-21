@@ -15,7 +15,7 @@
     <text x="170" y="70" fill="#5a6274" font-size="17">1</text>
     <text x="170" y="118" fill="#e9ecf2" font-size="30" font-weight="600">설계</text>
     <text x="170" y="192" fill="#8b93a5" font-size="16">그룹 · 씬 구상</text>
-    <text x="170" y="216" fill="#8b93a5" font-size="16">제어 방식 · 제품 선정</text>
+    <text x="170" y="216" fill="#8b93a5" font-size="16">제어 방식 · 제품 결정 · 초기 시나리오</text>
 
     <text x="410" y="70" fill="#5a6274" font-size="17">2</text>
     <text x="410" y="118" fill="#e9ecf2" font-size="30" font-weight="600">시공 도면</text>
@@ -29,8 +29,8 @@
 
     <text x="890" y="70" fill="#5a6274" font-size="17">4</text>
     <text x="890" y="118" fill="#ffb454" font-size="30" font-weight="600">설정</text>
-    <text x="890" y="192" fill="#8b93a5" font-size="16">허브 등록 · 그룹 · 씬</text>
-    <text x="890" y="216" fill="#8b93a5" font-size="16">스위치 · 센서 로직</text>
+    <text x="890" y="192" fill="#8b93a5" font-size="16">허브 등록 및 시나리오 구현</text>
+    <text x="890" y="216" fill="#8b93a5" font-size="15">그룹 · 씬 · 스위치 매핑 · 센서 로직</text>
 
     <text x="1090" y="118" fill="#8b93a5" font-size="22" font-weight="500">생활</text>
   </g>
@@ -42,5 +42,5 @@
   <line x1="950" y1="150" x2="1050" y2="150" stroke="#5a6274" stroke-width="1.5" marker-end="url(#flowArrowPF)"/>
   <!-- loop: 생활 → 설정 -->
   <path d="M1090,240 C1090,290 890,290 890,240" fill="none" stroke="#ffb454" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#flowArrowAmberPF)"/>
-  <text x="990" y="312" fill="#ffb454" font-size="15" text-anchor="middle">살면서 계속 바뀐다</text>
+  <text x="990" y="312" fill="#ffb454" font-size="15" text-anchor="middle">시나리오가 바뀌면 설정도 따라간다</text>
 </svg>
