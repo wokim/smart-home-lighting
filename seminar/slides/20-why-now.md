@@ -19,13 +19,13 @@ Note: 백열등 로터리 조광기는 필라멘트에 걸리는 전압을 그�
 ## LED에서 어려워진 이유
 
 <div class="cols2">
-<div class="good">
-<h4>백열등</h4>
+<div class="card">
+<h4 style="color:#8b93a5;font-size:.7em;letter-spacing:.12em;margin-bottom:.6em">백열등 시절</h4>
 전압만 낮추면 그만이었다<br>
 조광기 하나로 어떤 전구든 맞았다
 </div>
-<div class="bad">
-<h4>LED</h4>
+<div class="card">
+<h4 style="color:#8b93a5;font-size:.7em;letter-spacing:.12em;margin-bottom:.6em">LED 이후</h4>
 드라이버라는 중간 장치가 생겼다<br>
 디밍 방식이 제조사마다 갈라졌다<br>
 조합에 따라 되다 안 되다 한다
