@@ -50,7 +50,7 @@ Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이
 
 ## 한눈에 보는 제어 방식
 
-<img class="diagram" src="assets/diagrams/control-map.svg" style="max-height:235px">
+<img class="diagram" src="assets/diagrams/control-map.svg" style="max-height:250px">
 
 <ul style="font-size:.62em;margin-top:0">
 <li><strong>접점 스위치</strong> — 전원을 직접 끊고 잇는 전통적인 벽 스위치. 켜고 끄는 것만 된다</li>

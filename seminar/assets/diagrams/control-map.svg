@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+<svg viewBox="0 140 1200 290" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
 
   <!-- axis -->
   <text x="80" y="175" fill="#5a6274" font-size="19" letter-spacing="0.3" text-anchor="start">지금 정해야 함(유선)</text>
@@ -57,8 +57,8 @@
   </g>
 
   <!-- legend -->
-  <line x1="300" y1="628" x2="340" y2="628" stroke="#ffb454" stroke-width="2"/>
-  <text x="352" y="620" fill="#e9ecf2" font-size="18" text-anchor="start">배선을 지금 정해야 한다</text>
-  <line x1="700" y1="628" x2="740" y2="628" stroke="#58b7ff" stroke-width="2"/>
-  <text x="752" y="620" fill="#e9ecf2" font-size="18" text-anchor="start">나중에도 추가할 수 있다</text>
+  <line x1="300" y1="400" x2="340" y2="400" stroke="#ffb454" stroke-width="2"/>
+  <text x="352" y="392" fill="#e9ecf2" font-size="18" text-anchor="start">배선을 지금 정해야 한다</text>
+  <line x1="700" y1="400" x2="740" y2="400" stroke="#58b7ff" stroke-width="2"/>
+  <text x="752" y="392" fill="#e9ecf2" font-size="18" text-anchor="start">나중에도 추가할 수 있다</text>
 </svg>
