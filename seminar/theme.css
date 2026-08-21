@@ -45,14 +45,11 @@
   border-left:2px solid var(--amber); border-radius:2px;
   padding:.7em 1em; font-style:normal; width:100%; box-shadow:none; }
 
-/* Act divider: giant thin number with glow dot */
+/* Act divider: thin number, no ornament */
 .reveal .slides section.act { text-align:center; }
-.reveal .slides section.act .no { font-size:6.5em; font-weight:150; letter-spacing:-0.04em;
-  color:var(--text); line-height:1; position:relative; display:inline-block; }
-.reveal .slides section.act .no::after { content:""; position:absolute; right:-.28em; bottom:.14em;
-  width:.16em; height:.16em; border-radius:50%; background:var(--amber);
-  box-shadow:0 0 .35em .06em rgba(255,180,84,.8), 0 0 1.2em .3em rgba(255,180,84,.25); }
-.reveal .slides section.act h2 { font-size:1.7em; font-weight:300; margin-top:.6em; text-align:center; }
+.reveal .slides section.act .no { font-size:4.2em; font-weight:200; letter-spacing:-0.03em;
+  color:var(--dim); line-height:1; display:inline-block; }
+.reveal .slides section.act h2 { font-size:1.5em; font-weight:300; margin-top:.7em; text-align:center; }
 
 /* Statement: one huge thin sentence */
 .statement { display:flex; align-items:center; justify-content:center; min-height:13em; }

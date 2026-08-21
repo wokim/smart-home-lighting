@@ -35,13 +35,11 @@ Note: 니즈는 구체적이고 복합적이다. 0막 영상의 네 가지가 �
 ===
 
 <!-- .slide: class="hero-fade" -->
-<h3>경험해보기 전엔 모른다</h3>
+<h3>밝기 제어</h3>
 
-# 스르륵 켜지고, 스르륵 꺼지면<br>조명이 <strong>섹시해집니다</strong>
+# 스르륵 켜지고, 스르륵 꺼지는 조명은<br><strong>고급스러워 보입니다</strong>
 
-<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:300px"><source src="assets/video/stairs-sensor.mp4"></video>
-
-<p class="muted" style="font-size:.62em">덤으로 — 아기 재울 때, 밤에 화장실 갈 때도 눈이 편하다</p>
+<video class="full" muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:320px"><source src="assets/video/stairs-sensor.mp4"></video>
 
 Note: 핵심은 편의가 아니라 고급감이다. 탁 켜지는 집과 부드럽게 차오르는 집 — 같은 기구라도 공간의 급이 달라진다. 페이드가 되는 순간 조명이 설비에서 연출이 된다. (색온도 얘기가 나오면: 살아보니 체감 가치는 색온도가 아니라 디밍이더라 — 낮엔 태양이 이기고 밤엔 높은 색온도를 안 쓴다. 기구 선정에서 다시.)
 
