@@ -163,22 +163,22 @@ Note: 전원을 끊는 제어에서 명령을 보내는 제어로 바뀌는 걸 
 
 ===
 
-## 시중에서 만나는 이름들 — 구조로 보면
+## 시중 스마트 조명 시스템 비교
 
-<table style="font-size:.46em">
+<table style="font-size:.5em">
 <tr><th></th><th>Philips Hue</th><th>Aqara</th><th>Tuya · eWeLink 계열</th><th>DALI</th></tr>
-<tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스 — 개방 표준</td></tr>
-<tr><td class="grp">광원 · 드라이버</td><td>광원+드라이버+무선 <strong>일체형</strong>. 통째로 산다</td><td>일체형 등기구와 <strong>별도 드라이버·모듈</strong> 둘 다</td><td>대부분 일체형 저가 등기구</td><td>드라이버 제조사 자유 — 광원과 따로</td></tr>
-<tr><td class="grp">허브 · 앱</td><td>자사 브릿지. 타사 전구 일부, 스위치·센서는 자사</td><td>자사 허브 + 앱(해외 서버). 타사 기기 거의 못 붙임</td><td>제조사 앱 — <strong>클라우드를 거친다</strong></td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
-<tr><td class="grp">기존 스위치 활용</td><td>기존 스위치 뒤에 넣는 배터리식 <strong>월 스위치 모듈</strong>이 있다. 스위치는 신호만 보내고 조명은 상시 전원. 중성선 불필요. JUNG 등의 무전원 Friends of Hue 스위치로 교체하는 방법도 있다</td><td>기존 스위치 뒤에 <strong>릴레이 모듈 T2</strong>를 넣고 무선 스위치 모드로 쓴다. 스위치는 신호만 보낸다. 모듈 전원 때문에 중성선 필요</td><td>대개 없음</td><td>푸시버튼 커플러. 버스 전원이라 L·N 불필요</td></tr>
-<tr><td class="grp">필요한 배선</td><td>조명에 상시 전원. 스위치 박스는 중성선 없어도 됨</td><td>조명에 상시 전원. 스위치 박스엔 <strong>중성선</strong></td><td>조명에 상시 전원</td><td>전원선과 <strong>버스 2가닥. 지금 깔아야 한다</strong></td></tr>
-<tr><td class="grp">그룹 · 페이드 · 동시성</td><td>그룹·씬 지원, 전환 시간 0.1초 단위. 브릿지가 Zigbee 시간 슬롯을 쪼개 동시처럼 — 50개면 약 2초</td><td>그룹·씬, 전환 효과 조절 가능. 허브 밖(HA·Matter)에서 개별 명령하면 <strong>팝콘</strong></td><td>씬이 클라우드에서 돌아 순차 점등 — 팝콘 흔함</td><td>페이드가 표준 명령, 버스 브로드캐스트로 <strong>정확히 동시</strong></td></tr>
-<tr><td class="grp">규모</td><td>브릿지당 50개(Pro 150)</td><td>허브당 64~128개</td><td>Wi-Fi는 공유기 한계</td><td>라인당 64주소, 라인을 늘린다</td></tr>
-<tr><td class="grp">제어 경로</td><td>로컬 — 무선이라 전파 환경을 탄다</td><td>허브 자동화는 로컬(무선), 앱은 클라우드</td><td><strong>클라우드 왕복</strong> — 인터넷 끊기면 앱도 끊김</td><td><strong>로컬 유선</strong> — 전파도 인터넷도 안 탄다</td></tr>
-<tr><td class="grp">생태계</td><td>가장 성숙. 브릿지가 자사 위주</td><td>자사 기기 폭이 넓다. 허브 종속</td><td>가장 싸고 가장 많다. 클라우드 종속</td><td>조명 제조사 중심, DALI-2 인증. 벤더 종속 없음</td></tr>
+<tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스, 개방 표준</td></tr>
+<tr><td class="grp">광원 · 드라이버</td><td>광원+드라이버+무선 <strong>일체형</strong>, 통째로 구매</td><td>일체형 등기구와 <strong>별도 드라이버·모듈</strong> 둘 다</td><td>대부분 일체형 저가 등기구</td><td>드라이버 제조사 자유, 광원과 별도 선택</td></tr>
+<tr><td class="grp">허브 · 앱</td><td>자사 브릿지. 타사 전구 일부, 스위치·센서는 자사</td><td>자사 허브+앱(해외 서버). 타사 기기 거의 불가</td><td>제조사 앱, <strong>클라우드 경유</strong></td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
+<tr><td class="grp">기존 스위치 활용</td><td>스위치 뒤 배터리식 <strong>월 스위치 모듈</strong>(중성선 불필요). JUNG 등 무전원 스위치로 교체도 가능</td><td>스위치 뒤 <strong>릴레이 모듈 T2</strong>, 무선 스위치 모드(중성선 필요)</td><td>대개 없음</td><td>푸시버튼 커플러 (버스 전원, L·N 불필요)</td></tr>
+<tr><td class="grp">필요한 배선</td><td>조명 상시 전원. 스위치 박스 중성선 불필요</td><td>조명 상시 전원. 스위치 박스 <strong>중성선 필요</strong></td><td>조명 상시 전원</td><td>전원선 + <strong>버스 2가닥, 지금 시공</strong></td></tr>
+<tr><td class="grp">그룹 · 페이드 · 동시성</td><td>그룹·씬, 전환 0.1초 단위. 50개면 약 2초에 걸쳐 순차 전송</td><td>그룹·씬, 전환 효과 조절. 허브 밖 개별 명령 시 <strong>팝콘</strong></td><td>씬이 클라우드 실행, 팝콘 흔함</td><td>페이드 표준 명령. 버스 브로드캐스트로 <strong>정확히 동시</strong></td></tr>
+<tr><td class="grp">규모</td><td>브릿지당 50 (Pro 150)</td><td>허브당 64~128</td><td>공유기 한계</td><td>라인당 64, 라인 증설</td></tr>
+<tr><td class="grp">제어 경로</td><td>로컬 무선 (전파 영향)</td><td>허브 자동화 로컬, 앱은 클라우드</td><td><strong>클라우드 왕복</strong> (인터넷 끊기면 앱 불가)</td><td><strong>로컬 유선</strong> (전파·인터넷 무관)</td></tr>
+<tr><td class="grp">생태계</td><td>가장 성숙, 브릿지 자사 위주</td><td>기기 폭 넓음, 허브 종속</td><td>가장 싸고 많음, 클라우드 종속</td><td>조명 제조사 중심, DALI-2 인증. 벤더 종속 없음</td></tr>
 </table>
 
-<p class="muted" style="font-size:.5em;margin-top:.5em">그 밖에 — Lutron(전용 sub-GHz 무선, 동시성·디밍 최상, 국내 드묾) · Casambi(BLE 메시, 허브 없음, 건축 조명) · IKEA(Zigbee, 저가) · 헤이홈(Tuya 기반) · SmartThings·Google Home·Apple Home(플랫폼)</p>
+<p class="muted" style="font-size:.5em;margin-top:.5em">그 밖에: Lutron (전용 sub-GHz 무선, 동시성·디밍 최상, 국내 드묾) · Casambi (BLE 메시, 허브 없음, DALI 드라이버를 무선 제어하는 조합 흔함) · IKEA (Zigbee, 저가) · 헤이홈 (Tuya 기반) · SmartThings · Google Home · Apple Home (플랫폼)</p>
 
 Note: 검증된 숫자로 말한다. Hue 브릿지는 50개(하드리밋 63, Pro는 150)이고 Zigbee가 초당 25~50 명령이라 50개를 '동시에' 켜려면 브릿지가 지연 예약으로 2초에 걸쳐 뿌린다 — 동시처럼 보이게 만드는 기술이지 진짜 동시는 아니다. Aqara는 허브 안에서 씬을 돌리면 괜찮고, HA나 Matter로 개별 명령을 보내면 팝콘이 난다(Aqara 포럼 공식 답변). Tuya·eWeLink 계열은 앱 조작이 클라우드를 왕복하고 LAN 제어는 일부 기기만. DALI는 버스 브로드캐스트라 64개가 정확히 같이 움직이고 페이드가 표준 명령이다. 기존 벽 스위치(융 등)를 그대로 두고 싶다면 — Hue는 배터리식 월 스위치 모듈을 스위치 뒤에 넣거나 JUNG이 내는 Friends of Hue 무전원 스위치를 쓰고, Aqara는 릴레이 모듈 T2를 무선 스위치 모드로 두면 된다(이건 중성선 필요). Hue와 Aqara가 같은 Zigbee인데 안 섞이는 건 허브가 자사 기기만 받아서이고, 범용 허브로 묶으면 붙는다 — 대신 통합자 역할. Lutron은 전용 sub-GHz 무선으로 팝콘을 설계 단계에서 없앤 시스템이지만 국내 유통이 거의 없고, Casambi는 허브 없이 노드마다 로직을 갖는 BLE 메시라 건축 조명 쪽에서 쓴다.
 
