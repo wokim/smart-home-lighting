@@ -132,4 +132,4 @@ img.diagram { width:100%; max-height:555px; object-fit:contain; }
 
 /* Two portrait videos side by side */
 .vpair { display:flex; justify-content:center; gap:1em; }
-.vpair video { height:560px; width:auto; border-radius:4px; background:#000; }
+.vpair video { height:500px; width:auto; margin:0; border-radius:4px; background:#000; }

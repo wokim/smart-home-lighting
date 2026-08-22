@@ -12,7 +12,7 @@ Note: 인사 두 문장. 외국계 IT에서 20년, 지금은 해외 업체 CTO. 
 
 ## 씬 스위치
 
-<video class="full" controls muted autoplay loop playsinline poster="assets/video/opening-scenes.jpg" style="max-height:520px"><source src="assets/video/opening-scenes.mp4"></video>
+<video class="full" controls muted autoplay loop playsinline poster="assets/video/opening-scenes.jpg" style="max-height:470px"><source src="assets/video/opening-scenes.mp4"></video>
 
 <p class="muted" style="font-size:.6em;margin-top:.4em">벽의 씬 스위치 하나로 취침·파티·영화 모드 전환. 수십 개의 조명이 각자 정해진 밝기로 스르륵 바뀌고, 취침 모드에는 블라인드까지 내려감</p>
 
@@ -22,7 +22,7 @@ Note: 말로 설명하는 것보다 저희 집을 먼저 보여드리는 게 빠
 
 ## 계단의 모션센서
 
-<video class="full" controls muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:520px"><source src="assets/video/stairs-sensor.mp4"></video>
+<video class="full" controls muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:470px"><source src="assets/video/stairs-sensor.mp4"></video>
 
 <p class="muted" style="font-size:.6em;margin-top:.4em">올라가면 켜지고, 잠시 후 살짝 어두워졌다가 꺼짐. 다시 움직이면 원래 밝기로. 자기 전에 내려가서 끌 일이 없음</p>
 
@@ -42,7 +42,7 @@ Note: 제어 지점이 하나가 아니라는 첫 번째 예. 폰을 꺼내는 �
 
 ## 음성
 
-<video class="full" controls muted autoplay loop playsinline poster="assets/video/siri.jpg" style="max-height:520px"><source src="assets/video/siri.mp4"></video>
+<video class="full" controls muted autoplay loop playsinline poster="assets/video/siri.jpg" style="max-height:470px"><source src="assets/video/siri.mp4"></video>
 
 <p class="muted" style="font-size:.6em;margin-top:.4em">시리에게 말해서 제어. 플랫폼이 Apple Home과 연동돼 있으면 별도 설정 없이 됨</p>
 
@@ -52,7 +52,7 @@ Note: 두 번째 예. 3막 플랫폼 슬라이드에서 "그 위에 휴대폰과
 
 ## 빌트인 가구의 조명
 
-<video class="full" controls muted autoplay loop playsinline poster="assets/video/library.jpg" style="max-height:520px"><source src="assets/video/library.mp4"></video>
+<video class="full" controls muted autoplay loop playsinline poster="assets/video/library.jpg" style="max-height:470px"><source src="assets/video/library.mp4"></video>
 
 <p class="muted" style="font-size:.6em;margin-top:.4em">도서관 가구에 설치된 조명을 벽 스위치로. 꾹 누르고 있으면 디밍. 가구 발주 전에 배선이 잡혀 있어야 가능</p>
 
