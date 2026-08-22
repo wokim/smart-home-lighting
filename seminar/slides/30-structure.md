@@ -167,12 +167,12 @@ Note: 전원을 끊는 제어에서 명령을 보내는 제어로 바뀌는 걸 
 
 <table class="tight" style="font-size:.48em">
 <tr><th></th><th>Philips Hue</th><th>Aqara</th><th>Tuya · eWeLink 계열</th><th>DALI</th></tr>
-<tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스, 개방 표준</td></tr>
+<tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee. 최신 허브는 Matter 브릿지·Thread 지원</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스, 개방 표준</td></tr>
 <tr><td class="grp">광원 · 드라이버</td><td>광원+드라이버+무선 <strong>일체형</strong>, 통째로 구매</td><td>일체형 등기구와 <strong>별도 드라이버·모듈</strong> 둘 다</td><td>대부분 일체형 저가 등기구</td><td>드라이버 제조사 자유, 광원과 별도 선택</td></tr>
 <tr><td class="grp">허브 · 앱</td><td>자사 브릿지. 타사 전구 일부, 스위치·센서는 자사</td><td>자사 허브+앱(해외 서버). 타사 기기 거의 불가</td><td>제조사 앱, <strong>클라우드 경유</strong></td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
-<tr><td class="grp">기존 스위치 활용</td><td>스위치 뒤 배터리식 <strong>월 스위치 모듈</strong>(중성선 불필요). JUNG 등 무전원 스위치로 교체도 가능</td><td>스위치 뒤 <strong>릴레이 모듈 T2</strong>, 무선 스위치 모드(중성선 필요)</td><td>대개 없음</td><td>푸시버튼 커플러 (버스 전원, L·N 불필요)</td></tr>
+<tr><td class="grp">기존 스위치 활용</td><td>스위치 뒤 배터리식 <strong>월 스위치 모듈</strong>(중성선 불필요). JUNG 등 무전원 스위치로 교체도 가능</td><td>스위치 뒤 <strong>릴레이 모듈 T2</strong>, 무선 스위치 모드(중성선 필요). 또는 자사 스마트 스위치로 교체(무중성선 버전 있음)</td><td>스마트 스위치는 많음. S1 입력 릴레이 모듈도 있으나 분리 모드는 제품마다 다름</td><td>푸시버튼 커플러 (버스 전원, L·N 불필요)</td></tr>
 <tr><td class="grp">필요한 배선</td><td>조명 상시 전원. 스위치 박스 중성선 불필요</td><td>조명 상시 전원. 스위치 박스 <strong>중성선 필요</strong></td><td>조명 상시 전원</td><td>전원선 + <strong>버스 2가닥, 지금 시공</strong></td></tr>
-<tr><td class="grp">동시성</td><td>그룹 명령으로 동시. 외부에서 등 하나씩 명령하면 팝콘</td><td>허브 씬은 동시. 외부(HA·Matter)에서 개별 명령하면 <strong>팝콘</strong></td><td>Wi-Fi형은 기기별 개별 제어라 <strong>팝콘이 기본</strong>. Zigbee형은 허브 그룹 가능</td><td>그룹·씬 명령은 버스 전체 동시, <strong>누락 없음</strong></td></tr>
+<tr><td class="grp">동시성</td><td>룸·존 그룹 명령으로 동시. HA에서도 그룹 엔티티로 쏘면 동시, 등 하나씩 호출하면 팝콘</td><td>허브 안 그룹·씬은 동시. HA·Matter로 붙이면 등이 개별로만 올라와 <strong>팝콘</strong>. 허브 씬을 내보내 호출하면 해결</td><td>Wi-Fi형은 기기별 개별 제어라 <strong>팝콘이 기본</strong>. Zigbee형은 허브 그룹 가능</td><td>그룹·씬 명령은 버스 전체 동시, <strong>누락 없음</strong></td></tr>
 <tr><td class="grp">규모</td><td>브릿지당 50 (Pro 150)</td><td>허브당 64~128</td><td>공유기 한계</td><td>라인당 64, 라인 증설</td></tr>
 <tr><td class="grp">제어 경로</td><td>로컬 무선 (전파 영향)</td><td>허브 자동화 로컬, 앱은 클라우드</td><td><strong>클라우드 왕복</strong> (인터넷 끊기면 앱 불가)</td><td><strong>로컬 유선</strong> (전파·인터넷 무관)</td></tr>
 <tr><td class="grp">생태계</td><td>가장 성숙, 브릿지 자사 위주</td><td>기기 폭 넓음, 허브 종속</td><td>가장 싸고 많음, 클라우드 종속</td><td>조명 제조사 중심, DALI-2 인증. 벤더 종속 없음</td></tr>
