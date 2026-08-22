@@ -26,9 +26,9 @@
   <polyline points="434,110 520,110 520,150 190,150" class="wn"/>
   <text x="267" y="92" class="sub">9 V</text><text x="347" y="92" class="sub">9 V</text><text x="427" y="92" class="sub">9 V</text>
   <text x="470" y="92" class="sub">= 27 V</text>
-  <text x="40" y="212" class="t">같은 350 mA가 전부를 지난다. 전압은 등기구 수만큼 더해져 드라이버 범위 안이어야 한다</text>
+  <text x="40" y="212" class="t">같은 350 mA가 전부를 지난다. 전압은 등기구 수만큼 더해진다</text>
   <text x="40" y="236" class="t">다운라이트 하나가 30 V면 한 개만 연결 가능. 그래서 주거 다운라이트는 <tspan class="amb">1 : 1</tspan></text>
-  <text x="40" y="260" class="sub">병렬 연결은 불가(전류가 불균등하게 갈림). 한 개가 끊기면 줄 전체가 꺼진다. 한 드라이버에 달린 등은 같이 움직인다</text>
+  <text x="40" y="260" class="sub">병렬 연결 불가. 한 개가 끊기면 줄 전체가 꺼지고, 한 드라이버의 등은 같이 움직인다</text>
 
   <!-- CV: parallel -->
   <text x="640" y="44" class="lab">CV 정전압</text><text x="780" y="44" class="sub">전압 고정 · 부하를 병렬로 · 전류(W)는 합산</text>
@@ -46,7 +46,7 @@
     <line x1="1100" y1="110" x2="1100" y2="150" class="w"/><rect x="1093" y="122" width="14" height="16" fill="#0b0d12" class="led"/>
   </g>
   <text x="838" y="178" class="sub">세트</text><text x="918" y="178" class="sub">세트</text><text x="998" y="178" class="sub">세트</text><text x="1078" y="178" class="sub">세트 …</text>
-  <text x="640" y="212" class="t">스트립의 자르는 눈금마다 LED 몇 개 + 저항이 한 세트. 세트들이 +/− 레일에 <tspan class="amb">병렬</tspan>로 붙는다</text>
+  <text x="640" y="212" class="t">자르는 눈금마다 LED 몇 개 + 저항이 한 세트. 세트들이 레일에 <tspan class="amb">병렬</tspan>로 붙는다</text>
   <text x="640" y="236" class="t">각 세트가 똑같이 24 V를 받으니 길이를 자르고 늘려도 된다. 전류는 길이에 비례</text>
-  <text x="640" y="260" class="sub">드라이버는 W/m × 길이로 용량을 잡는다. 레일이 길면 끝에서 전압이 떨어진다(전압강하)</text>
+  <text x="640" y="260" class="sub">드라이버 용량은 W/m × 길이. 레일이 길면 끝에서 전압이 떨어진다</text>
 </svg>
