@@ -40,8 +40,6 @@ Note: 광원은 스펙 시트로 비교가 되는 편이라 오히려 제일 다
 </div>
 </div>
 
-<video class="full" controls muted autoplay loop playsinline poster="assets/video/bad-dimming.jpg" style="max-height:220px;margin-top:.4em"><source src="assets/video/bad-dimming.mp4"></video>
-<p class="muted" style="font-size:.6em">[영상 자리 — 나쁜 디밍: 팝콘 현상 · 계단 디밍 · low-end에서 툭]</p>
 
 Note: 디밍 레인지, low-end 컷오프, fade 곡선, 플리커 — 이 넷이 드라이버의 핵심이다. 스펙에 "디밍 가능"이라고만 적혀 있어도 이 사진 같은 결과가 나올 수 있다. 색 안정성(디밍 중 색 틀어짐)도 드라이버 몫이다.
 
@@ -88,7 +86,7 @@ Note: 앞 슬라이드의 '나쁜 디밍' 세 증상이 여기서 나온다. 계
   <td>L 왕복 2가닥 — 기존 그대로</td><td>스위치를 거친 L + N</td></tr>
 <tr><td><span class="nm">스마트 스위치</span><br><span class="d">스위치 자리에 통신 기능. 무선형이 대부분</span></td>
   <td><strong>중성선</strong> — 상시 전원이 필요하므로</td><td>상시 전원 L·N</td></tr>
-<tr><td><span class="nm">이너 릴레이</span><br><span class="d">기존 스위치 뒤 입력 모듈. 일반 스위치를 스마트하게</span></td>
+<tr><td><span class="nm">이너 릴레이</span><br><span class="d">기존 스위치 뒤에 숨는 모듈. 일반 스위치를 스마트하게</span></td>
   <td><strong>중성선</strong>(Wi-Fi·Zigbee형) 또는 <strong>DALI 버스 2가닥</strong>(커플러형, L·N 불필요)</td><td>상시 전원 L·N</td></tr>
 <tr><td class="grp" rowspan="3">명령 전달<br>(통신 방식)</td>
   <td><span class="nm">0-10V</span> <span class="d">유선</span><br><span class="d">아날로그 전압으로 밝기 지시</span></td>
@@ -240,15 +238,15 @@ Note: 건축주 입장에서 실제로 매일 만지는 건 플랫폼 앱이 아
 <div class="decide">
 <div class="col now">
 <h4>전기공사 전에 <small>공사가 끝나면 고정된다 — 바꾸려면 벽을 뜯어야 한다</small></h4>
-<div class="row"><b>중성선</b> <span>— 스위치 박스마다. 없으면 스마트 스위치·입력 모듈에 상시 전원을 줄 수 없다</span></div>
-<div class="row"><b>제어선</b> <span>— DALI 버스 2가닥, 0-10V 신호선. 유선 제어는 이 선이 없으면 선택지에서 사라진다</span></div>
+<div class="row"><b>중성선</b> <span>— 스위치 박스마다. 없으면 스마트 스위치·이너 릴레이에 상시 전원을 줄 수 없다</span></div>
+<div class="row"><b>제어선</b> <span>— DALI 버스·0-10V 신호선 2C를 드라이버와 스위치 박스까지. 유선 제어는 이 선이 없으면 선택지에서 사라진다</span></div>
 <div class="row"><b>조명 분전함 자리</b> <span>— DALI 파워·마스터, 컨트롤러가 들어갈 자리. 모든 제어선이 여기로 모이므로 위치를 먼저 정한다</span></div>
 <div class="row"><b>빌트인 가구 조명 배선</b> <span>— 가구 발주 전에 확정해야 한다</span></div>
 <div class="row"><b>일괄소등 회로</b> <span>— 씬 스위치로 대체한다. 물리 차단 회로를 두지 않는다</span></div>
 </div>
 <div class="col later">
 <h4>나중에 바꿀 수 있는 것 <small>기기와 설정 — 단, 왼쪽의 배선 조건 안에서</small></h4>
-<div class="row"><b>스위치</b> <span>— 일반 → 스마트, 입력 모듈 추가. 중성선만 있으면</span></div>
+<div class="row"><b>스위치</b> <span>— 일반 → 스마트, 이너 릴레이 추가. 중성선만 있으면</span></div>
 <div class="row"><b>센서</b> <span>— 모션·조도. 붙이고 떼는 게 자유롭다</span></div>
 <div class="row"><b>조명 기구 · 드라이버</b> <span>— 교체 가능. 제어 방식은 깔린 선이 정한다</span></div>
 <div class="row"><b>허브 · 플랫폼</b> <span>— 바꿀 수 있다. 수고는 크지만 벽은 안 뜯는다</span></div>

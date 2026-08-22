@@ -44,7 +44,7 @@ Note: 제어 지점이 하나가 아니라는 첫 번째 예. 폰을 꺼내는 �
 
 <video class="full" controls muted autoplay loop playsinline poster="assets/video/siri.jpg" style="max-height:470px"><source src="assets/video/siri.mp4"></video>
 
-<p class="muted" style="font-size:.6em;margin-top:.4em">시리에게 말해서 제어. 플랫폼이 Apple Home과 연동돼 있으면 별도 설정 없이 됨</p>
+<p class="muted" style="font-size:.6em;margin-top:.4em">시리에게 말해서 제어. 집의 스마트홈 허브가 Apple Home과 연동돼 있으면 별도 설정 없이 됨</p>
 
 Note: 두 번째 예. 3막 플랫폼 슬라이드에서 "그 위에 휴대폰과 음성"으로 다시 만난다.
 
