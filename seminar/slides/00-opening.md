@@ -30,11 +30,11 @@ Note: 2단계 밝기. 켜짐 → 감광 → 소등. 귀찮음이 사라지는 �
 
 ===
 
-## 태블릿PC로 제어
+## 태블릿 PC로 제어
 
 <div class="vpair"><video class="full" controls muted autoplay loop playsinline poster="assets/video/ipad-wide.jpg"><source src="assets/video/ipad-wide.mp4"></video><video class="full" controls muted autoplay loop playsinline poster="assets/video/ipad-close.jpg"><source src="assets/video/ipad-close.mp4"></video></div>
 
-<p class="muted" style="font-size:.6em;margin-top:.4em">벽에 붙여둔 태블릿PC에서도 같은 조명을 제어. 앱을 따로 깔 것 없이 집 안 어디서나</p>
+<p class="muted" style="font-size:.6em;margin-top:.4em">벽에 붙여둔 태블릿 PC에서도 같은 조명을 제어. 앱을 따로 깔 것 없이 집 안 어디서나</p>
 
 Note: 제어 지점이 하나가 아니라는 첫 번째 예. 폰을 꺼내는 게 아니라 벽에 붙은 화면.
 
@@ -65,7 +65,7 @@ Note: 세 번째 예. 벽 스위치로 가구 조명을 제어하려면 전기�
 1. 조명이 **스르륵** 켜지고 꺼진다 — 페이드 인/아웃
 2. 수십 개가 **동시에, 각자 정해진 밝기로** 움직인다 — 그룹·씬 제어
 3. 모션센서가 조명 밝기를 **2단계**로 제어한다
-4. 벽 스위치, 태블릿PC, 음성 등 — **제어 지점이 하나가 아니다**
+4. 벽 스위치, 태블릿 PC, 음성 등 — **제어 지점이 하나가 아니다**
 
 Note: 영상 다섯 개를 한 장으로 묶는다. 이 네 가지가 오늘 이야기 전체의 복선이다. 뒤에서 하나씩 다시 만난다. (그룹과 씬 구분: 그룹은 묶어서 같은 명령을 한 번에, 씬은 조명마다 각자 다른 값을 저장해둔 조합을 한 번에 — 영상에서 본 건 씬이다.)
 
