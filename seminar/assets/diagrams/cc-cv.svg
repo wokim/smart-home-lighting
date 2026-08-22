@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs><style>
+    .box{fill:none;stroke:#e9ecf2;stroke-opacity:.55;stroke-width:1.3}
+    .w{stroke:#e9ecf2;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .wp{stroke:#ff6b6b;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .wn{stroke:#5a6274;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .led{fill:none;stroke:#ffd9a0;stroke-width:2}
+    .lab{fill:#e9ecf2;font-size:22px;font-weight:650}.sub{fill:#8b93a5;font-size:15px}.t{fill:#e9ecf2;font-size:15px}.amb{fill:#ffb454;font-size:15px;font-weight:600}
+  </style>
+  <g id="ledsym"><polygon points="0,-9 0,9 14,0" class="led"/><line x1="14" y1="-9" x2="14" y2="9" class="led"/></g>
+  </defs>
+  <line x1="600" y1="20" x2="600" y2="310" stroke="#ffffff" stroke-opacity=".12"/>
+
+  <!-- CC: series -->
+  <text x="40" y="44" class="lab">CC 정전류</text><text x="180" y="44" class="sub">전류 고정 · 등기구를 직렬로 · 전압은 합산</text>
+  <rect x="40" y="90" width="150" height="80" class="box"/>
+  <text x="115" y="122" class="t" text-anchor="middle">드라이버</text><text x="115" y="146" class="amb" text-anchor="middle">350 mA 고정</text>
+  <text x="115" y="164" class="sub" text-anchor="middle">출력 20~40 V</text>
+  <!-- loop -->
+  <polyline points="190,110 260,110" class="wp"/>
+  <g transform="translate(260,110)"><use href="#ledsym"/></g>
+  <polyline points="274,110 340,110" class="w"/>
+  <g transform="translate(340,110)"><use href="#ledsym"/></g>
+  <polyline points="354,110 420,110" class="w"/>
+  <g transform="translate(420,110)"><use href="#ledsym"/></g>
+  <polyline points="434,110 520,110 520,150 190,150" class="wn"/>
+  <text x="267" y="92" class="sub">9 V</text><text x="347" y="92" class="sub">9 V</text><text x="427" y="92" class="sub">9 V</text>
+  <text x="470" y="92" class="sub">= 27 V</text>
+  <text x="40" y="212" class="t">같은 350 mA가 전부를 지난다. 전압은 등기구 수만큼 더해져 드라이버 범위 안이어야 한다</text>
+  <text x="40" y="236" class="t">다운라이트 하나가 30 V면 한 개만 연결 가능. 그래서 주거 다운라이트는 <tspan class="amb">1 : 1</tspan></text>
+  <text x="40" y="260" class="sub">병렬 연결은 불가(전류가 불균등하게 갈림). 한 개가 끊기면 줄 전체가 꺼진다. 한 드라이버에 달린 등은 같이 움직인다</text>
+
+  <!-- CV: parallel -->
+  <text x="640" y="44" class="lab">CV 정전압</text><text x="780" y="44" class="sub">전압 고정 · 부하를 병렬로 · 전류(W)는 합산</text>
+  <rect x="640" y="90" width="150" height="80" class="box"/>
+  <text x="715" y="122" class="t" text-anchor="middle">드라이버</text><text x="715" y="146" class="amb" text-anchor="middle">24 V 고정</text>
+  <text x="715" y="164" class="sub" text-anchor="middle">예: 100 W</text>
+  <!-- rails -->
+  <line x1="790" y1="110" x2="1140" y2="110" class="wp"/><line x1="790" y1="150" x2="1140" y2="150" class="wn"/>
+  <text x="1148" y="114" class="sub">+24 V</text><text x="1148" y="154" class="sub">0 V</text>
+  <!-- parallel branches: each = LEDs + resistor -->
+  <g>
+    <line x1="860" y1="110" x2="860" y2="150" class="w"/><rect x="853" y="122" width="14" height="16" fill="#0b0d12" class="led"/>
+    <line x1="940" y1="110" x2="940" y2="150" class="w"/><rect x="933" y="122" width="14" height="16" fill="#0b0d12" class="led"/>
+    <line x1="1020" y1="110" x2="1020" y2="150" class="w"/><rect x="1013" y="122" width="14" height="16" fill="#0b0d12" class="led"/>
+    <line x1="1100" y1="110" x2="1100" y2="150" class="w"/><rect x="1093" y="122" width="14" height="16" fill="#0b0d12" class="led"/>
+  </g>
+  <text x="838" y="178" class="sub">세트</text><text x="918" y="178" class="sub">세트</text><text x="998" y="178" class="sub">세트</text><text x="1078" y="178" class="sub">세트 …</text>
+  <text x="640" y="212" class="t">스트립의 자르는 눈금마다 LED 몇 개 + 저항이 한 세트. 세트들이 +/− 레일에 <tspan class="amb">병렬</tspan>로 붙는다</text>
+  <text x="640" y="236" class="t">각 세트가 똑같이 24 V를 받으니 길이를 자르고 늘려도 된다. 전류는 길이에 비례</text>
+  <text x="640" y="260" class="sub">드라이버는 W/m × 길이로 용량을 잡는다. 레일이 길면 끝에서 전압이 떨어진다(전압강하)</text>
+</svg>
