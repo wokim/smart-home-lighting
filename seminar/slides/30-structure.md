@@ -127,9 +127,11 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈. L·N으로 모듈에 �
 
 ## DALI — 유선 제어
 
-<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:380px">
+<p style="font-size:.8em">조명 전용 유선 표준(IEC 62386). 등기구마다 드라이버가 <strong>주소</strong>를 갖고, <strong>2가닥 버스 하나</strong>로 전부를 개별·그룹·씬으로 제어한다</p>
 
-드라이버마다 주소를 갖고, 벽 스위치는 **푸시버튼 커플러**를 통해 같은 버스에 연결된다 — 커플러는 버스 전원으로 동작하므로 스위치 박스에 L·N이 필요 없다
+<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:340px">
+
+벽 스위치는 **푸시버튼 커플러**를 통해 같은 버스에 연결된다. 커플러는 버스 전원으로 동작하므로 스위치 박스에 L·N이 필요 없다
 
 Note: 전원선과 별도로 DALI 버스 2가닥을 드라이버까지, 그리고 스위치 박스까지 미리 포설해야 한다는 게 조건이다. 대신 조명 전용 표준이라 표현력이 풍부하고 유선이라 안정적이다. "DALI라서 빛이 좋다"는 오해 — DALI의 강점은 빛이 아니라 제어의 표준화다. Tridonic·Helvar·eldoLED 같은 상급 드라이버가 DALI 현장에 많아 생긴 상관관계일 뿐, 싸구려 DALI 드라이버보다 좋은 Zigbee 드라이버의 빛이 나을 수 있다.
 
@@ -219,7 +221,7 @@ Note: 어느 쪽이 옳다는 게 아니다. 건축주가 직접 만질 사람�
 
 ## 그 위에 휴대폰과 음성
 
-- 플랫폼은 보통 **Apple Home · Google Home과 양방향 연동**할 수 있고, 일반적인 조작은 별도 앱 없이 폰 기본 앱과 음성으로 한다
+- 플랫폼은 보통 **Apple Home · Google Home과 양방향 연동**할 수 있고, 일반적인 조작은 별도 앱 없이 폰 기본 앱과 음성으로 할 수 있다
 - 음성 제어는 Google이, 홈 앱의 완성도는 Apple이 낫다는 평이 많다
 - **Matter**는 이 연동을 표준화하는 규격이다. 매터 브릿지를 쓰면 플랫폼의 기기를 Matter 기기처럼 Apple Home·Google Home에 노출할 수 있다. 다만 기기가 보이는 것과 씬·자동화로 유기적으로 엮이는 것은 별개라, 그 깊이는 여전히 플랫폼 몫이다
 
