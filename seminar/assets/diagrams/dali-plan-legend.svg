@@ -56,6 +56,7 @@
     <circle cx="826" cy="224" r="8" class="sym"/><text x="890" y="228" class="t">PIR 재실 센서 (DALI 입력 장치)</text>
     <g class="sym"><circle cx="826" cy="266" r="10"/><line x1="819" y1="259" x2="833" y2="273"/><line x1="833" y1="259" x2="819" y2="273"/></g>
     <text x="890" y="270" class="t">등기구 — DALI 드라이버 내장/부속</text>
-    <text x="816" y="304" class="sub">버스는 전원선과 같은 배관 가능(절연 등급 동일 시). 끝단 분전함에서 PSU·컨트롤러 접속</text>
+    <text x="816" y="300" class="sub">버스는 전원선과 같은 배관에 넣을 수 있다(절연 등급 동일 시)</text>
+    <text x="816" y="316" class="sub">끝단은 조명분전함의 PSU·컨트롤러에 접속</text>
   </g>
 </svg>
