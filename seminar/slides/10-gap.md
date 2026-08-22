@@ -23,7 +23,7 @@ Note: 건축주가 IoT 얘기를 꺼냈을 때 실제로 돌아오는 세 가지
 
 <div class="cols2">
 <div><img src="assets/photos/downlight-product.jpg" style="width:100%;max-height:460px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.4em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
-<div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:460px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.4em">리모컨이 제공하는 제어의 전부 — 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 등</p></div>
+<div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:460px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.4em">리모컨이 제공하는 제어의 전부: 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 등</p></div>
 </div>
 
 Note: 이 제품이 나쁘다는 얘기가 아니다. 한두 개 달아 쓰기엔 충분하다. 다만 1막의 니즈와 견줘보면 — 제조사 전용 앱 안에서만 논다(다른 조명·기기와 못 섞인다), 벽 스위치를 내리면 전원이 끊겨 앱도 리모컨도 죽는다, 벽에서 누르는 씬은 리모컨의 '50%'와 '1분 후 꺼짐'이 전부고 진짜 씬은 폰을 꺼내 앱에 들어가야 한다, 모션센서·태블릿·음성과 엮이지 않는다. 앱에 씬이 있다는 건 인정하고 말해야 한다 — 문제는 씬의 유무가 아니라 '벽 버튼 하나로, 집 전체와 엮여서'가 안 된다는 것. "제품 사다 달면 되는 거 아닌가"가 왜 답이 아닌지가 이 한 장에 있다. (출처: 판매 페이지 상세 이미지, 발표용 인용)
