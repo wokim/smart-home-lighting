@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs><style>
+    .box{fill:none;stroke:#e9ecf2;stroke-opacity:.55;stroke-width:1.2}
+    .pw{stroke:#b3702d;stroke-width:2;fill:none;stroke-linecap:round}
+    .bus{stroke:#b48cff;stroke-width:2;fill:none;stroke-dasharray:10 5;stroke-linecap:round}
+    .lab{fill:#e9ecf2;font-size:16px;font-weight:600}
+    .t{fill:#e9ecf2;font-size:13px;font-family:"SF Mono",Menlo,Consolas,monospace}
+    .sub{fill:#8b93a5;font-size:12.5px}.dim{fill:#5a6274;font-size:12.5px}
+    .term{fill:#0b0d12;stroke:#e9ecf2;stroke-width:1.3}
+  </style></defs>
+  <rect x="20" y="20" width="1160" height="560" class="box"/>
+  <line x1="20" y1="540" x2="1180" y2="540" class="box"/>
+  <text x="34" y="564" class="dim">DALI 계통도(예시) · 층별 독립 버스 3회선 → 기계실 조명분전함 · 버스당 PSU 1, 주소 ≤64, 길이 ≤300 m · 선종 2C 1.5 sq, 극성 무관 · 접지·전원 회로 생략</text>
+  <text x="1166" y="564" class="dim" text-anchor="end">1/1</text>
+
+  <!-- 조명분전함 -->
+  <rect x="60" y="70" width="380" height="440" class="box"/>
+  <text x="80" y="98" class="lab">조명분전함 (기계실)</text>
+  <text x="80" y="116" class="sub">DALI 컨트롤러 + 버스별 전원 · 상시 전원 AC 220 V</text>
+  <!-- controller -->
+  <rect x="80" y="140" width="340" height="60" class="box"/>
+  <text x="96" y="165" class="t">DALI 컨트롤러 / 게이트웨이</text>
+  <text x="96" y="185" class="sub">3 라인 · 허브(플랫폼)와 연결 · 씬·그룹은 여기서 관리</text>
+  <!-- PSUs -->
+  <g>
+    <rect x="80" y="230" width="160" height="54" class="box"/><text x="92" y="252" class="t">PSU-1  DA-1F</text><text x="92" y="272" class="sub">250 mA · 1층 버스</text>
+    <rect x="80" y="310" width="160" height="54" class="box"/><text x="92" y="332" class="t">PSU-2  DA-2F</text><text x="92" y="352" class="sub">250 mA · 2층 버스</text>
+    <rect x="80" y="390" width="160" height="54" class="box"/><text x="92" y="412" class="t">PSU-3  DA-AT</text><text x="92" y="432" class="sub">250 mA · 다락 버스</text>
+  </g>
+  <!-- controller ↔ PSUs (bus) -->
+  <line x1="260" y1="200" x2="260" y2="470" class="bus"/>
+  <line x1="240" y1="257" x2="260" y2="257" class="bus"/><line x1="240" y1="337" x2="260" y2="337" class="bus"/><line x1="240" y1="417" x2="260" y2="417" class="bus"/>
+  <text x="270" y="300" class="sub">라인 1</text><text x="270" y="380" class="sub">라인 2</text><text x="270" y="460" class="sub">라인 3</text>
+  <!-- AC feed -->
+  <line x1="60" y1="470" x2="80" y2="470" class="pw"/><text x="30" y="474" class="t" fill="#b3702d">L·N</text>
+  <polyline points="80,470 80,444" class="pw"/><polyline points="80,470 70,470 70,364 80,364" class="pw"/><polyline points="70,364 70,284 80,284" class="pw"/>
+  <text x="300" y="500" class="sub">MCCB/ELB는 전원 회로도에</text>
+
+  <!-- bus terminals leaving panel -->
+  <circle cx="440" cy="257" r="6" class="term"/><circle cx="440" cy="337" r="6" class="term"/><circle cx="440" cy="417" r="6" class="term"/>
+  <line x1="240" y1="257" x2="434" y2="257" class="bus"/><line x1="240" y1="337" x2="434" y2="337" class="bus"/><line x1="240" y1="417" x2="434" y2="417" class="bus"/>
+
+  <!-- floors -->
+  <g>
+    <rect x="520" y="60" width="640" height="130" class="box"/>
+    <text x="536" y="86" class="lab">다락</text><text x="590" y="86" class="sub">버스 DA-AT</text>
+    <line x1="446" y1="417" x2="490" y2="417" class="bus"/><polyline points="490,417 490,140 536,140" class="bus"/>
+    <text x="560" y="130" class="t">드라이버 ×12</text><text x="700" y="130" class="t">커플러 ×2 (스위치 박스)</text><text x="900" y="130" class="t">센서 ×1</text>
+    <line x1="536" y1="140" x2="1130" y2="140" class="bus"/>
+    <text x="560" y="170" class="sub">주소 15 / 64 · 추정 소비 30 mA / 250 mA</text>
+  </g>
+  <g>
+    <rect x="520" y="220" width="640" height="130" class="box"/>
+    <text x="536" y="246" class="lab">2층</text><text x="590" y="246" class="sub">버스 DA-2F</text>
+    <line x1="446" y1="337" x2="505" y2="337" class="bus"/><polyline points="505,337 505,300 536,300" class="bus"/>
+    <text x="560" y="290" class="t">드라이버 ×28</text><text x="700" y="290" class="t">커플러 ×5</text><text x="900" y="290" class="t">센서 ×3</text>
+    <line x1="536" y1="300" x2="1130" y2="300" class="bus"/>
+    <text x="560" y="330" class="sub">주소 36 / 64 · 추정 소비 72 mA / 250 mA</text>
+  </g>
+  <g>
+    <rect x="520" y="380" width="640" height="130" class="box"/>
+    <text x="536" y="406" class="lab">1층</text><text x="590" y="406" class="sub">버스 DA-1F</text>
+    <line x1="446" y1="257" x2="520" y2="257" class="bus"/><polyline points="520,257 520,460 536,460" class="bus"/>
+    <text x="560" y="450" class="t">드라이버 ×31</text><text x="700" y="450" class="t">커플러 ×6</text><text x="900" y="450" class="t">센서 ×4</text>
+    <line x1="536" y1="460" x2="1130" y2="460" class="bus"/>
+    <text x="560" y="490" class="sub">주소 41 / 64 · 추정 소비 82 mA / 250 mA</text>
+  </g>
+  <text x="1130" y="527" class="dim" text-anchor="end">수량은 예시. 실제는 시공 도면의 등기구·스위치·센서 수로 채운다</text>
+</svg>

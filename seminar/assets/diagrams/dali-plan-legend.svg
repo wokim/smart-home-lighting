@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
+  <defs><style>
+    .box{fill:none;stroke:#e9ecf2;stroke-opacity:.55;stroke-width:1.2}
+    .wall{stroke:#e9ecf2;stroke-opacity:.35;stroke-width:3;fill:none}
+    .pw{stroke:#b3702d;stroke-width:1.8;fill:none;stroke-linecap:round}
+    .bus{stroke:#b48cff;stroke-width:2;fill:none;stroke-dasharray:10 5;stroke-linecap:round}
+    .lab{fill:#e9ecf2;font-size:16px;font-weight:600}
+    .t{fill:#e9ecf2;font-size:13px;font-family:"SF Mono",Menlo,Consolas,monospace}
+    .sub{fill:#8b93a5;font-size:12.5px}.dim{fill:#5a6274;font-size:12.5px}
+    .sym{fill:none;stroke:#e9ecf2;stroke-width:1.4}
+  </style></defs>
+  <rect x="20" y="20" width="1160" height="380" class="box"/>
+  <line x1="20" y1="360" x2="1180" y2="360" class="box"/>
+  <text x="34" y="384" class="dim">전등설비 평면도에 DALI 버스를 얹는 표기 예시 · 전원 회로(L1…)와 별도 선종 · 버스명 DA-1F · 데이지체인, 분기 가능, 루프 금지 · 끝은 조명분전함</text>
+
+  <!-- mini plan: three rooms -->
+  <g>
+    <rect x="60" y="70" width="700" height="250" class="wall"/>
+    <line x1="300" y1="70" x2="300" y2="320" class="wall"/><line x1="540" y1="70" x2="540" y2="320" class="wall"/>
+    <text x="70" y="92" class="sub">거실</text><text x="310" y="92" class="sub">주방</text><text x="550" y="92" class="sub">복도</text>
+    <!-- fixtures (IEC lamp: circle + X) -->
+    <g class="sym">
+      <circle cx="130" cy="160" r="10"/><line x1="123" y1="153" x2="137" y2="167"/><line x1="137" y1="153" x2="123" y2="167"/>
+      <circle cx="230" cy="160" r="10"/><line x1="223" y1="153" x2="237" y2="167"/><line x1="237" y1="153" x2="223" y2="167"/>
+      <circle cx="130" cy="250" r="10"/><line x1="123" y1="243" x2="137" y2="257"/><line x1="137" y1="243" x2="123" y2="257"/>
+      <circle cx="230" cy="250" r="10"/><line x1="223" y1="243" x2="237" y2="257"/><line x1="237" y1="243" x2="223" y2="257"/>
+      <circle cx="380" cy="160" r="10"/><line x1="373" y1="153" x2="387" y2="167"/><line x1="387" y1="153" x2="373" y2="167"/>
+      <circle cx="470" cy="160" r="10"/><line x1="463" y1="153" x2="477" y2="167"/><line x1="477" y1="153" x2="463" y2="167"/>
+      <circle cx="640" cy="140" r="10"/><line x1="633" y1="133" x2="647" y2="147"/><line x1="647" y1="133" x2="633" y2="147"/>
+      <circle cx="640" cy="240" r="10"/><line x1="633" y1="233" x2="647" y2="247"/><line x1="647" y1="233" x2="633" y2="247"/>
+    </g>
+    <!-- switch boxes (coupler) -->
+    <rect x="280" y="290" width="20" height="14" class="sym"/><text x="250" y="312" class="t">SW·C</text>
+    <rect x="520" y="290" width="20" height="14" class="sym"/><text x="490" y="312" class="t">SW·C</text>
+    <!-- sensor -->
+    <circle cx="700" cy="190" r="8" class="sym"/><text x="690" y="214" class="t">PIR</text>
+    <!-- DALI bus daisy chain -->
+    <polyline points="130,160 230,160 230,250 130,250 130,290 290,290 290,250 230,250" class="bus"/>
+    <polyline points="290,290 380,290 380,160 470,160 470,290 530,290 530,240 640,240 640,140 700,140 700,182" class="bus"/>
+    <polyline points="700,198 700,250 760,250" class="bus"/>
+    <text x="150" y="150" class="t" fill="#b48cff">DA-1F</text>
+    <text x="400" y="150" class="t" fill="#b48cff">DA-1F</text>
+    <text x="650" y="265" class="t" fill="#b48cff">DA-1F → 조명분전함</text>
+    <!-- power run (existing style) -->
+    <polyline points="130,140 230,140 380,140 470,140" class="pw"/><text x="480" y="136" class="t" fill="#b3702d">L1 (전원)</text>
+  </g>
+
+  <!-- legend -->
+  <g>
+    <rect x="800" y="70" width="360" height="250" class="box"/>
+    <text x="816" y="96" class="lab">범례 추가분</text>
+    <line x1="816" y1="124" x2="876" y2="124" class="bus"/><text x="890" y="128" class="t">DALI 버스 2C 1.5 sq, 극성 무관</text>
+    <text x="890" y="146" class="sub">버스명 DA-1F/DA-2F/DA-AT, 층별 독립</text>
+    <rect x="816" y="166" width="20" height="14" class="sym"/><text x="890" y="178" class="t">SW·C 스위치 박스 + 푸시버튼 커플러</text>
+    <text x="890" y="196" class="sub">버스 전원으로 동작, L·N 불필요</text>
+    <circle cx="826" cy="224" r="8" class="sym"/><text x="890" y="228" class="t">PIR 재실 센서 (DALI 입력 장치)</text>
+    <g class="sym"><circle cx="826" cy="266" r="10"/><line x1="819" y1="259" x2="833" y2="273"/><line x1="833" y1="259" x2="819" y2="273"/></g>
+    <text x="890" y="270" class="t">등기구 — DALI 드라이버 내장/부속</text>
+    <text x="816" y="304" class="sub">버스는 전원선과 같은 배관 가능(절연 등급 동일 시). 끝단 분전함에서 PSU·컨트롤러 접속</text>
+  </g>
+</svg>
