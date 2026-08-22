@@ -10,7 +10,7 @@ Note: 인사 두 문장. 외국계 IT에서 20년, 지금은 해외 업체 CTO. 
 
 ===
 
-## 씬 스위치
+## 벽의 씬 스위치로 모드 전환
 
 <video class="full" controls muted autoplay loop playsinline poster="assets/video/opening-scenes.jpg" style="max-height:470px"><source src="assets/video/opening-scenes.mp4"></video>
 
@@ -20,7 +20,7 @@ Note: 말로 설명하는 것보다 저희 집을 먼저 보여드리는 게 빠
 
 ===
 
-## 계단의 모션센서
+## 계단 모션센서, 2단계 점등
 
 <video class="full" controls muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:470px"><source src="assets/video/stairs-sensor.mp4"></video>
 
@@ -30,7 +30,7 @@ Note: 2단계 밝기. 켜짐 → 감광 → 소등. 귀찮음이 사라지는 �
 
 ===
 
-## 태블릿PC
+## 태블릿PC로 제어
 
 <div class="vpair"><video class="full" controls muted autoplay loop playsinline poster="assets/video/ipad-wide.jpg"><source src="assets/video/ipad-wide.mp4"></video><video class="full" controls muted autoplay loop playsinline poster="assets/video/ipad-close.jpg"><source src="assets/video/ipad-close.mp4"></video></div>
 
@@ -40,7 +40,7 @@ Note: 제어 지점이 하나가 아니라는 첫 번째 예. 폰을 꺼내는 �
 
 ===
 
-## 음성
+## 음성으로 제어
 
 <video class="full" controls muted autoplay loop playsinline poster="assets/video/siri.jpg" style="max-height:470px"><source src="assets/video/siri.mp4"></video>
 
@@ -50,7 +50,7 @@ Note: 두 번째 예. 3막 플랫폼 슬라이드에서 "그 위에 휴대폰과
 
 ===
 
-## 빌트인 가구의 조명
+## 벽 스위치로 가구 조명 제어
 
 <video class="full" controls muted autoplay loop playsinline poster="assets/video/library.jpg" style="max-height:470px"><source src="assets/video/library.mp4"></video>
 
