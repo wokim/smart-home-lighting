@@ -165,16 +165,21 @@ Note: 전원을 끊는 제어에서 명령을 보내는 제어로 바뀌는 걸 
 
 ## 시중에서 만나는 이름들 — 구조로 보면
 
-<table>
+<table style="font-size:.5em">
 <tr><th></th><th>Philips Hue</th><th>Aqara</th><th>Tuya · eWeLink 계열</th><th>DALI</th></tr>
 <tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스 — 개방 표준</td></tr>
-<tr><td class="grp">광원 · 드라이버</td><td>전구·등기구에 광원+드라이버+무선이 <strong>일체형</strong>. 통째로 산다</td><td>일체형 등기구도 있고, 다른 광원에 붙이는 <strong>별도 드라이버·모듈</strong>도 판다</td><td>대부분 일체형 저가 등기구</td><td>드라이버는 제조사 자유 — 광원과 따로 고른다</td></tr>
-<tr><td class="grp">허브 · 앱</td><td>자사 브릿지 + 앱. 타사 전구는 일부, 스위치·센서는 사실상 자사만</td><td>자사 허브 + 앱 (해외 서버 경유). 타사 기기 거의 못 붙임</td><td>제조사 앱 — <strong>조작이 클라우드를 거친다</strong>. 인터넷이 끊기면 앱도 끊긴다</td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
-<tr><td class="grp">왜 섞이지 않나</td><td colspan="2">둘 다 Zigbee지만 <strong>허브가 자사 기기만 받는다</strong> — 무선 규격이 아니라 허브의 문제. 범용 허브(Home Assistant 등)로 묶으면 둘 다 붙는다</td><td>기기 자체가 클라우드에 묶여 있다</td><td>표준이라 벤더 종속이 없다. 대신 배선을 지금</td></tr>
-<tr><td class="grp">제어 경로</td><td>로컬 — 단, 무선이라 전파 환경을 탄다</td><td>허브 내 자동화는 로컬(무선), 앱은 클라우드</td><td><strong>클라우드 왕복</strong> — 지연·장애의 근원</td><td><strong>로컬 유선</strong> — 전파도 인터넷도 안 탄다. 가장 확실</td></tr>
+<tr><td class="grp">광원 · 드라이버</td><td>광원+드라이버+무선 <strong>일체형</strong>. 통째로 산다</td><td>일체형 등기구와 <strong>별도 드라이버·모듈</strong> 둘 다</td><td>대부분 일체형 저가 등기구</td><td>드라이버 제조사 자유 — 광원과 따로</td></tr>
+<tr><td class="grp">허브 · 앱</td><td>자사 브릿지. 타사 전구 일부, 스위치·센서는 자사</td><td>자사 허브 + 앱(해외 서버). 타사 기기 거의 못 붙임</td><td>제조사 앱 — <strong>클라우드를 거친다</strong></td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
+<tr><td class="grp">필요한 배선</td><td>상시 전원만 — 나중에도</td><td>상시 전원만 (스위치는 중성선)</td><td>상시 전원만</td><td>전원 + <strong>버스 2가닥 — 지금</strong></td></tr>
+<tr><td class="grp">그룹 · 페이드 · 동시성</td><td>그룹·씬 지원, 전환 시간 0.1초 단위. 브릿지가 Zigbee 시간 슬롯을 쪼개 동시처럼 — 50개면 약 2초</td><td>그룹·씬, 전환 효과 조절 가능. 허브 밖(HA·Matter)에서 개별 명령하면 <strong>팝콘</strong></td><td>씬이 클라우드에서 돌아 순차 점등 — 팝콘 흔함</td><td>페이드가 표준 명령, 버스 브로드캐스트로 <strong>정확히 동시</strong></td></tr>
+<tr><td class="grp">규모</td><td>브릿지당 50개(Pro 150)</td><td>허브당 64~128개</td><td>Wi-Fi는 공유기 한계</td><td>라인당 64주소, 라인을 늘린다</td></tr>
+<tr><td class="grp">제어 경로</td><td>로컬 — 무선이라 전파 환경을 탄다</td><td>허브 자동화는 로컬(무선), 앱은 클라우드</td><td><strong>클라우드 왕복</strong> — 인터넷 끊기면 앱도 끊김</td><td><strong>로컬 유선</strong> — 전파도 인터넷도 안 탄다</td></tr>
+<tr><td class="grp">생태계</td><td>가장 성숙. 브릿지가 자사 위주</td><td>자사 기기 폭이 넓다. 허브 종속</td><td>가장 싸고 가장 많다. 클라우드 종속</td><td>조명 제조사 중심, DALI-2 인증. 벤더 종속 없음</td></tr>
 </table>
 
-Note: 이 표의 핵심은 두 줄이다. 하나, Hue와 Aqara가 같은 Zigbee인데 안 섞이는 건 전파가 아니라 허브가 자사 기기만 받기 때문이고, 범용 허브를 쓰면 둘 다 붙는다 — 단 통합자 역할을 떠안는다. 둘, Tuya·eWeLink 계열의 앱 조작은 클라우드를 거친다 — 불 하나 켜는 데 인터넷을 왕복하고, 서비스가 죽으면 집이 죽는다. 클라우드 경유는 최악이다. 같은 로컬이라도 무선은 전파 환경·메시 안정성을 타고, 유선은 그것조차 없다 — 신뢰성은 유선 로컬 > 무선 로컬 > 클라우드 순. DALI는 표준이라 드라이버 제조사를 섞어도 되고 유선 로컬이라 동시성도 가장 좋지만, 선을 지금 넣어야 한다. Matter는 이 허브 장벽을 낮추려는 표준인데 아직 깊이는 진행 중. 기술적 비교(페이드 명령, 상태 질의, 64주소·16씬)는 물어보면 답한다.
+<p class="muted" style="font-size:.5em;margin-top:.5em">그 밖에 — Lutron(전용 sub-GHz 무선, 동시성·디밍 최상, 국내 드묾) · Casambi(BLE 메시, 허브 없음, 건축 조명) · IKEA(Zigbee, 저가) · 헤이홈(Tuya 기반) · SmartThings·Google Home·Apple Home(플랫폼)</p>
+
+Note: 검증된 숫자로 말한다. Hue 브릿지는 50개(하드리밋 63, Pro는 150)이고 Zigbee가 초당 25~50 명령이라 50개를 '동시에' 켜려면 브릿지가 지연 예약으로 2초에 걸쳐 뿌린다 — 동시처럼 보이게 만드는 기술이지 진짜 동시는 아니다. Aqara는 허브 안에서 씬을 돌리면 괜찮고, HA나 Matter로 개별 명령을 보내면 팝콘이 난다(Aqara 포럼 공식 답변). Tuya·eWeLink 계열은 앱 조작이 클라우드를 왕복하고 LAN 제어는 일부 기기만. DALI는 버스 브로드캐스트라 64개가 정확히 같이 움직이고 페이드가 표준 명령이다. Hue와 Aqara가 같은 Zigbee인데 안 섞이는 건 허브가 자사 기기만 받아서이고, 범용 허브로 묶으면 붙는다 — 대신 통합자 역할. Lutron은 전용 sub-GHz 무선으로 팝콘을 설계 단계에서 없앤 시스템이지만 국내 유통이 거의 없고, Casambi는 허브 없이 노드마다 로직을 갖는 BLE 메시라 건축 조명 쪽에서 쓴다.
 
 ===
 
