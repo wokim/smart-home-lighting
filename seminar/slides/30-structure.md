@@ -129,7 +129,7 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈. L·N으로 모듈에 �
 
 <p style="font-size:.8em">조명 전용 유선 표준(IEC 62386). 등기구마다 드라이버가 <strong>주소</strong>를 갖고, <strong>2가닥 버스 하나</strong>로 전부를 개별·그룹·씬으로 제어한다</p>
 
-<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:340px">
+<img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:315px">
 
 벽 스위치는 **푸시버튼 커플러**를 통해 같은 버스에 연결된다. 커플러는 버스 전원으로 동작하므로 스위치 박스에 L·N이 필요 없다
 
