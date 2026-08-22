@@ -131,14 +131,6 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈. L·N으로 모듈에 �
 
 ===
 
-## 예: JUNG 532-4 U + Shelly i4 Gen3 결선
-
-<img class="diagram" src="assets/diagrams/jung-shelly-i4.svg" style="max-height:560px">
-
-Note: 융 532-4U는 로커 2개가 각각 위/아래로 눌리는 멀티스위치라 a접점이 4개, 공통 L 단자가 2개다. Shelly i4 Gen3는 L 단자가 2개라 하나로 전원을 받고 나머지 하나를 융의 L 공통 둘에 이어주면 된다. 융의 S 출력 4개가 SW1~SW4로 들어가고, 각 입력은 L 기준으로 동작한다(AC 모델). 스위치 박스에 N이 있어야 Shelly에 전원이 들어온다. 네온·LED 램프 내장 스위치는 쓰면 안 된다. 조명 자체는 별도 회로로 상시 전원을 받고 드라이버가 신호를 받아 움직인다.
-
-===
-
 ## DALI — 유선 제어
 
 <img class="diagram" src="assets/diagrams/dali-bus.svg" style="max-height:380px">
