@@ -163,20 +163,18 @@ Note: 전원을 끊는 제어에서 명령을 보내는 제어로 바뀌는 걸 
 
 ===
 
-## 조명 관점에서 — DALI · Zigbee · Matter
+## 시중에서 만나는 이름들 — 구조로 보면
 
 <table>
-<tr><th></th><th>DALI</th><th>Zigbee</th><th>Matter</th></tr>
-<tr><td class="grp">무엇인가</td><td>조명 전용 유선 표준 (IEC 62386)</td><td>범용 무선 메시 — 조명 클러스터 포함</td><td>기기 연동 표준 — 어느 허브에나 붙도록</td></tr>
-<tr><td class="grp">주소 · 그룹 · 씬</td><td>라인당 64주소 · 16그룹 · 16씬, 버스에 내장</td><td>그룹·씬 클러스터 있음, 허브가 관리</td><td>그룹·씬 있으나 생태계마다 구현 편차</td></tr>
-<tr><td class="grp">페이드 · 전환</td><td>fade time·rate가 표준 명령 — 드라이버가 직접 부드럽게</td><td>전환 시간 지정 가능 (0.1초 단위)</td><td>전환 시간 지정 가능, 세밀한 곡선 제어는 제한적</td></tr>
-<tr><td class="grp">상태 피드백</td><td>드라이버에 질의 — 램프 고장까지 보고</td><td>상태 보고 있음, 기기마다 다름</td><td>상태 보고 표준화, 깊이는 기기 의존</td></tr>
-<tr><td class="grp">동시성</td><td>버스 브로드캐스트 — 수십 개가 <strong>정확히 같이</strong> 움직인다</td><td>그룹캐스트로 거의 동시, 메시 지연 가능</td><td>Zigbee·Thread·Wi-Fi 위에 얹힘 — 하부망 따라</td></tr>
-<tr><td class="grp">배선</td><td>버스 2가닥 포설 필수 — <strong>지금</strong></td><td>상시 전원만 — 나중에도</td><td>상시 전원만 — 나중에도</td></tr>
-<tr><td class="grp">생태계</td><td>조명 제조사 중심, 인증(DALI-2)</td><td>허브 종속 경향, 범용 허브로 완화</td><td>가장 젊다 — 호환은 넓고 깊이는 진행 중</td></tr>
+<tr><th></th><th>Philips Hue</th><th>Aqara</th><th>Tuya · eWeLink 계열</th><th>DALI</th></tr>
+<tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스 — 개방 표준</td></tr>
+<tr><td class="grp">광원 · 드라이버</td><td>전구·등기구에 광원+드라이버+무선이 <strong>일체형</strong>. 통째로 산다</td><td>일체형 등기구도 있고, 다른 광원에 붙이는 <strong>별도 드라이버·모듈</strong>도 판다</td><td>대부분 일체형 저가 등기구</td><td>드라이버는 제조사 자유 — 광원과 따로 고른다</td></tr>
+<tr><td class="grp">허브 · 앱</td><td>자사 브릿지 + 앱. 타사 전구는 일부, 스위치·센서는 사실상 자사만</td><td>자사 허브 + 앱 (해외 서버 경유). 타사 기기 거의 못 붙임</td><td>제조사 앱 — <strong>조작이 클라우드를 거친다</strong>. 인터넷이 끊기면 앱도 끊긴다</td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
+<tr><td class="grp">왜 섞이지 않나</td><td colspan="2">둘 다 Zigbee지만 <strong>허브가 자사 기기만 받는다</strong> — 무선 규격이 아니라 허브의 문제. 범용 허브(Home Assistant 등)로 묶으면 둘 다 붙는다</td><td>기기 자체가 클라우드에 묶여 있다</td><td>표준이라 벤더 종속이 없다. 대신 배선을 지금</td></tr>
+<tr><td class="grp">제어 경로</td><td>로컬 (브릿지)</td><td>허브 내 자동화는 로컬, 앱은 클라우드</td><td><strong>클라우드 왕복</strong> — 지연·장애의 근원</td><td>로컬 유선 — 가장 확실</td></tr>
 </table>
 
-Note: 표현력은 DALI가 압도적이다 — 조명만을 위해 만들어진 표준이라 페이드, 씬, 상태 질의, 동시성이 전부 버스 수준에서 해결된다. 대신 배선을 지금 정해야 한다. Zigbee는 실용적 중간, Matter는 "어디에나 붙는다"가 장점이고 깊이는 아직 따라오는 중이다. 어느 게 낫다가 아니라, 집의 규모·배선 시점·원하는 연출 수준에 따라 고르는 문제다.
+Note: 이 표의 핵심은 두 줄이다. 하나, Hue와 Aqara가 같은 Zigbee인데 안 섞이는 건 전파가 아니라 허브가 자사 기기만 받기 때문이고, 범용 허브를 쓰면 둘 다 붙는다 — 단 통합자 역할을 떠안는다. 둘, Tuya·eWeLink 계열의 앱 조작은 클라우드를 거친다 — 불 하나 켜는 데 인터넷을 왕복하고, 서비스가 죽으면 집이 죽는다. 클라우드 경유는 최악이다. DALI는 표준이라 드라이버 제조사를 섞어도 되고 유선 로컬이라 동시성도 가장 좋지만, 선을 지금 넣어야 한다. Matter는 이 허브 장벽을 낮추려는 표준인데 아직 깊이는 진행 중. 기술적 비교(페이드 명령, 상태 질의, 64주소·16씬)는 물어보면 답한다.
 
 ===
 
