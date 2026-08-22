@@ -31,6 +31,6 @@ Note: 이 네 가지가 오늘 이야기 전체의 복선이다. 뒤에서 하�
 
 ## 제어 지점 — 태블릿PC, 음성, 벽 스위치
 
-<video class="full" muted autoplay loop playsinline poster="assets/video/controls.jpg" style="max-height:560px"><source src="assets/video/controls.mp4"></video>
+<video class="full" muted autoplay loop playsinline poster="assets/video/controls.jpg" style="max-height:520px"><source src="assets/video/controls.mp4"></video>
 
 Note: 벽에 붙은 태블릿PC, 시리, 그리고 도서관의 벽 스위치 — 꾹 누르면 가구 조명이 디밍된다. 같은 조명을 여러 지점에서 제어한다는 게 네 번째 복선. (controls.mp4 = 0008 + 0009 + 0010 이어붙임, 64초 — 발표 때는 앞부분만 보여주고 넘어가도 된다.)
