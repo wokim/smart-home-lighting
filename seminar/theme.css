@@ -125,3 +125,7 @@ img.diagram { width:100%; max-height:555px; object-fit:contain; }
 .decide .row { padding:.45em 0; border-bottom:1px solid rgba(255,255,255,.06); line-height:1.45; }
 .decide .row b { color:var(--text); font-weight:650; }
 .decide .row span { color:var(--muted); }
+
+/* Dense table variant */
+.reveal table.tight td { padding:.4em .55em; line-height:1.35; }
+.reveal table.tight th { padding:.35em .55em; }

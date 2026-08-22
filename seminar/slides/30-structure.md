@@ -165,7 +165,7 @@ Note: 전원을 끊는 제어에서 명령을 보내는 제어로 바뀌는 걸 
 
 ## 시중 스마트 조명 시스템 비교
 
-<table style="font-size:.5em">
+<table class="tight" style="font-size:.48em">
 <tr><th></th><th>Philips Hue</th><th>Aqara</th><th>Tuya · eWeLink 계열</th><th>DALI</th></tr>
 <tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스, 개방 표준</td></tr>
 <tr><td class="grp">광원 · 드라이버</td><td>광원+드라이버+무선 <strong>일체형</strong>, 통째로 구매</td><td>일체형 등기구와 <strong>별도 드라이버·모듈</strong> 둘 다</td><td>대부분 일체형 저가 등기구</td><td>드라이버 제조사 자유, 광원과 별도 선택</td></tr>
