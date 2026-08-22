@@ -66,7 +66,7 @@ Note: 전기 도면은 등기구 위치와 회로만 담는다. 위 항목은 �
 
 ===
 
-## DALI 버스, 평면도에 이렇게 올린다
+## 전등설비 평면도의 DALI 버스 표기
 
 <img class="diagram" src="assets/diagrams/dali-plan-legend.svg" style="max-height:560px">
 
@@ -74,7 +74,7 @@ Note: 기존 전등설비 평면도에 얹는 방식. 전원 회로와 다른 �
 
 ===
 
-## DALI 계통도: 층별 버스가 분전함으로 모인다
+## DALI 계통도
 
 <img class="diagram" src="assets/diagrams/dali-riser.svg" style="max-height:560px">
 
