@@ -170,8 +170,8 @@ Note: 전원을 끊는 제어에서 명령을 보내는 제어로 바뀌는 걸 
 <tr><td class="grp">통신</td><td>Zigbee</td><td>Zigbee (+Thread·Matter)</td><td>Wi-Fi 또는 Zigbee</td><td>유선 버스 — 개방 표준</td></tr>
 <tr><td class="grp">광원 · 드라이버</td><td>광원+드라이버+무선 <strong>일체형</strong>. 통째로 산다</td><td>일체형 등기구와 <strong>별도 드라이버·모듈</strong> 둘 다</td><td>대부분 일체형 저가 등기구</td><td>드라이버 제조사 자유 — 광원과 따로</td></tr>
 <tr><td class="grp">허브 · 앱</td><td>자사 브릿지. 타사 전구 일부, 스위치·센서는 자사</td><td>자사 허브 + 앱(해외 서버). 타사 기기 거의 못 붙임</td><td>제조사 앱 — <strong>클라우드를 거친다</strong></td><td>컨트롤러 위에 무엇이든 (KNX·범용 허브)</td></tr>
-<tr><td class="grp">기존 스위치 활용</td><td>월 스위치 모듈(배터리, 중성선 불필요) · JUNG 등 Friends of Hue 무전원 스위치</td><td>릴레이 모듈 T2의 무선 스위치 모드 — 중성선 필요</td><td>제품마다 다름, 대개 없음</td><td>푸시버튼 커플러 — 버스 전원</td></tr>
-<tr><td class="grp">필요한 배선</td><td>상시 전원만 — 나중에도</td><td>상시 전원만 (스위치는 중성선)</td><td>상시 전원만</td><td>전원 + <strong>버스 2가닥 — 지금</strong></td></tr>
+<tr><td class="grp">기존 스위치 활용</td><td>스위치 뒤에 <strong>배터리 모듈</strong> — 스위치는 신호만, 조명엔 상시 전원. 중성선 없어도 됨. 또는 JUNG 등 무전원 Hue 스위치로 교체</td><td>스위치 뒤에 <strong>릴레이 모듈 T2</strong>, 무선 스위치 모드 — 스위치는 신호만. 모듈 전원 때문에 중성선 필요</td><td>대개 없음</td><td>푸시버튼 커플러 — 버스 전원, L·N 불필요</td></tr>
+<tr><td class="grp">필요한 배선</td><td>조명에 상시 전원. 스위치 박스는 중성선 없어도 됨</td><td>조명에 상시 전원. 스위치 박스엔 <strong>중성선</strong></td><td>조명에 상시 전원</td><td>전원 + <strong>버스 2가닥 — 지금</strong></td></tr>
 <tr><td class="grp">그룹 · 페이드 · 동시성</td><td>그룹·씬 지원, 전환 시간 0.1초 단위. 브릿지가 Zigbee 시간 슬롯을 쪼개 동시처럼 — 50개면 약 2초</td><td>그룹·씬, 전환 효과 조절 가능. 허브 밖(HA·Matter)에서 개별 명령하면 <strong>팝콘</strong></td><td>씬이 클라우드에서 돌아 순차 점등 — 팝콘 흔함</td><td>페이드가 표준 명령, 버스 브로드캐스트로 <strong>정확히 동시</strong></td></tr>
 <tr><td class="grp">규모</td><td>브릿지당 50개(Pro 150)</td><td>허브당 64~128개</td><td>Wi-Fi는 공유기 한계</td><td>라인당 64주소, 라인을 늘린다</td></tr>
 <tr><td class="grp">제어 경로</td><td>로컬 — 무선이라 전파 환경을 탄다</td><td>허브 자동화는 로컬(무선), 앱은 클라우드</td><td><strong>클라우드 왕복</strong> — 인터넷 끊기면 앱도 끊김</td><td><strong>로컬 유선</strong> — 전파도 인터넷도 안 탄다</td></tr>
