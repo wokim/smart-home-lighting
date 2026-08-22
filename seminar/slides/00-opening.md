@@ -12,7 +12,7 @@ Note: 인사 두 문장. 외국계 IT에서 20년, 지금은 해외 업체 CTO. 
 
 <video class="full" muted autoplay loop playsinline poster="assets/video/opening-scenes.jpg"><source src="assets/video/opening-scenes.mp4"></video>
 
-Note: 그 결과물부터 먼저 보여드리는 게 빠르겠습니다. opening-scenes.mp4 = 거실 씬 스위치 전환 + 아이패드 제어 (한 테이크). 계단 센서는 1막에서 별도 클립으로 다룬다.
+Note: 그 결과물부터 먼저 보여드리는 게 빠르겠습니다. opening-scenes.mp4 = 거실 씬 스위치로 취침·파티·영화 모드 전환, 수십 개 조명이 한 번에 바뀌고 취침 모드엔 블라인드까지 내려온다 (44초). 계단 센서 클립(stairs-sensor.mp4, 59초)은 Q&A용으로 준비돼 있다.
 
 ===
 
@@ -25,3 +25,12 @@ Note: 그 결과물부터 먼저 보여드리는 게 빠르겠습니다. opening
 
 Note: 이 네 가지가 오늘 이야기 전체의 복선이다. 뒤에서 하나씩 다시 만난다. (그룹과 씬 구분: 그룹은 묶어서 같은 명령을 한 번에, 씬은 조명마다 각자 다른 값을 저장해둔 조합을 한 번에 — 영상에서 본 건 씬이다.)
 
+
+
+===
+
+## 제어 지점 — 태블릿PC, 음성, 벽 스위치
+
+<video class="full" muted autoplay loop playsinline poster="assets/video/controls.jpg" style="max-height:560px"><source src="assets/video/controls.mp4"></video>
+
+Note: 벽에 붙은 태블릿PC, 시리, 그리고 도서관의 벽 스위치 — 꾹 누르면 가구 조명이 디밍된다. 같은 조명을 여러 지점에서 제어한다는 게 네 번째 복선. (controls.mp4 = 0008 + 0009 + 0010 이어붙임, 64초 — 발표 때는 앞부분만 보여주고 넘어가도 된다.)
