@@ -24,7 +24,7 @@ Note: 말로 설명하는 것보다 저희 집을 먼저 보여드리는 게 빠
 
 <video class="full" controls muted autoplay loop playsinline poster="assets/video/stairs-sensor.jpg" style="max-height:470px"><source src="assets/video/stairs-sensor.mp4"></video>
 
-<p class="muted" style="font-size:.6em;margin-top:.4em">올라가면 켜지고, 잠시 후 살짝 어두워졌다가 꺼짐. 다시 움직이면 원래 밝기로. 자기 전에 내려가서 끌 일이 없음</p>
+<p class="muted" style="font-size:.6em;margin-top:.4em">올라가면 켜지고, 잠시 후 살짝 어두워졌다가 꺼짐. 다시 움직이면 원래 밝기로</p>
 
 Note: 2단계 밝기. 켜짐 → 감광 → 소등. 귀찮음이 사라지는 예이자, 센서 로직도 설정의 일부라는 복선.
 
