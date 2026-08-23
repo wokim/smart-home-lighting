@@ -50,6 +50,27 @@ Note: 준공하고 끝나는 관계가 아니라는 걸 계약 단계에서부�
 
 ===
 
+## 참고: 대략적인 단가
+
+<table class="tight" style="font-size:.62em">
+<tr><th>품목</th><th>대략 단가</th><th>비고</th></tr>
+<tr><td class="grp">CC 디밍 드라이버 (DALI)</td><td>개당 3만~4만 원</td><td>다운라이트마다 하나. 개수가 곧 비용이다</td></tr>
+<tr><td class="grp">CV 디밍 드라이버 (DALI, 24V)</td><td>36W 약 4만 원, 150W 약 6.5만 원</td><td>간접등 구간마다 하나. 용량에 따라</td></tr>
+<tr><td class="grp">DALI 푸시버튼 커플러</td><td>개당 약 8만 원</td><td>스위치 박스마다 하나. 스위치 기구는 별도</td></tr>
+<tr><td class="grp">이너 릴레이 (Shelly i4)</td><td>개당 약 2만 원</td><td>무선형. 중성선 필요</td></tr>
+<tr><td class="grp">DALI 모션·조도 센서</td><td>개당 약 15만 원</td><td>버스에 바로 붙는 타입 기준</td></tr>
+<tr><td class="grp">DALI 버스 전원 공급 장치</td><td>개당 약 8만 원</td><td>버스(64주소)마다 하나</td></tr>
+<tr><td class="grp">DALI 컨트롤러</td><td>약 15만~25만 원</td><td>버스 수에 따라. 플랫폼 허브는 별도</td></tr>
+<tr><td class="grp">DALI 추가 입선 시공비</td><td>평당 약 8만 원</td><td>전기공사에서 버스 포설 명목으로 추가 청구받은 금액</td></tr>
+</table>
+
+<p class="muted" style="font-size:.58em;margin-top:.6em">2022년 구매가 기준. 환율, 수량, 채널 수, 시공사에 따라 달라진다. 광원과 등기구, 스위치 기구는 어차피 들어가는 비용이라 제외</p>
+
+Note: 우리 집 기준 숫자다. 다운라이트 약 80개, DALI 버스 4개, 60평. 조명 제어 쪽 합계가 대략 1,200만 원이었고 그중 입선 시공비가 480만 원, CC 드라이버가 280만 원으로 가장 크다. 단가보다 개수가 비용을 정한다는 얘기. 4년 전 가격이라 지금은 다를 수 있고, 시공비는 시공사 협의에 따라 크게 다르다.
+
+
+===
+
 <!-- .slide: class="title" data-background-color="#0a0c10" -->
 <div class="over">한국패시브건축협회 세미나</div>
 
