@@ -28,7 +28,7 @@ Note: 켜고 끄기 다음이 밝기다. 조명 제어는 여기서 시작한다
 
 ===
 
-## LED에서 디밍부터 어려워졌다
+## LED의 디밍
 
 <div class="cols2">
 <div class="card">
