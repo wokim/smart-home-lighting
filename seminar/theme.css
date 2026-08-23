@@ -59,6 +59,12 @@
 
 /* Two columns + good/bad — hairline, not colored boxes */
 .cols2 { display:grid; grid-template-columns:1fr 1fr; gap:1.2em; }
+.photos { display:flex; gap:1.2em; justify-content:center; align-items:flex-start; }
+.photos figure { margin:0; flex:1 1 0; min-width:0; text-align:center; }
+.photos img { max-height:470px; max-width:100%; object-fit:contain; border-radius:4px; }
+.photos figcaption { font-size:.55em; color:var(--muted); margin-top:.5em; line-height:1.45; }
+.photos.one figure { flex:0 1 720px; }
+.photos.one img { max-height:520px; }
 .bad,.good { background:var(--surface); border:1px solid var(--line);
   border-radius:4px; padding:.8em 1em; font-size:.85em; }
 .bad h4,.good h4 { font-size:.7em; font-weight:700; letter-spacing:.15em;

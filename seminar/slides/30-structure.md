@@ -61,6 +61,18 @@ Note: 드라이버 레이어 안의 두 부류. CC는 전류원이라 선이 길
 
 ===
 
+## CC 드라이버와 CV 드라이버, 실물
+
+<div class="photos">
+<figure><img src="assets/photos/cc-driver-downlight.jpg"><figcaption>CC 드라이버. 다운라이트 하나에 하나씩 붙고, 등기구 타공 구멍으로 천장 속에 들어간다. 1차측 L·N, 2차측 LED+·LED−</figcaption></figure>
+<figure><img src="assets/photos/cv-driver.jpg"><figcaption>CV 드라이버(24V, 150W, DALI·푸시 디밍). 스트립 여러 개를 병렬로 물리므로 길쭉하고 크다. 타공이 없어 보관 위치를 따로 잡아야 한다</figcaption></figure>
+</div>
+
+Note: 왼쪽이 CC, 오른쪽이 CV. 크기 차이가 곧 역할 차이다. CC는 등기구마다 하나라 작고, 타공 구멍이 점검구가 된다. CV는 한 대가 스트립 여러 개를 먹으니 용량이 크고, 어디에 둘지 도면에 잡아야 한다. 오른쪽 라벨에 "Flicker Free, Dimmable 0.1%~100%"가 보이는데, 이런 항목이 앞 장에서 말한 '스펙 시트로 확인할 것'이다.
+
+
+===
+
 ## 드라이버가 밝기를 줄이는 방법: PWM, CCR, 하이브리드
 
 - **PWM**(펄스폭 변조): 전류를 아주 빠르게 켰다 껐다 하며, 켜진 시간의 비율로 밝기를 만든다. 색이 변하지 않고 0.1%까지 내려가기 쉽다. 대신 주파수가 낮으면(수백 Hz) 카메라에 줄이 가고 움직일 때 깜빡임이 느껴진다. 수 kHz 이상이어야 한다
@@ -135,6 +147,18 @@ Note: 예를 들면 Shelly i4 같은 Wi-Fi 입력 모듈. L·N으로 모듈에 �
 벽 스위치는 **푸시버튼 커플러**를 통해 같은 버스에 연결된다. 커플러는 버스 전원으로 동작하므로 스위치 박스에 L·N이 필요 없다
 
 Note: 전원선과 별도로 DALI 버스 2가닥을 드라이버까지, 그리고 스위치 박스까지 미리 포설해야 한다는 게 조건이다. 대신 조명 전용 표준이라 표현력이 풍부하고 유선이라 안정적이다. "DALI라서 빛이 좋다"는 오해 — DALI의 강점은 빛이 아니라 제어의 표준화다. Tridonic·Helvar·eldoLED 같은 상급 드라이버가 DALI 현장에 많아 생긴 상관관계일 뿐, 싸구려 DALI 드라이버보다 좋은 Zigbee 드라이버의 빛이 나을 수 있다.
+
+===
+
+## 이너 릴레이와 DALI 푸시버튼 커플러, 실물
+
+<div class="photos">
+<figure><img src="assets/photos/shelly-inner-relay.jpg"><figcaption>Shelly 모듈. 스위치 박스 안, 기존 스위치 뒤에 들어간다. 상시 전원 L·N을 받고 S1·S2 단자로 스위치 눌림을 읽는다. 박스에 N이 있어야 한다</figcaption></figure>
+<figure><img src="assets/photos/jung-dali-coupler.jpg"><figcaption>Lunatone DALI 푸시버튼 커플러와 JUNG 스위치 기구. 버스 2가닥(DALI)과 스위치 접점 T1~T4, COM뿐이다. L·N이 없다</figcaption></figure>
+</div>
+
+Note: 둘 다 "스위치 뒤에 숨는 모듈"이다. 차이는 전원. 왼쪽은 Wi-Fi라 상시 전원이 필요하고, 그래서 중성선 얘기가 나온다. 오른쪽은 DALI 버스에서 전원을 받으니 박스에 전원선이 없어도 된다. 스위치 자체는 둘 다 그냥 무전원 접점이다.
+
 
 ===
 

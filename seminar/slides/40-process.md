@@ -82,6 +82,17 @@ Note: 1층·2층·다락을 독립 버스 3개로 잡은 예. 버스마다 PSU �
 
 ===
 
+## 조명 분전함, 실물
+
+<div class="photos one">
+<figure><img src="assets/photos/lighting-panel.jpg"><figcaption>위 줄: 컨트롤러(Fibaro)와 DALI 게이트웨이 4개. 아래 줄: DALI 버스 전원 공급 장치 4개. 버스마다 게이트웨이와 전원이 한 쌍이다. 드라이버는 여기 없다. 등기구 옆과 부하 가까이에 있다</figcaption></figure>
+</div>
+
+Note: 계통도의 실물. 제어선만 모이는 자리라 크지 않다. 하지만 이 자리는 나중에 못 옮기고, 제어선이 전부 여기로 와야 하니 도면에 먼저 찍혀야 한다. 사진은 시공 중이라 정리 전 상태.
+
+
+===
+
 ## 결선도 예: JUNG 532-4 U + Shelly i4 Gen3
 
 <img class="diagram" src="assets/diagrams/jung-shelly-i4.svg" style="max-height:560px">
