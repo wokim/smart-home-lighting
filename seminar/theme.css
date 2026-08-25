@@ -64,6 +64,7 @@
 .photos img { max-height:470px; max-width:100%; object-fit:contain; border-radius:4px; }
 .photos figcaption { font-size:.55em; color:var(--muted); margin-top:.5em; line-height:1.45; }
 .photos.one figure { flex:0 1 720px; }
+.photos.one.wide figure { flex:0 1 100%; }
 .photos.one img { max-height:470px; }
 .bad,.good { background:var(--surface); border:1px solid var(--line);
   border-radius:4px; padding:.8em 1em; font-size:.85em; }
