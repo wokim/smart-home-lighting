@@ -99,14 +99,16 @@ Note: 앞 슬라이드의 '나쁜 디밍' 세 증상이 여기서 나온다. 계
 ## 제어 방식별 배선 조건
 
 <table>
-<tr><th>구분</th><th>방식</th><th>스위치 박스에 필요한 것</th><th>조명(드라이버)까지 필요한 것</th></tr>
-<tr><td class="grp" rowspan="3">제어 지점<br>(입력 기기)</td>
+<tr><th>구분</th><th>방식</th><th>설치 자리에 필요한 것</th><th>조명(드라이버)까지 필요한 것</th></tr>
+<tr><td class="grp" rowspan="4">제어 지점<br>(입력 기기)</td>
   <td><span class="nm">일반 스위치</span><br><span class="d">전원을 직접 끊고 잇는다. 켜고 끄기만</span></td>
   <td>L 왕복 2가닥(기존 그대로)</td><td>스위치를 거친 L + N</td></tr>
 <tr><td><span class="nm">스마트 스위치</span><br><span class="d">스위치 자리에 통신 기능. 무선형이 대부분</span></td>
   <td><strong>중성선</strong>(상시 전원이 필요하므로)</td><td>상시 전원 L·N</td></tr>
 <tr><td><span class="nm">이너 릴레이</span><br><span class="d">기존 스위치 뒤에 숨는 모듈. 일반 스위치를 스마트하게</span></td>
   <td><strong>중성선</strong>(Wi-Fi·Zigbee형) 또는 <strong>DALI 버스 2가닥</strong>(커플러형, L·N 불필요)</td><td>상시 전원 L·N</td></tr>
+<tr><td><span class="nm">모션센서</span><br><span class="d">사람의 움직임을 읽어 조명을 켜고 끈다</span></td>
+  <td>DALI형은 <strong>버스 2가닥</strong>. 무선형은 배터리로 돌아 <strong>배선이 없다</strong>(재실센서는 상시 전원)</td><td>상시 전원 L·N</td></tr>
 <tr><td class="grp" rowspan="3">명령 전달<br>(통신 방식)</td>
   <td><span class="nm">0-10V</span> <span class="d">유선</span><br><span class="d">아날로그 전압으로 밝기 지시</span></td>
   <td>없음</td><td>전원선 + <strong>신호선 2가닥</strong>(극성 있음)</td></tr>
@@ -116,7 +118,7 @@ Note: 앞 슬라이드의 '나쁜 디밍' 세 증상이 여기서 나온다. 계
   <td>없음</td><td>상시 전원만. 추가 배선 없음. 대신 전파 환경을 탄다</td></tr>
 </table>
 
-Note: 두 범주를 섞지 않는 게 핵심이다. 위는 사람이 만지는 제어 지점(기기), 아래는 그 명령이 조명까지 가는 길(통신). 스마트 스위치가 Zigbee일 수도 있다 — 기기와 통신은 다른 축이다. 각 칸의 배선 요구가 곧 전기공사 때 정해야 할 것들이고, 뒤 슬라이드에서 하나씩 짚는다.
+Note: 두 범주를 섞지 않는 게 핵심이다. 위는 사람이 만지는 제어 지점(기기), 아래는 그 명령이 조명까지 가는 길(통신). 스마트 스위치가 Zigbee일 수도 있다. 기기와 통신은 다른 축이다. 센서는 무선이 유리한 드문 항목이다. 배터리형은 배선이 없어 위치를 자유롭게 잡고 나중에 옮길 수도 있다. DALI 센서는 버스가 그 자리까지 가 있어야 하니 도면에 미리 찍어야 한다. 각 칸의 배선 요구가 곧 전기공사 때 정해야 할 것들이고, 뒤 슬라이드에서 하나씩 짚는다.
 
 ===
 
