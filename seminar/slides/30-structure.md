@@ -98,7 +98,7 @@ Note: 앞 슬라이드의 '나쁜 디밍' 세 증상이 여기서 나온다. 계
 
 ## 제어 방식별 배선 조건
 
-<table>
+<table style="font-size:.53em">
 <tr><th>구분</th><th>방식</th><th>설치 자리에 필요한 것</th><th>조명(드라이버)까지 필요한 것</th></tr>
 <tr><td class="grp" rowspan="4">제어 지점<br>(입력 기기)</td>
   <td><span class="nm">일반 스위치</span><br><span class="d">전원을 직접 끊고 잇는다. 켜고 끄기만</span></td>
