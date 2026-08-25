@@ -11,7 +11,7 @@
   </style></defs>
   <rect x="20" y="20" width="1160" height="380" class="box"/>
   <line x1="20" y1="360" x2="1180" y2="360" class="box"/>
-  <text x="34" y="384" class="dim">전등설비 평면도에 DALI 버스를 얹는 표기 예시 · 전원 회로(L1…)와 별도 선종 · 버스명 DA-1F · 데이지체인, 분기 가능, 루프 금지 · 끝은 조명분전함</text>
+  <text x="34" y="384" class="dim">전등설비 평면도에 DALI 버스를 얹는 표기 예시 · 전원 회로(L·N)와 별도 선종 · 버스명 DA-1F · 데이지체인, 분기 가능, 루프 금지 · 끝은 조명분전함</text>
 
   <!-- mini plan: three rooms -->
   <g>
@@ -42,7 +42,9 @@
     <text x="400" y="150" class="t" fill="#b48cff">DA-1F</text>
     <text x="650" y="265" class="t" fill="#b48cff">DA-1F → 조명분전함</text>
     <!-- power run (existing style) -->
-    <polyline points="130,140 230,140 380,140 470,140" class="pw"/><text x="480" y="136" class="t" fill="#b3702d">L1 (전원)</text>
+    <polyline points="130,140 230,140 380,140 470,140 620,140 620,250" class="pw"/>
+    <polyline points="620,140 630,140" class="pw"/><polyline points="620,240 630,240" class="pw"/>
+    <text x="330" y="131" class="t" fill="#b3702d">L·N (상시 전원)</text>
   </g>
 
   <!-- legend -->
