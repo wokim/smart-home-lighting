@@ -1,7 +1,7 @@
 <!-- .slide: class="title" data-background-color="#0a0c10" -->
 <div class="over">한국패시브건축협회 세미나</div>
 
-# 주거 <strong>조명제어</strong>의 실제
+# 주거 <strong>조명제어</strong>의 실제와 실무
 
 <div class="meta">설계 · 시공 · 운영</div>
 <div class="meta" style="margin-top:.6em;color:#98a1b5">김원식 — 건축주 / 소프트웨어 엔지니어</div>
