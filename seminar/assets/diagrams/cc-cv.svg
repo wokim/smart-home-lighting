@@ -14,7 +14,7 @@
   <!-- CC: series -->
   <text x="40" y="44" class="lab">CC 정전류</text><text x="180" y="44" class="sub">전류 고정 · 등기구를 직렬로 · 전압은 합산</text>
   <rect x="40" y="90" width="150" height="80" class="box"/>
-  <text x="115" y="122" class="t" text-anchor="middle">드라이버</text><text x="115" y="146" class="amb" text-anchor="middle">300 mA (점퍼 선택)</text>
+  <text x="115" y="122" class="t" text-anchor="middle">드라이버</text><text x="115" y="146" class="amb" text-anchor="middle">300 mA</text>
   <text x="115" y="164" class="sub" text-anchor="middle">출력 9~33 V · 10 W</text>
   <!-- loop -->
   <polyline points="190,110 260,110" class="wp"/>
@@ -26,8 +26,8 @@
   <polyline points="434,110 520,110 520,150 190,150" class="wn"/>
   <text x="267" y="92" class="sub">9 V</text><text x="347" y="92" class="sub">9 V</text><text x="427" y="92" class="sub">9 V</text>
   <text x="470" y="92" class="sub">= 27 V</text>
-  <text x="40" y="212" class="t">같은 전류가 전부를 지난다. 전압은 더해지고, 드라이버 출력 상한을 넘을 수 없다</text>
-  <text x="40" y="236" class="t">9 V 모듈은 세 개까지. 다운라이트는 하나가 30 V쯤이라 한 개로 끝. 그래서 주거는 <tspan class="amb">1 : 1</tspan></text>
+  <text x="40" y="212" class="t">같은 전류가 전부를 지난다. 전압은 더해지고, 드라이버의 전압·전력 한계를 넘을 수 없다</text>
+  <text x="40" y="236" class="t">예시의 9 V 모듈이면 세 개. 다운라이트는 하나가 30 V쯤이라 한 개가 최대. 그래서 보통 <tspan class="amb">1 : 1</tspan></text>
   <text x="40" y="260" class="sub">병렬 연결 불가. 한 개가 끊기면 줄 전체가 꺼지고, 한 드라이버의 등은 같이 움직인다</text>
 
   <!-- CV: parallel -->
