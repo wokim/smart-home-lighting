@@ -21,13 +21,13 @@
   <!-- 양방향 연동 -->
   <line x1="430" y1="94" x2="430" y2="158" stroke="#5a6274" stroke-width="1.5" marker-start="url(#arrPF)" marker-end="url(#arrPF)"/>
   <line x1="770" y1="94" x2="770" y2="158" stroke="#5a6274" stroke-width="1.5" marker-start="url(#arrPF)" marker-end="url(#arrPF)"/>
-  <text x="600" y="132" fill="#5a6274" font-size="14" text-anchor="middle">양방향 연동 — 별도 앱 없이</text>
+  <text x="600" y="132" fill="#5a6274" font-size="14" text-anchor="middle">양방향 연동, 별도 앱 없이</text>
 
   <!-- 중단: 플랫폼 -->
   <text x="80" y="200" fill="#5a6274" font-size="15" letter-spacing="2">플랫폼</text>
   <rect x="200" y="162" width="800" height="92" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffb454" stroke-opacity="0.55" stroke-width="1.5"/>
   <text x="600" y="196" fill="#e9ecf2" font-size="22" font-weight="600" text-anchor="middle">중앙 컨트롤러 (허브)</text>
-  <text x="600" y="226" fill="#8b93a5" font-size="15" text-anchor="middle">씬 · 자동화 · 센서 로직 · 기기 연동 — 집의 규칙이 여기서 돈다</text>
+  <text x="600" y="226" fill="#8b93a5" font-size="15" text-anchor="middle">씬 · 자동화 · 센서 로직 · 기기 연동. 집의 규칙이 여기서 돈다</text>
   <text x="600" y="246" fill="#ffb454" font-size="13" text-anchor="middle">하나만 정하고 전부 모은다</text>
 
   <!-- 연결선 -->
@@ -56,5 +56,5 @@
   <text x="940" y="349" fill="#8b93a5" font-size="16" text-anchor="middle">커튼 · 보안</text>
   <text x="940" y="371" fill="#5a6274" font-size="12" text-anchor="middle">나중에</text>
 
-  <text x="600" y="450" fill="#5a6274" font-size="16" text-anchor="middle">조명만 보고 정하면 안 된다 — 점선 자리가 같은 플랫폼에 붙어야 씬이 성립한다</text>
+  <text x="600" y="450" fill="#5a6274" font-size="16" text-anchor="middle">조명만 보고 정하면 안 된다. 점선 자리가 같은 플랫폼에 붙어야 씬이 성립한다</text>
 </svg>

@@ -17,7 +17,7 @@
   <!-- title block (CAD style) -->
   <rect x="20" y="20" width="1160" height="520" class="box"/>
   <line x1="20" y1="500" x2="1180" y2="500" class="box"/>
-  <text x="34" y="524" class="dim">결선도 · 이너 릴레이 예 — JUNG 532-4 U (2구 멀티스위치, 2×2 a접점, 무전위, 중립 복귀) + Shelly i4 Gen3 (AC 110–240 V, 입력 4) · 단선도, 접지 생략</text>
+  <text x="34" y="524" class="dim">결선도 · 이너 릴레이 예: JUNG 532-4 U (2구 멀티스위치, 2×2 a접점, 무전위, 중립 복귀) + Shelly i4 Gen3 (AC 110–240 V, 입력 4) · 단선도, 접지 생략</text>
   <text x="1166" y="524" class="dim" text-anchor="end">1/1</text>
 
   <!-- 전원 -->

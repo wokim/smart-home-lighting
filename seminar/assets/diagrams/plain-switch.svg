@@ -26,7 +26,7 @@
   <text x="845" y="148" fill="#b3702d" font-size="19" text-anchor="middle">L1</text>
   <!-- N → 등기구 직결 -->
   <polyline points="230,215 300,215 300,300 1020,300 1020,210" fill="none" stroke="#58b7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="660" y="325" fill="#58b7ff" font-size="19" text-anchor="middle">N — 스위치를 거치지 않고 등기구 직결</text>
+  <text x="660" y="325" fill="#58b7ff" font-size="19" text-anchor="middle">N: 스위치를 거치지 않고 등기구 직결</text>
   <!-- 등기구 -->
   <circle cx="1010" cy="180" r="42" fill="url(#lampGlowPS)"/>
   <circle cx="1010" cy="180" r="19" fill="none" stroke="#ffd9a0" stroke-width="2.5"/>
@@ -34,5 +34,5 @@
   <line x1="1023.4" y1="166.6" x2="996.6" y2="193.4" stroke="#ffd9a0" stroke-width="2.5" stroke-linecap="round"/>
   <text x="1010" y="245" fill="#8b93a5" font-size="16" text-anchor="middle">등기구</text>
   <!-- caption -->
-  <text x="600" y="378" fill="#5a6274" font-size="17" text-anchor="middle">스위치가 하는 일은 L을 끊고 잇는 것뿐 — 끊는 순간 등기구에는 에너지가 없다 · L1 = 스위치를 거친 활선</text>
+  <text x="600" y="378" fill="#5a6274" font-size="17" text-anchor="middle">스위치가 하는 일은 L을 끊고 잇는 것뿐. 끊는 순간 등기구에는 에너지가 없다 · L1 = 스위치를 거친 활선</text>
 </svg>
