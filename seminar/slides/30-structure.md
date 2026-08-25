@@ -64,12 +64,12 @@ Note: 디밍 레인지, 최소 레벨 컷오프, 페이드 곡선, 플리커. �
 
 <div class="cols2" style="font-size:.72em">
 <div class="card"><h4 style="color:#ffb454;font-size:.8em;letter-spacing:.1em;margin-bottom:.5em">CC, 점광원용</h4>다운라이트·스폿. 등기구 1:1. LED 전류를 직접 다루므로 <strong>미세한 디밍에 유리</strong>. 거리에 둔감. 등기구별 전류 규격(mA)을 맞춰야 한다</div>
-<div class="card"><h4 style="color:#58b7ff;font-size:.8em;letter-spacing:.1em;margin-bottom:.5em">CV, 선광원용</h4>스트립·간접등. 하나로 여러 스트립, 길이 조절과 교체가 자유. 전압을 끊어 조절하므로 <strong>세밀한 디밍은 약한 편</strong>. 전압강하 때문에 부하 가까이</div>
+<div class="card"><h4 style="color:#58b7ff;font-size:.8em;letter-spacing:.1em;margin-bottom:.5em">CV, 선광원용</h4>스트립·간접등. 하나로 여러 스트립, 길이 조절과 교체가 자유. 출력을 빠르게 끊었다 이었다 하며 조절하므로 <strong>세밀한 디밍은 약한 편</strong>. 전압강하 때문에 부하 가까이</div>
 </div>
 
 <p class="muted" style="font-size:.6em">어느 쪽이 좋다가 아니라 등기구 종류가 정한다. 점광원은 CC, 선광원은 CV. 둘 다 한 집에 같이 쓴다</p>
 
-Note: 드라이버 레이어 안의 두 부류. CC는 전류원이라 선이 길어져도 드라이버가 전압을 올려 전류를 지키고, CV는 전압원이라 선이 길면 끝에서 전압이 떨어진다 — 이게 4막에서 "드라이버 위치"를 따로 얘기하는 이유다. CV 저가품은 PWM 주파수가 낮아 카메라에 줄이 가는 플리커가 흔하다.
+Note: 드라이버 레이어 안의 두 부류. CC는 전류원이라 선이 길어져도 드라이버가 전압을 올려 전류를 지키고, CV는 전압원이라 선이 길면 끝에서 전압이 떨어진다. 이게 3막에서 "드라이버 위치"를 따로 얘기하는 이유다. CV 저가품은 PWM 주파수가 낮아 카메라에 줄이 가는 플리커가 흔하다. 질문이 나오면: 정전력(constant power) 타입이라는 세 번째 분류도 있지만 가로등 같은 고출력용이라 주거에선 거의 안 쓴다. 출력 전류를 딥스위치나 프로그래밍으로 고르는 CC 드라이버가 흔해서 등기구별 mA를 맞추기가 예전보다 쉽다. CV라고 정전류 제어가 없는 게 아니라 그 역할이 스트립 쪽으로 넘어간 것이다.
 
 ===
 
