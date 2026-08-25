@@ -30,7 +30,7 @@
   <text x="80" y="486" font-size="46" font-weight="250" fill="#e9ecf2" letter-spacing="-1">광원</text>
   <text x="80" y="526" font-size="24" font-weight="600" fill="#ffb454">어떤 빛을 만들어내는가</text>
   <text x="80" y="561" font-size="19" fill="#8b93a5" letter-spacing="0.2">LED 소자/모듈: CRI(Ra) · R9 · 색온도 · 색 편차(SDCM) · 효율(lm/W)</text>
-  <text x="80" y="590" font-size="19" fill="#8b93a5" letter-spacing="0.2">방열 설계 → 수명 · 색 안정성  /  렌즈 · 반사판 · 디퓨저 → 배광 · 눈부심</text>
+  <text x="80" y="590" font-size="19" fill="#8b93a5" letter-spacing="0.2">방열 설계가 수명과 색 안정성을, 렌즈·반사판·디퓨저가 배광과 눈부심을 정한다</text>
 
   <!-- command→light flow, right side -->
   <text x="1040" y="84" font-size="19" fill="#5a6274" text-anchor="middle" letter-spacing="2">명령</text>
