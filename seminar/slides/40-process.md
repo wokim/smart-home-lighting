@@ -1,5 +1,5 @@
 <!-- .slide: class="act" -->
-<div class="no">4</div>
+<div class="no">3</div>
 
 ## 조명 제어 설계, 시공, 그리고 설정
 

@@ -1,5 +1,5 @@
 <!-- .slide: class="act" -->
-<div class="no">3</div>
+<div class="no">2</div>
 
 ## 조명제어의 구조
 

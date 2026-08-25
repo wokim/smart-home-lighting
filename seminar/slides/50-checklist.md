@@ -1,5 +1,5 @@
 <!-- .slide: class="act" -->
-<div class="no">6</div>
+<div class="no">5</div>
 
 ## 단계별 체크리스트
 
