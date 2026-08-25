@@ -75,17 +75,17 @@ Note: 여기까지 들으면 나오는 반응이다. 실제로 건축주가 물�
 ## 시중 '스마트 다운라이트'의 실제
 
 <div class="cols2">
-<div><img src="assets/photos/downlight-product.jpg" style="width:100%;max-height:300px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
-<div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:300px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">리모컨이 제공하는 제어의 전부: 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 등</p></div>
+<div><img src="assets/photos/downlight-product.jpg" style="width:100%;max-height:230px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
+<div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:230px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">리모컨이 제공하는 제어의 전부: 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 등</p></div>
 </div>
 
-<ul style="font-size:.7em;margin-top:.4em">
+<ul style="font-size:.68em;margin-top:.2em">
 <li>밝기와 색을 바꾸고, <strong>전용 앱 안에서</strong> 그룹으로 묶는 것까지는 된다</li>
 <li><strong>벽 스위치를 내리면</strong> 전원이 끊겨 앱도 리모컨도 죽는다</li>
 <li>벽에서 누를 수 있는 씬은 리모컨의 <strong>50%</strong>와 <strong>1분 후 꺼짐</strong>이 전부다</li>
 <li>모션센서, 태블릿 PC, 음성, 다른 제조사의 조명과 <strong>엮이지 않는다</strong></li>
 </ul>
 
-<p class="muted" style="font-size:.6em;margin-top:.4em">제품이 나쁜 게 아니라, 앞에서 본 동작들이 제품을 사다 다는 것만으로는 되지 않는다</p>
+<p class="muted" style="font-size:.58em;margin-top:.2em">제품이 나쁜 게 아니라, 앞에서 본 동작들이 제품을 사다 다는 것만으로는 되지 않는다</p>
 
 Note: 검색하면 바로 나오는 제품이다. 한두 개 달아 쓰기엔 충분하고, 앱에 씬이 있다는 것도 인정하고 말해야 한다. 문제는 씬의 유무가 아니라 '벽 버튼 하나로, 집 전체와 엮여서'가 안 된다는 것이다. 상시 전원이 전제인데 그 얘기를 아무도 안 해준다는 점도 중요하다. 벽 스위치를 평소에 못 내린다는 뜻이고, 손님이 무심코 내리면 그날 밤 그 방은 죽는다. 0막 정리의 다섯 가지와 하나씩 견줘 보면 어느 것도 온전히 되지 않는다. (출처: 판매 페이지 상세 이미지, 발표용 인용)
