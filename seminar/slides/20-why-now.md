@@ -83,7 +83,7 @@ Note: 여기까지 들으면 나오는 반응이다. 실제로 건축주가 물�
 <li>밝기와 색을 바꾸고, <strong>전용 앱 안에서</strong> 그룹으로 묶는 것까지는 된다</li>
 <li><strong>벽 스위치를 내리면</strong> 전원이 끊겨 앱도 리모컨도 죽는다</li>
 <li>벽에서 누를 수 있는 씬은 리모컨의 <strong>50%</strong>와 <strong>1분 후 꺼짐</strong>이 전부다</li>
-<li>모션센서, 태블릿 PC, 음성, 다른 제조사의 조명과 <strong>엮이지 않는다</strong></li>
+<li>모션센서, 태블릿 PC, 음성, 다른 제조사의 조명과 <strong>호환되지 않는다</strong></li>
 </ul>
 
 <p class="muted" style="font-size:.58em;margin-top:.2em">제품이 나쁜 게 아니라, 앞에서 본 동작들이 제품을 사다 다는 것만으로는 되지 않는다</p>
