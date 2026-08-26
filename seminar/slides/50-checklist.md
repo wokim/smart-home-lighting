@@ -55,6 +55,29 @@ Note: 우리 집 기준 숫자다. 다운라이트 약 80개, DALI 버스 4개, 
 
 ===
 
+## 계산 예: 60평 주택, 다운라이트 70개
+
+<table class="tight" style="font-size:.58em">
+<tr><th>품목</th><th>수량</th><th>소계</th><th></th></tr>
+<tr><td class="grp">CC 디밍 드라이버</td><td>70개</td><td>245만 원</td><td class="d">전체의 21%</td></tr>
+<tr><td class="grp">CV 디밍 드라이버</td><td>10개</td><td>50만 원</td><td class="d"></td></tr>
+<tr><td class="grp">DALI 푸시버튼 커플러</td><td>10개</td><td>80만 원</td><td class="d">스위치 기구는 별도</td></tr>
+<tr><td class="grp">DALI 모션·조도 센서</td><td>10개</td><td>150만 원</td><td class="d"></td></tr>
+<tr><td class="grp">DALI 버스 전원 공급 장치</td><td>4개</td><td>32만 원</td><td class="d">버스 4개로 나눈 경우</td></tr>
+<tr><td class="grp">DALI 컨트롤러 + 라즈베리파이</td><td>1식</td><td>62만 원</td><td class="d"></td></tr>
+<tr><td class="grp">플랫폼 허브</td><td>1대</td><td>47만 원</td><td class="d">조명 외 기기도 여기에 붙는다</td></tr>
+<tr><td class="grp">DALI 추가 입선 시공비</td><td>60평</td><td><strong>480만 원</strong></td><td class="d"><strong>전체의 42%</strong></td></tr>
+<tr><td class="grp"><strong>합계</strong></td><td></td><td><strong>약 1,150만 원</strong></td><td class="d">1,100만~1,200만</td></tr>
+</table>
+
+<p class="muted" style="font-size:.58em;margin-top:.6em">조명 자체(등기구·광원)는 별도. 설계 인건비와 장치 설치·커미셔닝 인건비도 제외. 입선 시공비는 배선 공사비이지 장치 설치비가 아니다</p>
+
+Note: 숫자를 다 읽을 필요는 없고 두 가지만. 첫째, 선을 넣는 값이 42%로 가장 크고 CC 드라이버가 21%로 그다음이다. 기기 단가보다 조명 개수와 배선이 비용을 정한다. 둘째, 집 전체를 묶는 허브와 컨트롤러를 다 합쳐도 109만 원으로 10%가 안 된다. 제어 시스템이 비싸서 못 하는 게 아니라는 얘기다. 우리 집은 다운라이트 80개에 버스 4개로 약 1,200만 원이었다. 여기에 설계와 설치 인건비, 등기구값은 빠져 있다.
+
+
+
+===
+
 <!-- .slide: class="title" data-background-color="#0a0c10" -->
 <div class="over">한국패시브건축협회 세미나</div>
 
