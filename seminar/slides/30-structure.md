@@ -73,7 +73,7 @@ Note: 드라이버 레이어 안의 두 부류. CC는 전류원이라 선이 길
 
 ===
 
-## CC 드라이버와 CV 드라이버, 실물
+## 다운라이트용과 스트립용
 
 <div class="photos">
 <figure><img src="assets/photos/cc-driver-downlight.jpg"><figcaption>CC 드라이버. 다운라이트 하나에 하나씩 붙고, 등기구 타공 구멍으로 천장 속에 들어간다. 1차측 L·N, 2차측 LED+·LED−</figcaption></figure>
@@ -192,7 +192,7 @@ Note: 전원선과 별도로 DALI 버스 2가닥을 드라이버까지, 그리�
 
 ===
 
-## 이너 릴레이와 DALI 푸시버튼 커플러, 실물
+## 이너 릴레이 두 종류
 
 <div class="photos">
 <figure><img src="assets/photos/shelly-inner-relay.jpg"><figcaption>Shelly 모듈. 스위치 박스 안, 기존 스위치 뒤에 들어간다. 상시 전원 L·N을 받고 S1·S2 단자로 스위치 눌림을 읽는다. 박스에 N이 있어야 한다</figcaption></figure>
