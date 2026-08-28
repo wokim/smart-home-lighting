@@ -10,7 +10,7 @@
 <table class="tight" style="font-size:.6em">
 <tr><th>원하는 것</th><th>어디서 결정되는가</th><th>무엇을 해야 하는가</th></tr>
 <tr><td class="grp">스르륵 켜지고 꺼진다</td><td>드라이버, 배선</td><td>디밍 드라이버를 쓰고, 벽 스위치가 전원을 끊지 않게 상시 전원으로 배선한다</td></tr>
-<tr><td class="grp">디밍이 매끄럽다</td><td>드라이버</td><td>최소 디밍 레벨과 플리커 스펙을 확인한다. 구동 방식은 다음이 아니라 이게 먼저다</td></tr>
+<tr><td class="grp">디밍이 매끄럽다</td><td>드라이버</td><td>최소 디밍 레벨과 플리커 스펙을 확인한다. 디밍 방식보다는 이 두 개가 먼저다</td></tr>
 <tr><td class="grp">버튼 하나로 여러 등이 동시에</td><td>통신 방식</td><td>그룹·씬 명령이 있는 방식을 고른다. 유선(DALI)이 가장 확실하고, 무선은 허브 안 그룹으로</td></tr>
 <tr><td class="grp">벽, 스마트폰, 태블릿 PC, 음성 전부</td><td>플랫폼</td><td>스위치와 조명을 한 플랫폼에 모으고, Apple Home·Google Home과 연동한다</td></tr>
 <tr><td class="grp">끊기지 않는다</td><td>통신 방식, 플랫폼</td><td>제어 경로가 로컬인 구성을 고른다. 유선은 전파·인터넷과 무관하고, 무선은 허브 자동화가 로컬이어야 한다</td></tr>
