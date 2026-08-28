@@ -35,7 +35,7 @@ Note: 0막에서 정리한 것과 건축주가 실제로 원하는 것을 2막�
 <div class="col later">
 <h4>공사 후에 <small>설정으로 하는 것</small></h4>
 <div class="row"><b>플랫폼.</b> <span>DALI 게이트웨이를 받아 주는 허브를 고른다. 범용 허브(Home Assistant, Homey 등)나 KNX</span></div>
-<div class="row"><b>커미셔닝.</b> <span>드라이버마다 주소를 부여하고 허브에 등록한다. 전문 업체나 직접</span></div>
+<div class="row"><b>커미셔닝.</b> <span>드라이버마다 주소를 부여하고 허브에 등록한다. 전문 업체가 하거나 직접 한다</span></div>
 <div class="row"><b>그룹, 씬, 매핑.</b> <span>공간별 그룹을 만들고, 씬을 짜고, 각 버튼과 센서에 건다</span></div>
 <div class="row"><b>연동.</b> <span>허브를 Apple Home·Google Home에 연결하면 스마트폰, 태블릿 PC, 음성이 따라온다</span></div>
 </div>
@@ -66,7 +66,7 @@ Note: 우리 집 구성이 이것이다. 0막 영상이 이 답안의 결과물.
 </div>
 </div>
 
-<p class="muted" style="font-size:.6em;margin-top:.6em">얻는 것: 배선 부담이 적고 나중에 시작할 수 있음, 시공사 문턱이 낮음. 치르는 것: 규모와 동시성의 한계, 전파 환경, 허브와 앱에 대한 종속</p>
+<p class="muted" style="font-size:.6em;margin-top:.6em">얻는 것: 배선 부담이 적음, 나중에 시작 가능, 시공사 문턱이 낮음. 치르는 것: 규모와 동시성의 한계, 전파 환경, 허브와 앱에 대한 종속</p>
 
 Note: 배선을 미리 못 깐 집, 리모델링, 규모가 작은 집의 현실적인 답. 중성선만은 여기서도 필요하다. 무선이라고 배선이 없는 게 아니라 제어선이 없는 것.
 
