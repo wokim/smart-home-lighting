@@ -1,0 +1,42 @@
+# 라이선스
+
+## 발표 자료 (슬라이드, 다이어그램, 사진, 영상, 문서)
+
+Copyright (c) 2026 김원식
+
+이 저장소의 발표 자료는 **크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스**
+(CC BY-NC-ND 4.0)에 따라 이용할 수 있습니다.
+
+- 전문: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ko
+- 요약: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko
+
+허용되는 것
+
+- 원본 그대로 복제하고 배포하는 것
+- 출처를 밝히고 링크를 공유하는 것
+
+허용되지 않는 것
+
+- **영리 목적의 이용**
+- **내용을 고치거나 일부를 떼어 다른 자료로 만드는 것** (2차적 저작물 작성)
+
+위 범위를 넘는 이용은 사전에 저작자의 서면 동의를 받아야 합니다.
+문의: https://github.com/wokim/smart-home-lighting
+
+---
+
+## 예외: 제3자 저작물
+
+아래는 이 라이선스가 적용되지 않으며, 각 저작권자의 조건을 따릅니다.
+
+**reveal.js** (`seminar/vendor/reveal/`)
+MIT License. Copyright (c) 2011-2024 Hakim El Hattab and reveal.js contributors.
+전문은 `seminar/vendor/reveal/LICENSE` 참조.
+
+**Pretendard** (`seminar/vendor/fonts/`)
+SIL Open Font License 1.1. Copyright (c) 2021 Kil Hyung-jin.
+전문은 `seminar/vendor/fonts/LICENSE` 참조.
+
+**제품 사진** (`seminar/assets/photos/downlight-product.jpg`, `downlight-remote.jpg`)
+제조사 판매 페이지의 이미지를 세미나 발표에서 비평 목적으로 인용한 것입니다.
+저작권은 각 제조사에 있으며, 이 저장소의 라이선스는 해당 이미지에 적용되지 않습니다.
