@@ -77,8 +77,8 @@ Note: 건축주가 원하는 것과 현장의 해석이 갈리는 지점이다. 
 ## 시중 '스마트 다운라이트'의 실제
 
 <div class="cols2">
-<div><img src="assets/photos/downlight-product.jpg" style="width:100%;max-height:230px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
-<div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:230px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">리모컨이 제공하는 제어의 전부: 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 등</p></div>
+<div><img src="assets/photos/downlight-product.jpg" style="width:100%;max-height:215px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">기존 다운라이트 자리에 끼운다. 전용 앱과 전용 리모컨</p></div>
+<div><img src="assets/photos/downlight-remote.jpg" style="width:100%;max-height:215px;object-fit:contain;border-radius:4px"><p class="muted" style="font-size:.55em;margin-top:.3em">리모컨이 제공하는 제어의 전부: 전체 켜기/끄기 · 색 변환 · 50% 밝기 · 1분 후 꺼짐 등</p></div>
 </div>
 
 <ul style="font-size:.68em;margin-top:.2em">
@@ -90,4 +90,6 @@ Note: 건축주가 원하는 것과 현장의 해석이 갈리는 지점이다. 
 
 <p class="muted" style="font-size:.58em;margin-top:.2em">제품이 나쁜 게 아니라, 앞에서 본 동작이 제품을 사다 다는 것만으로는 되지 않는다</p>
 
-Note: 검색하면 바로 나오는 제품이다. 한두 개 달아 쓰기엔 충분하고, 앱에 씬이 있다는 것도 인정하고 말해야 한다. 문제는 씬의 유무가 아니라 '벽 버튼 하나로, 집 전체와 엮여서'가 안 된다는 것이다. 상시 전원이 전제인데 그 얘기를 아무도 안 해준다는 점도 중요하다. 벽 스위치를 평소에 못 내린다는 뜻이고, 손님이 무심코 내리면 그날 밤 그 방은 죽는다. 0막 정리의 다섯 가지와 하나씩 견줘 보면 어느 것도 온전히 되지 않는다. (출처: 판매 페이지 상세 이미지, 발표용 인용)
+<p style="font-size:.45em;color:#5a6274;margin-top:.35em">사진 출처: 네이버 스토어 판매 페이지 상세 이미지. 제품 비평 목적의 인용이며 저작권은 각 제조사에 있다</p>
+
+Note: 검색하면 바로 나오는 제품이다. 한두 개 달아 쓰기엔 충분하고, 앱에 씬이 있다는 것도 인정하고 말해야 한다. 문제는 씬의 유무가 아니라 '벽 버튼 하나로, 집 전체와 엮여서'가 안 된다는 것이다. 상시 전원이 전제인데 그 얘기를 아무도 안 해준다는 점도 중요하다. 벽 스위치를 평소에 못 내린다는 뜻이고, 손님이 무심코 내리면 그날 밤 그 방은 죽는다. 0막 정리의 다섯 가지와 하나씩 견줘 보면 어느 것도 온전히 되지 않는다. (출처: 네이버 스토어 판매 페이지 상세 이미지, 비평 목적 인용)
